@@ -4,4 +4,4 @@ Trabajo terminal para obtener el grado de ingeniero en Biónica.
 Se incluyen los archivos utilizados en la investigación.
 
 
-http://bit.ly/hazur_TesisUpiita Liga corta para la descarga del documento.
+http://bit.ly/TesisUpiita_Hazur Liga corta para la descarga del documento.
