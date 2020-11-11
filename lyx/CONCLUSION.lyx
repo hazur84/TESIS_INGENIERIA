@@ -1,0 +1,252 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+%esta linea escribe "figura" o "cuado" seguido del numero ne las referencias cruzadas
+\usepackage[figure,table]{hypcap}
+%situa al inicio de la figura o cuadro el hipervinculo
+\usepackage[labelfont={bf,sf}]{caption}
+%pone figura y cuadro en negritas con fuente sans serif
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Hazur Sahib Socconini Alvarado y Jonatan Perea Garcia"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1.5cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Conclusión
+\end_layout
+
+\begin_layout Standard
+Se describió la técnica de remo bajo techo y su enfoque ergonómico para
+ el mejor desempeño del usuario en una máquina fija.
+ Para ello fue necesario considerar cuál es la técnica correcta de remo
+ bajo techo y los 10 errores más comunes que en ella se cometen.
+\end_layout
+
+\begin_layout Standard
+En el estado del arte, se presentaron 10 sistemas vigentes que capturan
+ cinemática del esqueleto humano, algunos de ellos solo poseen desarrollo
+ en 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+hardware
+\end_layout
+
+\end_inset
+
+hardware, otros en software y algunos una combinación de ambos; pero se
+ verificó que no existe un prototipo que analice la cinemática de la técnica
+ del remo bajo techo, lo que permitió desarrollar la presente propuesta.
+\end_layout
+
+\begin_layout Standard
+De acuerdo con el objetivo del presente trabajo terminal, se logró sentar
+ las bases para el análisis descriptivo y cuantitativo de la cinemática
+ del remo bajo techo a favor de la técnica, presentado un 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+modelo biónico
+\end_layout
+
+\end_inset
+
+modelo biónico; con la finalidad de extraer, procesar y desplegar información
+ útil para el entrenador y el atleta; además se desarrolló una etapa de
+ hardware que se encarga de la medición de las variables físicas de interés
+ para su posterior análisis y procesamiento.
+ Se cumplió con la etapa de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+comunicación inalámbrica
+\end_layout
+
+\end_inset
+
+comunicación inalámbrica de la adquisición de señales de los sensores inerciales.
+ 
+\end_layout
+
+\begin_layout Standard
+Al algoritmo de Denavit-Hartenberg se le proporcionaron restricciones biológicas
+ para adecuar el comportamiento cinemático del esqueleto del atleta, en
+ específico en las articulaciones.
+ Este algoritmo fue seleccionado por la estructura mecánica del esqueleto
+ y las articulaciones que en conjunto son vistas como cadenas cinemáticas
+ abiertas.
+ La matriz de transformaciones de este algoritmo nos permitió acotar la
+ región de los movimientos usados en remo bajo techo.
+\end_layout
+
+\begin_layout Standard
+Las restricciones del sistema biológico del atleta relacionadas con las
+ distancias de los segmentos corporales y los ángulos relativos a las articulaci
+ones, se obtuvieron del método 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+antropométrico
+\end_layout
+
+\end_inset
+
+antropométrico de segmentación por altura, como se ve en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmentación-del-cuerpo"
+
+\end_inset
+
+ y los ángulos de acciones permitidas fueron tomados de 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-de-movimiento-1"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-del-movimiento-hom"
+
+\end_inset
+
+, 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-normal-del-codo"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-de-movimiento"
+
+\end_inset
+
+ para ser consideradas por el algoritmo de Denavit-Hartenberg y construir
+ la envolvente correspondiente.
+ Específicamente se reportó el movimiento general de la columna.
+\end_layout
+
+\begin_layout Standard
+El mapa de movimientos generados por el algoritmo de Denavit-Hartenberg
+ es descrito como el movimiento realizado por un robot.
+ El robot solo analiza la cinemática o el movimiento biológico dentro de
+ un simulador como 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Matlab
+\end_layout
+
+\end_inset
+
+Matlab, este se puede aplicar en la corrección de la técnica de remo bajo
+ techo.
+ 
+\end_layout
+
+\begin_layout Standard
+Por otra parte dentro del remo bajo techo, el puño es el encargado de sujetar
+ el mango de la remadora y un punto a corregir es el ángulo de flexión de
+ la articulación de la muñeca para llevar la técnica a una condición correcta.
+ Los entrenadores basan sus técnicas de corrección observando la posición
+ correcta de cada extremidad y en específico comienzan con la muñeca.
+ De Las pruebas realizadas en el club de remo, se capturó información cinemática
+ de un atleta ejecutando la técnica con ayuda del sistema de instrumentación,
+ considerando como parámetro de interés el ángulo de la muñeca izquierda.
+\end_layout
+
+\begin_layout Standard
+La corrección de la posición en la muñeca por el método de Denavit-Hartenberg
+ no es necesaria porque solo se cuenta con un eslabón con 3 movimientos,
+ el cual se corrige verificando el ángulo en todo el ciclo de la remada
+ con la instrumentación desarrollada.
+\end_layout
+
+\end_body
+\end_document

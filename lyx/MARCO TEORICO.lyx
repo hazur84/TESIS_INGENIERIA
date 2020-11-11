@@ -1,0 +1,9382 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+%esta linea escribe "figura" o "cuado" seguido del numero ne las referencias cruzadas
+\usepackage[figure,table]{hypcap}
+%situa al inicio de la figura o cuadro el hipervinculo
+\usepackage[labelfont={bf,sf}]{caption}
+%pone figura y cuadro en negritas con fuente sans serif
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Hazur Sahib Socconini Alvarado y Jonatan Perea Garcia"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Marco Teórico
+\end_layout
+
+\begin_layout Standard
+En el deporte intervienen factores importantes para determinar la correcta
+ ejecución de un movimiento.
+ Conocer qué tipo de sustancias secretan los músculos en movimiento y las
+ cantidades necesarias para lograrlo, así como diversos aspectos del funcionamie
+nto del cuerpo humano y sus reacciones ante los impulsos del cerebro, requiere
+ de una ciencia que recopile e interprete esta información, la encargada
+ de esta tarea es la Biología.
+ “Pero si a los conocimientos biológicos se añaden la metodología y los
+ principios de la física, podemos realizar un estudio con detalle de la
+ situación 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-20"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El movimiento que realiza el atleta de remo bajo techo (sistema biológico)
+ para desempeñarse en la disciplina es el fenómeno físico a estudiar.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ Antes de explicar el fenómeno anterior es necesario definir los siguientes
+ conceptos con el fin de comprender dicho propósito.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+El 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+movimiento
+\end_layout
+
+\end_inset
+
+movimiento 
+\series default
+es un fenómeno físico que se define como todo cambio de posición que experimenta
+n los cuerpos de un sistema, o conjunto, en el espacio con respecto a ellos
+ mismos o con arreglo a otro cuerpo que sirve de referencia.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+La 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+mecánica
+\end_layout
+
+\end_inset
+
+mecánica
+\series default
+ es la rama de la física que describe el movimiento de los cuerpos, y su
+ evolución en el tiempo, bajo la acción de fuerzas.
+ El estudio del movimiento de los cuerpos macroscópicos le corresponde a
+ la mecánica Newtoniana, que se llama también mecánica clásica, aunque a
+ veces esta última denominación se usa para referirse a formulaciones alternas,
+ matemáticamente complejas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para estudiar el movimiento de los cuerpos se han desarrollado en la mecánica
+ modelos físico-matemáticos abstractos como el de partícula o punto materia,
+ punto geométrico dotado de masa, que ha surgido como idealización de un
+ cuerpo cuyas dimensiones son pequeñas comparadas con sus desplazamientos
+ o bien cuya estructura y movimientos internos no son relevantes para un
+ cierto estudio 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Otros modelos esenciales de la mecánica son los sistemas de partículas y
+ los cuerpos continuos, que pueden ser cuerpos rígidos o deformables 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, la mecánica clásica se auxilia en tres sub-disciplinas como
+ son la 
+\series bold
+Cinemática
+\series default
+, 
+\series bold
+Estática y Dinámica
+\series default
+.
+ La 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+cinemática
+\end_layout
+
+\end_inset
+
+
+\series bold
+Cinemática
+\series default
+ es la descripción matemática del movimiento sin atender a las causas que
+ lo producen.
+ En la 
+\series bold
+Estática
+\series default
+ se estudian los cuerpos en equilibrio.
+ En la 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+dinámica
+\end_layout
+
+\end_inset
+
+
+\series bold
+Dinámica
+\series default
+ se estudia la relación existente entre el movimiento de un cuerpo y las
+ interacciones de ese cuerpo con los demás que lo rodean 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Los postulados básicos de la mecánica son las Leyes de 
+\noun on
+Newton
+\noun default
+ del movimiento, cuya idea central es: las interacciones se representan
+ mediante las fuerzas hechas sobre un cuerpo, cuya resultante está directamente
+ vinculada con una propiedad esencial de dicho cuerpo, su masa inercial,
+ y con la aceleración de su movimiento 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Mecánica y descripción de los movimientos en el cuerpo biológico 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+magnitud
+\end_layout
+
+\end_inset
+
+Magnitudes escalares y vectoriales
+\end_layout
+
+\begin_layout Standard
+En la física y de manera particular en la mecánica para describir el fenómeno
+ se requiere de poder realizar una cuantificación de lo que esta sucediendo,
+ se reconocen dos elementos básicos para la cuantificación la 
+\series bold
+magnitud escalar
+\series default
+ y la 
+\series bold
+magnitud vectorial
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La 
+\series bold
+magnitud escalar
+\series default
+ es aquella cuya determinación solo requiere el conocimiento de un número
+ real y de una unidad de medida.
+ El número indica la cantidad de veces que la magnitud medida contiene a
+ la unidad considerada.
+ Ejemplos típicos de magnitudes escalares son: la longitud, la masa, el
+ tiempo, el trabajo, la energía 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La 
+\series bold
+magnitud vectorial
+\series default
+ es una magnitud para cuya determinación se requiere además del conocimiento
+ de la magnitud escalar, su dirección y su sentido.
+ Ejemplos de magnitudes vectoriales son: la velocidad, la aceleración, la
+ fuerza, la cantidad de movimiento 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Sistema internacional de unidades y 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+dimensión
+\end_layout
+
+\end_inset
+
+dimensión 
+\end_layout
+
+\begin_layout Standard
+En principio, cada magnitud o cantidad física podría tener sus propias unidades,
+ independientes de las demás.
+ Por ejemplo, si en un movimiento rectilíneo definimos la velocidad como
+ el cociente del desplazamiento 
+\begin_inset Formula $∆x$
+\end_inset
+
+ sobre el intervalo de tiempo ∆t, y la longitud, el tiempo y la velocidad
+ tienen unidades completamente independientes entre sí, la velocidad se
+ expresaría como 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v=C\frac{\Delta x}{\Delta t}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+en donde 
+\begin_inset Formula $C$
+\end_inset
+
+ es un coeficiente numérico que permite realizar la conversión de unidades.
+ de esta manera, en las ecuaciones de la Física habría coeficientes numéricos
+ que las complicarían inútilmente.
+ Para evitar esto, las magnitudes físicas y sus unidades de medida, se organizan
+ en sistemas de unidades 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En un sistema de unidades se adoptan por convención magnitudes físicas como
+ magnitudes fundamentales, cuyas unidades de medida son arbitrarias e independie
+ntes unas de otras 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En la Mecánica, los sistemas de unidades utilizan como magnitudes fundamentales
+ la longitud, la masa y el tiempo.
+ Las otras cantidades físicas se llaman magnitudes derivadas y sus unidades
+ de medida se establecen en términos de las fundamentales, fijando los valores
+ numéricos de los coeficientes en las expresiones matemáticas que definen
+ dichas magnitudes derivadas.
+ Por ejemplo, en el caso de la velocidad, 
+\begin_inset Formula $C=1$
+\end_inset
+
+, y así 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+v=\frac{\Delta x}{\Delta t}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La unidad de velocidad ya no es independiente.
+ La unidad de velocidad es la velocidad de un cuerpo que recorre una unidad
+ de longitud en una unidad de tiempo, o, se expresa de la siguiente forma,
+ la unidad de velocidad es la unidad de longitud dividida por la unidad
+ de tiempo.
+ Aquí es donde aparece el concepto de 
+\series bold
+dimensión
+\series default
+ de una magnitud física 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Las magnitudes fundamentales mediante un símbolo: L para la longitud, M
+ para la masa, T para el tiempo.
+ Se dice que la velocidad tiene dimensiones (o dimensión) de longitud sobre
+ tiempo, lo que se escribe mediante la llamada ecuación de dimensiones 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left[v\right]=\frac{L}{T}=LT^{-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El sistema de unidades más importante es el Sistema Internacional de Unidades,
+ abreviado SI, y establecido por convenios internacionales.
+ En lo que concierne a la mecánica, las magnitudes fundamentales son: longitud
+ (L), masa (M) y tiempo (T).
+ Sus unidades correspondientes son: el metro (m), el kilogramo (kg) y el
+ segundo (s), cuyas definiciones han cambiado en varias ocasiones, reflejando
+ el refinamiento tecnológico 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-22"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Vectores
+\end_layout
+
+\begin_layout Standard
+La mayoría de los conceptos en mecánica son escalares o vectoriales.
+ Una cantidad escalar es sólo una magnitud.
+ Conceptos como masa, energía, potencia, trabajo mecánico y temperatura
+ son cantidades escalares.
+ Una cantidad vectorial, por el contrario, tiene una magnitud y una dirección
+ asociada a ésta.
+ Fuerza, momento, velocidad y aceleración son ejemplos de cantidades vectoriales.
+ La magnitud de un vector es también una cantidad escalar.
+ La magnitud de cualquier cantidad (escalar o vector) es siempre un número
+ positivo correspondiente a la medida numérica de esa cantidad
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-88"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Gráficamente, un vector se representa como segmentos de recta dirigidos
+ o flechas en planos o 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+; es decir, bidimensional o tridimensional.
+ La orientación de la flecha indica la línea de acción y la punta de la
+ ﬂecha denota la dirección y el sentido del vector.
+ Si más de un vector debe ser mostrado en un único cuadro, la longitud de
+ cada flecha debe ser proporcional a la magnitud del vector que representa.
+\end_layout
+
+\begin_layout Subsubsection
+Concepto de vector fijo, ligado o localizado
+\end_layout
+
+\begin_layout Standard
+Sea el espacio tridimensional euclidiano, es decir el espacio en el que
+ acontecen los fenómenos físicos 
+\begin_inset Quotes eld
+\end_inset
+
+E
+\begin_inset Quotes erd
+\end_inset
+
+ generando el conjunto de producto cartesiano 
+\begin_inset Formula $(ExE)$
+\end_inset
+
+, que estará formado por pares de puntos ordenados de este espacio, y constituid
+o en un nuevo conjunto que se denomina 
+\begin_inset Formula $(ExE)^{*}$
+\end_inset
+
+, el cual es igual al conjunto anterior, pero en el que se han suprimido
+ los elementos diagonales, estando por tanto este conjunto formado por pares
+ ordenados de puntos distintos del espacio.
+ Este conjunto podrá ser expresado como:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left(ExE\right)^{*}=\left\{ (ExE)-\left(x,x\right)\right\} ;\forall x\in E
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cada elemento de este conjunto es un segmento orientado siendo 
+\begin_inset Formula $\overrightarrow{AB}\neq\overrightarrow{BA}$
+\end_inset
+
+ ya que en el producto cartesiano el elemento 
+\begin_inset Formula $\overrightarrow{AB}$
+\end_inset
+
+ es distinto del elemento 
+\begin_inset Formula $\overrightarrow{BA}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El vector ligado se define como el conjunto ordenado de los elementos del
+ conjunto 
+\begin_inset Formula $(ExE)^{*}$
+\end_inset
+
+, añadiendo además el vector nulo 
+\begin_inset Formula $\overrightarrow{0}$
+\end_inset
+
+ , es decir:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left\{ \left(ExE\right)^{*},\overrightarrow{0}\right\} 
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las características que define a un elemento de este conjunto, es decir
+ a un vector fijo son las siguientes:
+\end_layout
+
+\begin_layout Itemize
+Modulo 
+\begin_inset Formula $\left\Vert \vec{AB}\right\Vert $
+\end_inset
+
+: Es un real positivo asociado a la recta 
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+ y define la longitud del segmento que une los puntos A Y B
+\end_layout
+
+\begin_layout Itemize
+Dirección: Es la de la recta sobre la cual se encuentra el segmento 
+\begin_inset Formula $\overline{AB}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Sentido: Es la ordenación de punto A y B.
+\end_layout
+
+\begin_layout Itemize
+Localización: Es el primero de los puntos que constituyen el par ordenado.
+\end_layout
+
+\begin_layout Subsubsection
+Vector libre 
+\end_layout
+
+\begin_layout Standard
+El conjunto de vectores fijos se divide o clasifica en una clase de equivalencia
+s que surgen a partir del hecho de comprobar cumple las propiedades reﬂexiva,
+ simétrica y transitiva de forma natural, por su constitución donde dos
+ vectores ﬁjos son equipolentes entre sí, cuando ambos tienen igual módulo,
+ dirección y sentido.
+ La relación equipolente introducida para representar este vector libre
+ se expresa como L por lo tanto 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(ExE)^{*}/L,\overrightarrow{0}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+un ejemplo de magnitud física representada por un vector libre es el “par”,
+ el cual puede ser localizado en cualquier punto del espacio.
+\end_layout
+
+\begin_layout Subsubsection
+Vector deslizante 
+\end_layout
+
+\begin_layout Standard
+La relación a introducir para los vectores deslizantes es la relación D
+ equivalente enunciada de la siguiente manera:
+\end_layout
+
+\begin_layout Standard
+Dos vectores ﬁjos están relacionados si son colineales, tienen igual módulo
+ y el mismo sentido.
+ 
+\end_layout
+
+\begin_layout Standard
+El conjunto de las clases en que se divide el conjunto de los vectores ﬁjos
+ al introducir esta relación, es el conjunto de los vectores deslizantes,
+ el cual podrá ser expresado así:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+(ExE)^{*}/D,\overrightarrow{0}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ejemplo de vectores deslizantes son las fuerzas que actúan sobre sólidos
+ indeformables.
+\end_layout
+
+\begin_layout Subsubsection
+Operaciones básicas con vectores.
+\end_layout
+
+\begin_layout Standard
+Las operaciones básicas de los vectores son: suma y producto por un escalar
+\end_layout
+
+\begin_layout Subsubsection
+Producto de un vector por un escalar
+\end_layout
+
+\begin_layout Standard
+Es una operación deﬁnida tanto para vectores libres, como ligados, como
+ deslizantes.
+ Consiste en asociar a un vector 
+\begin_inset Formula $\overrightarrow{a}$
+\end_inset
+
+ y a un escalar 
+\begin_inset Formula $\lambda$
+\end_inset
+
+, un nuevo vector (del tipo del de 
+\begin_inset Formula $\overrightarrow{a}$
+\end_inset
+
+ , es decir, libre, ligado o deslizante) de modo que:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left|\lambda\bullet\overrightarrow{a}\right|=\left|\lambda\right|\bullet\left|\overrightarrow{a}\right|
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\lambda\right|=valor$
+\end_inset
+
+ absoluto 
+\begin_inset Formula $\lambda$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\left|\overrightarrow{a}\right|=$
+\end_inset
+
+modulo del vector 
+\begin_inset Formula $\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La dirección y sentido de 
+\begin_inset Formula $\lambda\bullet\overrightarrow{a}$
+\end_inset
+
+ es igual a la dirección y sentido de 
+\begin_inset Formula $\overrightarrow{a}$
+\end_inset
+
+ en el caso de que 
+\begin_inset Formula $\lambda>0$
+\end_inset
+
+ y de sentido contrario 
+\begin_inset Formula $\lambda<0$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Suma de vectores
+\end_layout
+
+\begin_layout Standard
+Es una operación definida para:
+\end_layout
+
+\begin_layout Itemize
+Vectores Libres
+\end_layout
+
+\begin_layout Itemize
+Vectores deslizantes, caso de que sus rectas de acción se corten en un punto
+\end_layout
+
+\begin_layout Itemize
+Vectores ﬁjos, caso de que sus puntos de aplicación coincidan
+\end_layout
+
+\begin_layout Standard
+La suma es una ley de composición interna, que a dos vectores dados asocia
+ un tercer vector, que viene dado por la composición geométrica denominada
+ ley del paralelogramo (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Suma-geométrica-de-1"
+
+\end_inset
+
+ ):
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{s}=\overrightarrow{a}+\overrightarrow{b}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/suma geometrica.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Suma-geométrica-de"
+
+\end_inset
+
+Suma geométrica de 2 vectores 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cuando se trata de la suma de más de dos vectores se procederá sumando los
+ dos primeros, y a continuación sumando su resultado con el tercero y así
+ sucesivamente, o bien, afectando la composición geométrica siguiente (ver
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Suma-geométrica-de-1"
+
+\end_inset
+
+), denominada polígono de vectores:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{s}=\overrightarrow{a}+\overrightarrow{b}+\overrightarrow{c}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/suma geometrica2.png
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Suma-geométrica-de-1"
+
+\end_inset
+
+Suma geométrica de más de dos vectores
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con respecto a esta operación suma el conjunto de los vectores tiene estructura
+ de grupo abeliano o conmutativo, ya que se cumplen las siguientes propiedades:
+\end_layout
+
+\begin_layout Enumerate
+Es una ley de composición interna
+\end_layout
+
+\begin_layout Enumerate
+Conmutativa
+\end_layout
+
+\begin_layout Enumerate
+Asociativa
+\end_layout
+
+\begin_layout Enumerate
+Existencia del elemento neutro, 
+\begin_inset Formula $\overrightarrow{0}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Existencia del elemento simétrico 
+\begin_inset Formula $\overrightarrow{a}+\overrightarrow{a\text{'}}=0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Concepto de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+espacio vectorial
+\end_layout
+
+\end_inset
+
+espacio vectorial
+\end_layout
+
+\begin_layout Standard
+Se dice que un determinado conjunto tiene estructura de espacio vectorial,
+ cuando habiéndose deﬁnido en el mismo 2 operaciones o leyes de composición,
+ una interna: la suma, y otra externa: el producto por los elementos de
+ un cuerpo (K) de escalares, éstas cumplen las siguientes propiedades:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Suma 
+\end_layout
+
+\begin_layout Enumerate
+Conmutativa: 
+\begin_inset Formula $\overrightarrow{a}+\overrightarrow{b}=\overrightarrow{b}+\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Asociativa: 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\overrightarrow{a}+(\overrightarrow{b}+\overrightarrow{c})=\overrightarrow{(a}+\overrightarrow{b})+\overrightarrow{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Existencia del elemento neutro 
+\begin_inset Formula $\overrightarrow{a}+\overrightarrow{0}=\overrightarrow{0}+\overrightarrow{a}=\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Existencia de elementos simétricos 
+\begin_inset Formula $\overrightarrow{a}+(-\overrightarrow{a})=(-\overrightarrow{a})+\overrightarrow{a}=\overrightarrow{0}$
+\end_inset
+
+ 
+\begin_inset Formula $\forall\overrightarrow{a}\in V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Producto
+\end_layout
+
+\begin_layout Enumerate
+Distributiva respecto a la suma de escalares: 
+\begin_inset Formula $(\lambda+\mu)\overrightarrow{a}=\lambda\overrightarrow{a}+\mu\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Distributiva respecto a la suma de vectores: 
+\begin_inset Formula $\lambda\overrightarrow{(a}+\overrightarrow{b})=\lambda\overrightarrow{a}+\mu\overrightarrow{b}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Asociativa respecto al producto de escalares:
+\begin_inset Formula $\lambda(\mu\overrightarrow{a)}=\lambda\mu\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Existencia del elemento neutro: 
+\begin_inset Formula $1\bullet\overrightarrow{a}=\overrightarrow{a}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+cuaternión
+\end_layout
+
+\end_inset
+
+Cuaternión
+\end_layout
+
+\begin_layout Standard
+Un cuaternión es una forma alternativa de representar rotaciones a través
+ del cualquier eje.
+ Matemáticamente, son una extensión del conjunto de números complejos.
+ Presentan ventajas comparado con las rotaciones por matrices.
+ Concatenar cuaterniones exige menos operaciones y requieren menos espacio
+ en memoria para almacenarlos que una matriz.
+ El espacio vectorial de cuaterniones fueron desarrollados por 
+\noun on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\noun off
+Hamilton, William Rowarn
+\end_layout
+
+\end_inset
+
+William Rowarn Hamilton
+\noun default
+ en 1843 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-43"
+
+\end_inset
+
+.
+ Estos números representan el espacio de 4 dimensiones y están compuestos
+ por: una parte real y tres partes imaginarias 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-44"
+
+\end_inset
+
+.
+ Los cuaterniones es un subconjunto de los números 
+\series bold
+hipercomplejos
+\series default
+ (suma de un numero real y 3 números imaginarios) que se escriben de dos
+ formas:
+\end_layout
+
+\begin_layout Enumerate
+Forma vectorial 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q={w,x,y,z}=w+xi+yj+zk
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Forma Matricial
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{bmatrix}a+bi & c+di\\
+-c+di & a-bi
+\end{bmatrix}\qquad\qquad o\; bien\qquad\begin{bmatrix}a & -b & d & -c\\
+b & a & -c & -d\\
+-d & c & a & -b\\
+c & d & b & a
+\end{bmatrix}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Descripción de los cuaterniones 
+\end_layout
+
+\begin_layout Standard
+Sea el sistema que se encuentra en 
+\begin_inset Formula $\mathbb{C}^{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+q=a_{0}+a_{1}\bar{i}+a_{2}\overline{j}+a_{3}\overline{k}\exists q\in\mathbb{C}^{4},\{a_{i}:i\in Z{}_{+}\}\mathbb{\subseteq R},\overline{i},\overline{j},\overline{k}\in Im^{3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Que cumple con las siguientes propiedades:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\exists!q_{0}\in\mathbb{C}^{4},ssi\{a_{i}:i\in\mathbb{Z}_{+}\}\subseteq[0]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{j}\exists!q_{j}^{*}\backepsilon q_{j}+q_{j}^{*}=2a_{0}\in\mathbb{R},(q_{j},q_{j}^{*})=a_{0}^{2}-a_{1}^{2}-a_{2}^{2}-a_{3}^{2}\in\mathbb{R},
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{j}\exists!q_{j}^{-}\backepsilon q_{j}+q_{j}^{-}=0,(q_{j},q_{j}^{-})=a_{0}^{2}-a_{1}^{2}-a_{2}^{2}-a_{3}^{2}\in\mathbb{R},
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{j}\in\mathbb{C}^{4},\exists!\mu_{L_{2}}:=\Vert q_{j}\Vert\in\mathbb{R}_{+},\Vert q_{j}\Vert:=(a_{0}^{2}-a_{1}^{2}-a_{2}^{2}-a_{3}^{2})^{\frac{1}{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\exists!\mu_{L_{2}}(q_{j})=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Normalización de un cuaternión
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\exists q_{N_{j}}:=\frac{q_{j}}{\Vert q_{j}\Vert}\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inverso de un cuaternión
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\exists q_{N_{j}}^{-1}:=\frac{q_{j}^{-1}}{\Vert q_{j}\Vert}\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Generación del campo para cuaterniones
+\end_layout
+
+\begin_layout Standard
+Para la generación de los cuaterniones se define dos operadores básicos
+ y sus propiedades: suma, y producto cruz:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Suma 
+\begin_inset Formula $\left(\mathbb{C}^{4},+\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Asociativa:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{j1},q_{j2},q_{j3}\in C^{4}\exists((q_{j1}+q_{j2})+q_{j3}=q_{j1}+(q_{j2}+q_{j3}))\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Elemento Neutro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{gathered}\forall q_{ji}\in\mathbb{C}^{4}\exists!q_{n}\backepsilon q_{ji}+q_{n}=q_{ji},ssi\\
+q_{n}=\left[0\right]\in\mathbb{C}^{4}
+\end{gathered}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inverso:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{ji}\exists\overline{q}_{ji}\in\mathbb{C}^{4}\backepsilon q_{ji}+\overline{q}_{ji}=q_{n}\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Conmutatividad:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{j1},q_{j2}\in\mathbb{C}^{4}\exists(q_{j1}+q_{j2}=q_{j2}+q_{j1})\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Producto
+\begin_inset Formula $\ensuremath{\left(C^{4},\times\right)}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Asociativa:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{ji}\in\mathbb{C}^{4},i=\overline{1,3},\exists((q_{j1}\times q_{j2})\times q_{j3}=q_{j1}\times(q_{j2}\times q_{j3}))\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Elemento Neutro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{gathered}\forall q_{ji}\in\mathbb{C}^{4}\exists!q_{I}\backepsilon q_{ji}\times q_{I}=q_{ji},ssi\\
+q_{I}=\left[1\right]\in\mathbb{C}^{4}
+\end{gathered}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Inverso:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{ji}\exists q_{ji}^{*}\in\mathbb{C}^{4}\backepsilon q_{ji}\times q_{ji}^{*}=q_{I}\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+No Conmutativo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{ji}\in\mathbb{C}^{4},i=1,2;\exists(q_{j1}\times q_{j2}\ne q_{j2}\times q_{j1})\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El campo es descrito por la condición de distributiva, respecto al producto
+ cruz:
+\end_layout
+
+\begin_layout Standard
+Distributiva:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\forall q_{ji}\in\mathbb{C}^{4};\exists\left(q_{j1}+q_{j2}\right)\times q_{j3}=\left(q_{j1}\times q_{j3}\right)+\left(q_{j2}\times q_{j3}\right)\in\mathbb{C}^{4}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+matriz de rotación
+\end_layout
+
+\end_inset
+
+Matriz homogénea 
+\end_layout
+
+\begin_layout Standard
+Una de las partes correspondientes al análisis cinemático tiene que ver
+ con el establecimiento de varios sistemas coordenados para representar
+ la posición y la orientación de objetos rígidos y las transformaciones
+ entre estos sistemas coordinados 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ La transformación homogénea combina dos operaciones básicas la rotación
+ y la traslación en una simple matriz de multiplicación 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+rotación
+\end_layout
+
+\end_inset
+
+Rotación
+\end_layout
+
+\begin_layout Standard
+Para explicar la rotación de marcos de referencia, observe la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Coordenadas-de-referencia"
+
+\end_inset
+
+ donde se muestra un objeto rígido S a el cual se le atribuido un marco
+ coordenado 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+.
+ Si se desea relacionar las coordenadas de un punto P del sólido S, el cual
+ esta referenciado al eje 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+ con un nuevo marco de referencia fijo (sin rotar) como lo es 
+\begin_inset Formula $x_{0},y_{0},z_{0}$
+\end_inset
+
+ se requiere constituir condiciones tales que sean consistentes dicha relación,
+ con el fin de obtener la aportación de ambas referencias respecto a ese
+ punto y al origen “o” que tienen en común.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/coordenadasReferencia.png
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Coordenadas-de-referencia"
+
+\end_inset
+
+Coordenadas de referencia asociado al cuerpo rígido 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sea el conjunto de vectores 
+\begin_inset Formula $\left\{ \widehat{i_{1}},\widehat{j_{1}},\widehat{k_{1}}\right\} $
+\end_inset
+
+ los componentes de la base orto normal del marco de referencia ox1y1z1
+ e 
+\begin_inset Formula $\left\{ \widehat{i_{0}},\widehat{j_{0}},\widehat{k_{0}}\right\} $
+\end_inset
+
+ los componentes de la base orto normal del marco de referencia 
+\begin_inset Formula $x_{0},y_{0},z_{0}$
+\end_inset
+
+.
+ [6]
+\end_layout
+
+\begin_layout Standard
+Entonces los vectores desde el origen en común a el punto 
+\begin_inset Formula $P$
+\end_inset
+
+ en el objeto pueden ser representados cualquiera de los dos como : 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{\text{P}0}\text{ }=P0_{\text{x}}\widehat{\text{i}}0\text{ }+\text{ P}0_{\text{y}}\text{ }\widehat{\text{j}}0+\text{ P}0_{\text{z}}\text{ }\widehat{\text{k}}0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+con relación al eje 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\overrightarrow{\text{P1}}\text{ }=\text{ P}\text{1}_{\text{x}}\widehat{\text{i}}_{\text{1}}\text{ }+\text{ P}\text{1}_{\text{y}}\widehat{\text{j}}_{\text{1}}\text{ }+\text{ P}\text{1}_{\text{z}}\widehat{\text{k}}_{\text{1}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ya que y son representaciones del mismo vector 
+\begin_inset Formula $P$
+\end_inset
+
+ la relación entre las componentes de P en los dos marcos de referencia
+ puede ser obtenidos como sigue:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{P}0_{\text{x}}=\text{ P}0\widehat{\text{i}_{0}}\text{ }=\text{ P1}\widehat{\text{i}_{0}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{P}0_{\text{x}}=\text{ P}\text{1}_{\text{x}}\text{ }\widehat{\mathbf{i}_{\mathbf{1}}}\bullet\widehat{\mathbf{i}_{\mathbf{0}}}\text{ }+\text{ P}\text{1}_{\text{y}}\text{ }\widehat{\mathbf{j}_{\mathbf{1}}}\bullet\widehat{\mathbf{i}_{\mathbf{0}}}\text{ }+\text{ P}\text{1}_{\text{z}}\text{ }\widehat{\mathbf{k}_{\mathbf{1}}}\bullet\widehat{\mathbf{i}_{\mathbf{0}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De manera similar para 
+\begin_inset Formula $P0_{y},P0_{z}$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{gathered}\text{P}0_{\text{y}}=\text{P}\text{1}_{\text{y}}\widehat{\mathbf{i}_{\mathbf{1}}}\bullet\widehat{\mathbf{j}_{\mathbf{0}}}+\text{P}\text{1}_{\text{y}}\widehat{\mathbf{j}_{\mathbf{1}}}\bullet\widehat{\mathbf{j}_{\mathbf{0}}}+\text{P}\text{1}_{\text{z}}\widehat{\mathbf{k}_{\mathbf{1}}}\bullet\widehat{\mathbf{j}_{\mathbf{0}}}\\
+\text{P}0_{\text{z}}=\text{P}\text{1}_{\text{z}}\widehat{\mathbf{i}_{\mathbf{1}}}\bullet\widehat{\mathbf{k}_{\mathbf{0}}}+\text{P}\text{1}_{\text{y}}\widehat{\mathbf{j}_{\mathbf{1}}}\bullet\widehat{\mathbf{k}_{\mathbf{0}}}+\text{P}\text{1}_{\text{z}}\widehat{\text{k}_{\text{1}}}\bullet\widehat{\text{k}_{0}}
+\end{gathered}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Se pueden escribir las tres ecuaciones de la siguiente forma:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{P}0=\text{ R}_{1}^{0}\text{P1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{R}_{1}^{0}=\left[\begin{array}{ccc}
+\widehat{i_{1}}\bullet\widehat{i_{0}}\; & \widehat{j_{1}}\bullet\widehat{i_{0}}\; & \widehat{k_{1}}\bullet\widehat{i_{0}}\\
+\widehat{i_{1}}\bullet\widehat{j_{0}}\; & \widehat{j_{1}}\bullet\widehat{j_{0}}\; & \widehat{k_{1}}\bullet\widehat{j_{0}}\\
+\widehat{i_{1}}\bullet\widehat{k_{0}}\; & \widehat{j_{1}}\bullet\widehat{k_{0}}\; & \widehat{k_{1}}\bullet\widehat{k_{0}}
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La matriz de 
+\begin_inset Formula $3x3$
+\end_inset
+
+ representa la matriz de transformación desde las coordenadas de p con respecto
+ al marco 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+ a las coordenadas con respecto al marco 
+\begin_inset Formula $x_{0},y_{0},z_{0}$
+\end_inset
+
+.
+ En consecuencia si un punto obtenido es expresado en coordenadas 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+ como P1 entonces 
+\begin_inset Formula $\text{P}0=\text{ R}_{0}^{1}\text{P1}$
+\end_inset
+
+ representa el mismo vector expresado relativamente al marco coordenado
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Similar mente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+{\rm P}1_{{\rm x}}={\rm P}{\rm 1}_{{\rm x}}\widehat{{\bf i}_{{\bf 1}}}\bullet\widehat{{\bf i}_{{\bf 1}}}+{\rm P}{\rm 1}_{{\rm y}}\widehat{{\bf j}_{{\bf 1}}}\bullet\widehat{{\bf i}_{{\bf 1}}}+{\rm P}{\rm 1}_{{\rm z}}\widehat{{\rm k}_{{\rm 1}}}\bullet\widehat{{\rm i}_{{\rm 1}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De manera similar la matriz que se forma es: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{P1}=\text{ R}_{1}^{0}\text{P0}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{R}_{1}^{0}=\left[\begin{array}{ccc}
+\widehat{i_{0}}\bullet\widehat{i_{1}}\; & \widehat{j_{0}}\bullet\widehat{i_{1}}\; & \widehat{k_{0}}\bullet\widehat{i_{1}}\\
+\widehat{i_{0}}\bullet\widehat{j_{1}}\; & \widehat{j_{0}}\bullet\widehat{j_{1}}\; & \widehat{k_{0}}\bullet\widehat{j_{1}}\\
+\widehat{i_{0}}\bullet\widehat{k_{1}}\; & \widehat{j_{0}}\bullet\widehat{k_{1}}\; & \widehat{k_{0}}\bullet\widehat{k_{1}}
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces la matriz 
+\begin_inset Formula $R_{1}^{0}$
+\end_inset
+
+ representa la inversa de la transformación 
+\begin_inset Formula $R_{0}^{1}$
+\end_inset
+
+, el producto punto es conmutativo por lo cual 
+\begin_inset Formula $\widehat{\mathbf{i}_{\mathbf{1}}}\bullet\widehat{\mathbf{j}_{\mathbf{0}}}=\widehat{\text{ }\mathbf{j}_{\mathbf{0}}}\bullet\widehat{\mathbf{i}_{\mathbf{1}}}\text{ }$
+\end_inset
+
+así que: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{R}_{1}^{0}=(R_{0}^{1})^{-1}=(R_{0}^{1})^{T}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otra parte suponemos que el marco 
+\begin_inset Formula $x_{1}y_{1}z_{1}$
+\end_inset
+
+ presenta una rotación respecto a un ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ sobre el eje 
+\begin_inset Formula $z$
+\end_inset
+
+ y se desea encontrar la matriz de transformación resultante , por convención
+ el signo positivo el ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ es obtenido por la regla de la mano derecha, que es una rotación positiva
+ de grados 
+\begin_inset Formula $\theta$
+\end_inset
+
+ sobre el eje 
+\begin_inset Formula $z$
+\end_inset
+
+ en el cual avanzaría deslizándose en forma de tornillo sobre el eje z.
+ En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Rotación-sobre-eje"
+
+\end_inset
+
+ se puede ver que.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\widehat{j_{1}}\bullet\widehat{i_{0}}=-\sin\psi\qquad\qquad\widehat{i_{1}}\bullet\widehat{j_{0}}=\sin\psi
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\widehat{i_{0}}\bullet\widehat{i_{1}}=\cos\varphi\qquad\qquad\widehat{j_{0}}\bullet\widehat{j_{1}}=\cos\theta
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\widehat{k_{0}}\bullet\widehat{k_{1}}=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/sistemaDeCordenadas.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Rotación-sobre-eje"
+
+\end_inset
+
+Rotación sobre ejes canónicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y los otros productos son ceros.
+ Así la transformación tiene una forma particular 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\text{R}_{1}^{0}=\left[\begin{array}{ccc}
+\cos\theta & -\sin\theta & 0\\
+\sin\theta & \cos\theta & 0\\
+0 & 0 & 1
+\end{array}\right]\label{eq:trans}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:trans"
+
+\end_inset
+
+ es llamada matriz básica de rotación (sobre el eje z).
+ Para estas matrices se utiliza la notación 
+\begin_inset Formula $Rz_{\theta}$
+\end_inset
+
+, es fácil verificar que esta matriz , tiene las siguientes propiedades
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{gathered}\text{R}_{z,0}=I\\
+\text{R}_{z,\theta}\text{R}_{z,\varphi}=\text{R}_{z,\theta+\varphi}\\
+R_{z,\theta}^{-1}=\text{R}_{z,-\theta}
+\end{gathered}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Similar mente las matrices de rotación sobre los ejes x e y ejes se obtiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{x,\theta}=\left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & \cos\theta & -\sin\theta\\
+0 & \sin\theta & \cos\theta
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{y,\theta}=\left[\begin{array}{ccc}
+\cos\theta & 0 & -\sin\theta\\
+0 & 1 & 0\\
+\sin\theta & 0 & \cos\theta
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+A partir de la definición de las coordenadas homogéneas surge inmediatamente
+ el concepto de matriz de transformación homogénea.
+ Se define como matriz de transformación homogénea T a una matriz de dimensión
+ 4*4 que representa la transformación de un vector de coordenadas homogéneas
+ de un sistema de coordenadas a otro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T=\left[\begin{array}{ccc}
+R_{3*3} & | & p_{3*1}\\
+\hline f_{1*3} & | & w_{1*1}
+\end{array}\right]=\left[\begin{array}{ccc}
+Rotación & | & Traslación\\
+\hline Perspectiva & | & Escalado
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Así pues, se puede considerar que una matriz homogénea se haya compuesta
+ por cuatro submatrices de distinto tamaño: una submatriz 
+\begin_inset Formula $R_{3*3}$
+\end_inset
+
+ que corresponde a una matriz de rotación; una submatriz 
+\begin_inset Formula $p_{3*1}$
+\end_inset
+
+ que corresponde al vector de traslación; una submatriz 
+\begin_inset Formula $f_{1*3}$
+\end_inset
+
+ que representa una transformación de perspectiva, y una submatriz que represent
+a un escalado global.
+ En robótica generalmente solo interesara conocer el valor de 
+\begin_inset Formula $R_{3*3}$
+\end_inset
+
+ y de 
+\begin_inset Formula $p_{3*1}$
+\end_inset
+
+ , considerándose las componentes 
+\begin_inset Formula $f_{1*3}$
+\end_inset
+
+ nulas y la de 
+\begin_inset Formula $w_{1*1}$
+\end_inset
+
+ la unidad.
+ Al tratarse de una matriz 4*4, los vectores sobre los que se aplique deberán
+ contar con 4 dimensiones, que serán las coordenadas homogéneas del vector
+ tridimensional de que se trate 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ Considerando la transformación de perspectiva nula y el escalado global
+ unitario, la matriz homogénea T resultara de la siguiente forma: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T=\left[\begin{array}{ccc}
+R_{3*3} & \text{|} & p_{3*1}\\
+\hline 0 & | & 1
+\end{array}\right]=\left[\begin{array}{ccc}
+Rotación & | & Traslación\\
+\hline 0 & | & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+que representa la orientación y posición de un sistema 0’UVW rotado y trasladado
+ con respecto al sistema de referencia 0XYZ.
+ Esta matriz sirve para conocer las coordenadas (rx,ry,rz) del vector r
+ en el sistema 0XYZ a partir de sus coordenadas (ru,rv,rw) en el sistema
+ 0’XYZ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\left[\begin{array}{c}
+r_{x}\\
+r_{y}\\
+r_{z}\\
+1
+\end{array}\right]=T\left[\begin{array}{c}
+r_{u}\\
+r_{v}\\
+r_{w}\\
+1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En resumen, una matriz de transformación homogénea se puede aplicar para
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Enumerate
+Representar la posición y orientación de un sistema girado y trasladado
+ O’UVW con respecto a un sistema fijo de referencia oxyz, que es lo mismo
+ que representar una rotación y traslación realizada sobre un sistema de
+ referencia.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Transformar un vector expresado en coordenadas con respecto a un sistema
+ O’UVW, a su expresión en coordenadas del sistema de referencia OXYZ.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Rotar y trasladar un vector con respecto a un sistema de referencia fijo
+ 0XYZ.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+Algoritmo de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Denavit-Hartenberg
+\end_layout
+
+\end_inset
+
+Denavit-Hartenberg
+\noun on
+ 
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Denavit
+\noun default
+ y 
+\noun on
+Hartenberg
+\noun default
+ propusieron en 1955 un método matricial que permite establecer de manera
+ sistemática un sistema de coordenadas (Si) ligado a cada eslabón i de una
+ cadena articulada, pudiéndose determinar a continuación las ecuaciones
+ cinemáticas de la cadena completa 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Según la representación D-H, escogiendo adecuadamente los sistemas de coordenada
+s asociados para cada eslabón, será posible pasar de la posición actual
+ a la siguiente mediante 4 transformaciones básicas que dependen exclusivamente
+ de las características geométricas del eslabón 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Estas transformaciones básicas consisten en una sucesión de rotaciones y
+ traslaciones que permitan relacionar el sistema de referencia del elemento
+ i con el sistema del elemento i-1 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+ Las transformaciones en cuestión son las siguientes: 
+\end_layout
+
+\begin_layout Itemize
+Rotación alrededor del eje 
+\begin_inset Formula $Z_{i-1}$
+\end_inset
+
+ un ángulo 
+\begin_inset Formula $q_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Traslación a lo largo de 
+\begin_inset Formula $Z_{i-1}$
+\end_inset
+
+ una distancia 
+\begin_inset Formula $d_{i}$
+\end_inset
+
+; vector di 
+\begin_inset Formula $(0,0,d_{i}).$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Itemize
+Traslación a lo largo de 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+ una distancia ai; vector 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ 
+\begin_inset Formula $(0,0,a_{i}).$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Rotación alrededor del eje 
+\begin_inset Formula $X_{i}$
+\end_inset
+
+, un ángulo 
+\begin_inset Formula $a_{i}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Luego entonces la Matriz de transformación Homogénea se representa de la
+ siguiente manera 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{i}=\left[\begin{array}{c|c}
+R_{i-1}^{i} & D_{i-1}^{i}\\
+\hline 0 & 1
+\end{array}\right]=Rotación_{(z,\theta_{i})}Desplazamiento_{(0,0,d_{i})}Desplazamiento_{(a_{i},0,0)}Rotación_{(x,\alpha_{i})}\label{eq:transformacio-homogenea}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde 
+\begin_inset Formula $R_{i-1}^{i}$
+\end_inset
+
+= Matriz de Rotación y 
+\begin_inset Formula $D_{i-1}^{i}$
+\end_inset
+
+=Matriz de Traslación (Desplazamiento) .
+\end_layout
+
+\begin_layout Standard
+Los productos antes descritos no son conmutativos, los elementos que componen
+ estos son de 2 tipos: 
+\end_layout
+
+\begin_layout Standard
+Matrices de Rotación: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+R_{Z}=\left[\begin{array}{ccc|c}
+\cos\theta_{n} & -\sin\theta_{n} & 0 & 0\\
+\sin\theta_{n} & \cos\theta_{n} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\qquad R_{X}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{n} & -\sin\alpha_{n} & 0\\
+0 & \sin\alpha_{n} & \cos\alpha_{n} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\label{eq: componente rot}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y Matrices de Traslación:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+D_{z}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d_{n}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\qquad D_{x}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{n}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\label{eq: componente tras}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y el resultado de ese mismo es:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{i}^{i-1}=\left[\begin{array}{ccc|c}
+C\theta_{i} & -S\theta_{i} & 0 & 0\\
+S\theta_{i} & C\theta_{i} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d_{i}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a_{i}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & C\theta_{i} & -S\theta_{i} & 0\\
+0 & S\theta_{i} & C\theta_{i} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\label{eq: procedimiento}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+=\left[\begin{array}{ccc|c}
+C\theta_{i} & -C\alpha_{i}S\theta_{i} & S\alpha_{i}S\alpha_{i} & a_{i}C\theta_{i}\\
+S\theta_{i} & C\alpha_{i}C\theta_{i} & -S\alpha_{i}C\theta_{i} & a_{i}S\theta_{i}\\
+0 & S\alpha_{i} & C\alpha_{i} & d_{i}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde 
+\begin_inset Formula $C\theta_{i}=$
+\end_inset
+
+cos 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\theta_{i}$
+\end_inset
+
+ y 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish-mexico
+
+\begin_inset Formula $S\theta_{i}=$
+\end_inset
+
+sen 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+
+\begin_inset Formula $\theta_{i}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish-mexico
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otra parte para conocer la Matriz de transformación Homogénea Total
+ de un sistema se recurre a multiplicar las A correspondientes a cada sección
+ de estudio 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T_{n}^{0}(q_{i})=\prod A_{i}^{i-1}=A_{1}^{0}*A_{2}^{1}*A_{3}^{2}*A_{4}^{3}*.....A_{i}^{i-1}\label{eq: Transformacion General}
+\end{equation}
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Para que la matriz 
+\begin_inset Formula $A_{i}^{i-1}$
+\end_inset
+
+ relacione los sistemas 
+\begin_inset Formula $(S_{i})$
+\end_inset
+
+ y 
+\begin_inset Formula $(S_{i-1})$
+\end_inset
+
+ es necesario que los mismos se hayan escogido de acuerdo a unas determinadas
+ normas presentes en el algoritmo.
+\end_layout
+
+\begin_layout Standard
+A continuación se presenta el algoritmo de 
+\noun on
+Denavit-Hartenberg
+\noun default
+ para la solución de la cinemática directa
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Algoritmo de 
+\noun on
+Denavit-Hartenberg
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="16" columns="2">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="0">
+<column alignment="block" valignment="top" width="15cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Numerar los eslabones comenzando con 1 (primer eslabón móvil dela cadena)
+ y acabando con n (ultimo eslabón móvil).
+ Se numerara como eslabón 0 a la base fija del robot.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Numerar cada articulación comenzando por 1 (la correspondiente al primer
+ grado de libertad y acabando en n).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Localizar el eje de cada articulación.
+ Si esta es rotativa, el eje será su propio eje de giro.
+ Si es prismática, será el eje a lo largo del cual se produce el desplazamiento.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Para i de 0 a n-1, situar el eje Zi, sobre el eje de la articulación i+1.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Situar el origen del sistema de la base (S0) en cualquier punto del eje
+ Z0.
+ Los ejes X0 e Y0 se situaran dé modo que formen un sistema dextrógiro con
+ Z0.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Para i de 1 a n-1, situar el sistema (Si) (solidario al eslabón i) en la
+ intersección del eje Zi con la línea normal común a Zi-1 y Zi.
+ Si ambos ejes se cortasen se situaría (Si) en el punto de corte.
+ Si fuesen paralelos (Si) se situaría en la articulación i+1.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Situar Xi en la línea normal común a Zi-1 y Zi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Situar Yi de modo que forme un sistema dextrógiro con Xi y Zi.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Situar el sistema (Sn) en el extremo del robot de modo que Zn coincida con
+ la dirección de Zn-1 y Xn sea normal a Zn-1 y Zn.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener Øi como el ángulo que hay que girar en torno a Zi-1 para que Xi-1
+ y Xi queden paralelos.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH11
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener di como la distancia, medida a lo largo de Zi-1, que habría que
+ desplazar (Si-1) para que Xi y Xi-1 quedasen alineados.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH12
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener ai como la distancia medida a lo largo de Xi (que ahora coincidiría
+ con Xi-1) que habría que desplazar el nuevo (Si-1) para que su origen coincidie
+se con (Si).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener ai como el ángulo que habría que girar entorno a Xi (que ahora coincidir
+ía con Xi-1), para que el nuevo (Si-1) coincidiese totalmente con (Si).
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH14
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener las matrices de transformación .
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH15
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Obtener la matriz de transformación que relaciona el sistema de la base
+ con el del extremo del robot 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+DH16
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+La matriz T define la orientación (submatriz de rotación) y posición (submatriz
+ de traslación) del extremo referido ala base en función de las n coordenadas
+ articulares.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Matemáticas aplicadas
+\end_layout
+
+\begin_layout Subsection
+\begin_inset CommandInset label
+LatexCommand label
+name "sub:Identidades-trigonométricas"
+
+\end_inset
+
+Identidades trigonométricas 
+\end_layout
+
+\begin_layout Standard
+Las siguientes identidades trigonométricas se utilizan en el desarrollo
+ del algoritmo de Denavit-Hartenberg :
+\end_layout
+
+\begin_layout Standard
+Sean 
+\begin_inset Formula $a$
+\end_inset
+
+ y 
+\begin_inset Formula $b$
+\end_inset
+
+ ángulos de rango 
+\begin_inset Formula $[0,2\pi]$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+sen(a\pm b)=sen(a)*cos(b)\pm cos(a)*sen(b)\label{eq:senoSuma}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+cos(a\pm b)=cos(a)*cos(b)\mp sen(a)*sen(b)\label{eq:cosenoSuma}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+sen(-a)=-sen(a)\qquad\qquad cos(-a)=cos(a)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Método de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+diferencias finitas, método de
+\end_layout
+
+\end_inset
+
+diferencias finitas:
+\end_layout
+
+\begin_layout Standard
+La idea del método de diferencias finitas consiste en aproximar las derivadas
+ de una ecuación diferencial de forma que se reduzca a resolver un sistema
+ lineal.
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-60"
+
+\end_inset
+
+.
+ En esta sección se explican las aproximaciones de 
+\begin_inset Formula $y'(x)$
+\end_inset
+
+ y 
+\begin_inset Formula $y''(x)$
+\end_inset
+
+, a partir del desarrollo de Taylor.
+ Estas aproximaciones son la base de los 
+\series bold
+métodos de diferencias finitas
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Considerando el desarrollo de Taylor de segundo orden, para una función
+ 
+\begin_inset Formula $y(x)$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(t)=y(t_{0})+y'(t_{0})(t-t_{0})+y''(t_{0})\frac{(t-t_{0})^{2}}{2}+...
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $t_{0}=x$
+\end_inset
+
+, 
+\begin_inset Formula $t=x+h$
+\end_inset
+
+, se tiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(x+h)\approx y(x)+y'(x)h+y''(x)\frac{h^{2}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $t_{0}=x$
+\end_inset
+
+, 
+\begin_inset Formula $t=x-h$
+\end_inset
+
+, se obtiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(x-h)\approx y(x)-y'(x)h+y''(x)\frac{h^{2}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Restando ambas expresiones y despejando el valor de 
+\begin_inset Formula $y'(x)$
+\end_inset
+
+, por lo tanto, se tiene una aproximación de segundo orden a la derivada
+ a la función en un punto:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y'(x)\approx\frac{y(x+h)-y(x-h)}{2h}\label{eq:primera_derivada}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Usando el desarrollo de Taylor de cuarto orden, se llega a:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(t)=y(t_{0})+y'(t_{0})(t-t_{0})+y''(t_{0})\frac{(t-t_{0})^{2}}{2!}+y'''(t_{0})\frac{(t-t_{0})^{3}}{3!}+y^{(iv)}(t_{0})\frac{(t-t_{0})^{4}}{4!}+...
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $t_{0}=x$
+\end_inset
+
+, 
+\begin_inset Formula $t=x+h$
+\end_inset
+
+, se tiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(x+h)\approx y(x)+y'(x)h+y''(x)\frac{h^{2}}{2}+y'''(x)\frac{(h)^{3}}{3!}+y^{(iv)}(x)\frac{(h)^{4}}{4!}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Si 
+\begin_inset Formula $t_{0}=x$
+\end_inset
+
+, 
+\begin_inset Formula $t=x-h$
+\end_inset
+
+, se obtiene:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(x+h)\approx y(x)-y'(x)h+y''(x)\frac{h^{2}}{2}-y'''(x)\frac{(h)^{3}}{3!}+y^{(iv)}(x)\frac{(h)^{4}}{4!}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sumando ambas expresiones y despejando el valor de 
+\begin_inset Formula $y''(x)$
+\end_inset
+
+ se tiene una aproximación de segundo orden a la derivada a la función en
+ un punto:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y''(x)\approx\frac{y(x+h)-2y(x)-y(x-h)}{h^{2}}\label{eq:segunda_derivada}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Considerando 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:primera_derivada"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:segunda_derivada"
+
+\end_inset
+
+, se despeja 
+\begin_inset Formula $y(x)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y(x+h)\approx h^{2}y''(x)+2y(x)+y(x-h)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aplicando la definición de derivada:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}=\underset{\triangle x\rightarrow\varepsilon}{\lim}\frac{f(x)-f(x-\triangle x)}{\triangle x}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evaluando el limite:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}\simeq\frac{f(x)-f(x-\varepsilon)}{\varepsilon}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Despejando 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ obtenemos la ecuación de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Euler, ecuación
+\end_layout
+
+\end_inset
+
+Euler donde 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ representa el tamaño del paso:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+f(x)\simeq\varepsilon\frac{df(x)}{dx}+f(x-\varepsilon)\label{eq:medel_1aderivada}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Análogamente para la segunda derivada tenemos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{d^{2}f(x)}{dx^{2}}=\frac{d}{dx}(\underset{\triangle x\rightarrow\varepsilon}{\lim}\frac{f(x)-f(x-\triangle x)}{\triangle x})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}=\underset{\triangle x\rightarrow\varepsilon}{\lim}\frac{1}{\triangle x}(\frac{df(x)}{dx}-\frac{df(x-\triangle x)}{d(x-\triangle x)})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}=\underset{\triangle x\rightarrow\varepsilon}{\lim}\frac{1}{\triangle x}(\frac{f(x)-f(x-\triangle x)}{\triangle x}-\frac{f(x-\triangle x)-f(x-2\triangle x)}{\triangle x})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}=\underset{\triangle x\rightarrow\varepsilon}{\lim}(\frac{f(x)-2f(x-\triangle x)+f(x-2\triangle x)}{(\triangle x)^{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Evaluando el limite:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{df(x)}{dx}\simeq\frac{f(x)-2f(x-\varepsilon)+f(x-2\varepsilon)}{(\varepsilon)^{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Despejando 
+\begin_inset Formula $f(x)$
+\end_inset
+
+ donde 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ representa el tamaño del paso:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+f(x)\simeq\frac{d^{2}f(x)}{dx^{2}}\varepsilon^{2}+2f(x-\varepsilon)-f(x-2\varepsilon)\label{eq:Medel_2aderivada}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:medel_1aderivada"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:Medel_2aderivada"
+
+\end_inset
+
+ son las ecuaciones en diferencias finitas que se utilizaran en el programa
+ del microcontrolador que procesa la información de los sensores inerciales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Análisis estadístico 
+\end_layout
+
+\begin_layout Standard
+El análisis estadístico de datos de mediciones permite obtener una determinación
+ analítica de la incertidumbre del resultado final.
+ El resultado de un método de medición se puede predecir con base al muestreo
+ de datos sin tener información detallada de todos los factores de perturbación
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-97"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection
+Media aritmética
+\end_layout
+
+\begin_layout Standard
+El valor mas probable de una variable medida es la media aritmética del
+ número de lecturas tomadas.
+ Cuando el número de lecturas de la misma cantidad es muy grande, se obtiene
+ una mejor aproximación.
+ La media aritmética esta dada por la siguiente ecuación 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-97"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\bar{x}=\frac{x_{1}+x_{2}+x_{3}+\ldots+x_{n}}{n}=\frac{\sum{\displaystyle x}}{n}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+donde 
+\begin_inset Formula $\bar{x}$
+\end_inset
+
+ es la media aritmética, 
+\begin_inset Formula $x_{1}$
+\end_inset
+
+, 
+\begin_inset Formula $x_{2}$
+\end_inset
+
+, 
+\begin_inset Formula $x_{n}$
+\end_inset
+
+son lecturas tomadas y 
+\begin_inset Formula $n$
+\end_inset
+
+ es el número de lecturas.
+\end_layout
+
+\begin_layout Subsubsection
+Rango promedio:
+\end_layout
+
+\begin_layout Standard
+El rango promedio es la tolerancia de la lectura medida y se representa
+ como 
+\begin_inset Formula $a\pm\bar{rango}$
+\end_inset
+
+ donde 
+\begin_inset Formula $a$
+\end_inset
+
+ es el valor de la media aritmética 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-97"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\bar{rango=}\frac{x_{max}+x_{min}}{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Media móvil simple de orden k:
+\end_layout
+
+\begin_layout Standard
+Es la media de las k últimas observaciones de la serie, donde n es el numero
+ de datos a promediar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+SMA=\frac{\sum_{k-1}^{n}x_{k}}{n}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ángulos de Euler:
+\end_layout
+
+\begin_layout Standard
+Los ángulos de Euler constituyen un conjunto de tres coordenadas angulares
+ que sirven para especificar la orientación de un sistema de referencia
+ de ejes ortogonales, normalmente móvil, respecto a otro sistema de referencia
+ de ejes ortogonales normalmente fijos.
+ Fueron introducidos por 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Euler, Leonhard
+\end_layout
+
+\end_inset
+
+
+\series bold
+Leonhard Euler
+\series default
+ en mecánica del sólido rígido para describir la orientación de un sistema
+ de referencia solidario con un sólido rígido en movimiento.
+ Dados dos sistemas de coordenadas xyz y XYZ con origen común, es posible
+ especificar la posición de un sistema en términos del otro usando tres
+ ángulos α, β y γ.
+ La definición matemática es estática y se basa en escoger dos planos, uno
+ en el sistema de referencia y otro en el triedro rotado.
+ En el esquema adjunto serían los planos xy y XY.
+ Escogiendo otros planos se obtendrían distintas convenciones alternativas,
+ las cuales se llaman de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Tait-Bryan
+\end_layout
+
+\end_inset
+
+Tait-Bryan cuando los planos de referencia son no-homogéneos (por ejemplo
+ xy y XY son homogéneos, mientras xy y XZ no lo son).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta=tan^{-1}\left(\frac{A_{x}}{\sqrt{A_{y}^{2}+A_{z}^{2}}}\right)\qquad\psi=tan^{-1}\left(\frac{A_{y}}{\sqrt{A_{x}^{2}+A_{z}^{2}}}\right)\qquad\phi=tan^{-1}\left(\frac{\sqrt{A_{x}^{2}+A_{y}^{2}}}{A_{z}}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/anglesInclinationSensing.png
+	lyxscale 70
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esquema de los ángulos de Euler y los ejes de coordenadas.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Ángulos de navegación (Tait-Bryan)
+\end_layout
+
+\begin_layout Standard
+Los ángulos de navegación son un tipo de ángulos de Euler usados para describir
+ la orientación de un objeto en 3 dimensiones.
+ Si se tiene un sistema de coordenadas móvil respecto de uno fijo, en 3
+ dimensiones, y se desea dar la posición del sistema móvil en un momento
+ dado, hay varias posibilidades de hacerlo.
+ Una de ellas son los ángulos de navegación.
+ Los ángulos de navegación, llamados en matemáticas ángulos de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Tait-Bryan
+\end_layout
+
+\end_inset
+
+Tait-Bryan, son 3 coordenadas angulares que definen un triedro rotado desde
+ otro que se considera el sistema de referencia.
+ Se definen matemáticamente de forma similar a los ángulos de Euler, pero
+ en vez de usar como línea de nodos el corte entre dos planos homólogos
+ (por ejemplo el XY es el homólogo del xy), se utilizan dos planos no homólogos
+ (por ejemplo XY e yz).
+\end_layout
+
+\begin_layout Standard
+Los 3 ángulos son la dirección o 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+yaw
+\end_layout
+
+\end_inset
+
+
+\series bold
+yaw 
+\series default
+(Ψ) rotación alrededor del eje Z , elevación o 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+pitch
+\end_layout
+
+\end_inset
+
+
+\series bold
+pitch
+\series default
+ (θ) rotación alrededor del eje Y y ángulo de guiñada o 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+roll
+\end_layout
+
+\end_inset
+
+
+\series bold
+roll
+\series default
+ (φ) rotación alrededor del eje X.
+ Estos 3 ángulos son equivalentes a 3 maniobras consecutivas.
+ Dado un sistema de 3 ejes fijos en el aeroplano, existen 3 rotaciones principal
+es, normalmente llamadas igual que el eje sobre el que se producen, que
+ permiten alcanzar el sistema del aeroplano desde el sistema de referencia,
+ donde el eje X apunta hacia al frente del móvil, el eje Y apunta hacia
+ la derecha y el eje Z es normal al móvil (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ángulos-de-navegación"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/Plane.svg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ángulos-de-navegación"
+
+\end_inset
+
+Ángulos de navegación o de Tait-Bryan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Biomecánica
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+biomecánica
+\end_layout
+
+\end_inset
+
+biomecánica es el estudio del comportamiento mecánico de una estructura
+ biológica del movimiento normal y ante una situación de carga o tensión.
+ Básicamente, en biomecánica se pueden realizar tres tipos de estudios.
+ Hay 
+\series bold
+estudios descriptivos
+\series default
+, que aportan información sobre la ejecución de movimiento, este tipo de
+ estudios son los primeros que se realizan cuando se quiere conocer un tipo
+ de movimiento nuevo y la estructura es desconocida.
+ Por otra parte están los 
+\series bold
+estudios experimentales
+\series default
+, con el fin de identificar las relaciones entre algunas de las variables
+ de movimiento, en estos estudios se plantea una pregunta y los resultados
+ de la experiencia se usan para verificar la hipótesis planteada.
+ El tercer tipo de investigación corresponde a los 
+\series bold
+teóricos o de modelización
+\series default
+, en esta investigación la información que se obtiene se utiliza para desarrolla
+r un modelo predictivo, generalmente un modelo matemático o un conjunto
+ de ecuaciones descritas por ejemplo, por las leyes de 
+\noun on
+Newton
+\noun default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Como se puede deducir la 
+\series bold
+biomecánica
+\series default
+ es un cuerpo de conocimientos amplios por lo que ha sido necesario dividir
+ en varias sub-disciplinas, cabe destacar que la línea de distinción entre
+ una y otra es muy delgada provocando en ocasiones la interrelación entre
+ ellas, aun y con esto se puede dividir en tres sub-grupos principales 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica Médica 
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica Ocupacional.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica de la actividad física y deportiva 
+\end_layout
+
+\begin_layout Standard
+La Biomecánica Médica esta sub-disciplina de la biomecánica actualmente
+ representa un terreno en auge y se especializa en 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica aplicada a la Traumatología 
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica aplicada a la Rehabilitación 
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica aplicada a la Fisiología 
+\end_layout
+
+\begin_layout Enumerate
+Biomecánica ortopédica 
+\end_layout
+
+\begin_layout Standard
+La Biomecánica Ocupacional esta relacionado con los ambientes laborales
+ en el uso de la ergonomía con el objeto de la adaptación mejorando las
+ condiciones físicas y psíquicas del ambiente laborar 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La Biomecánica de la actividad física y deportiva estudia los aspectos mecánicos
+ que explican algunas situaciones deportivas, tales como calcular el ángulo
+ de lanzamiento de peso.
+ En otras ocasiones, proporciona una base científica y en otro sentido demuestra
+ como puede obtenerse ventajas en el análisis de técnicas deportivas, en
+ los implementos utilizados y/o los objetos que el deportista golpea o lanza
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Movimiento de los cuerpos en un sistema de referencia
+\end_layout
+
+\begin_layout Standard
+El análisis del movimiento humano requiere la descripción detallada de los
+ cambios de posición del cuerpo, o de sus segmentos (cinemática), así como
+ identificación de las causas que lo producen (cinética) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El primer paso de análisis consiste en identificar el cuerpo o grupos de
+ cuerpos, segmentos y/u objetos para describir.
+ Además de lo anterior es necesario identificar el lugar o el marco de referenci
+a donde tiene lugar el movimiento.
+ Un sistema de referencia será el lugar desde el que se llevara acabo la
+ medición (observación) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El sistema de referencia puede ser fijo o puede también hallarse en movimiento.
+ Al primero se le denomina 
+\series bold
+sistema de referencia absoluto
+\series default
+, mientras al que se encuentra en movimiento se nombra como 
+\series bold
+sistema de referencia relativo
+\series default
+.
+ En el caso de los sistema de referencia absoluta, los tres ejes de orientación
+ espaciales 
+\begin_inset Formula $(x,y,z)$
+\end_inset
+
+ se cruzan en el eje articular de movimiento y los cambios de posición del
+ segmento se describen respecto a este eje articular.
+ En el caso de los sistemas de referencia relativos, la posición de un segmento
+ se describe en función de la posición de su segmento adyacente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/sistema absoluto y relativo.png
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Sistema de referencia absoluto y relativo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Orientación del cuerpo móvil en el espacio 
+\end_layout
+
+\begin_layout Standard
+El sistema de coordenadas es la forma de orientar y situar los cambios de
+ posición de un cuerpo 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+móvil
+\end_layout
+
+\end_inset
+
+móvil (objeto o cuerpo en movimiento del que se quiere estudiar).
+ Las 3 posiciones que podrán tomar los segmentos serán la dirección 
+\begin_inset Formula $X$
+\end_inset
+
+, la 
+\begin_inset Formula $Y$
+\end_inset
+
+ o la 
+\begin_inset Formula $Z$
+\end_inset
+
+.
+ cualquier dirección paralela al suelo se identificará como horizontal y
+ cualquier dirección perpendicular al eje horizontal corresponde al eje
+ vertical 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La dirección 
+\begin_inset Formula $X$
+\end_inset
+
+ es paralela al suelo y normalmente el avance de los cuerpos en movimiento
+ hacia atrás o hacia delante.
+ La dirección denominada 
+\begin_inset Formula $Z$
+\end_inset
+
+ corresponde a los cambios de posiciones verticales (dirección de acción
+ de la gravedad) y es perpendicular a las otras dos direcciones.
+ La dirección Y es paralela al suelo e indica los movimientos laterales
+ relativos al cuerpo, es decir derecha o izquierda 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Recientemente, la sociedad Internacional de Biomecánica, con el propósito
+ de estandarizar la orientación de los ejes cartesianos en la Biomecánica
+ deportiva propone indicar la Y en la posición vertical 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/orientacion.png
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Orientación-relativa-a"
+
+\end_inset
+
+Orientación relativa a los ejes espaciales x,y, y z del cuerpo de un paragüista
+ (A) y de un pie de bailarina (B) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Tipos de movimientos según la trayectoria: rotación, traslación y mixtos
+\end_layout
+
+\begin_layout Standard
+El cambio de posición de un cuerpo puede ser clasificado según la trayectoria
+ que describa en movimiento de traslación, de rotación y combinados.
+ Una 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+traslación
+\end_layout
+
+\end_inset
+
+traslación en un cuerpo supone un cambio de posición de un sitio a otro
+ dentro de un sistema de referencias.
+ Si el camino que recorre es lineal se denomina “trayectoria rectilínea”
+ y si describe una curva se trata de una “trayectoria curvilínea”.
+ En las translaciones (rectilínea y curvilínea) cada uno de los puntos del
+ cuerpo recorre el mismo espacio en el mismo tiempo.
+ Por ejemplo, el (A) de la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Orientación-relativa-a"
+
+\end_inset
+
+ desplazándose únicamente en dirección X estaría describiendo una trayectoria
+ rectilínea 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+En el movimiento rotatorio o angular, cada parte del cuerpo describe el
+ mismo ángulo en el mismo tiempo.
+ En este tipo de movimiento el cuerpo se dice que gira o rota sobre un eje
+ de movimiento.
+ En el cuerpo humano cada segmento esta unido a su adyacente formando las
+ articulaciones, que son 
+\series bold
+puntos fijos
+\series default
+ sobre los que tiene lugar los cambios de posición (rotación) de los segmentos.
+ Por ejemplo, cuando se hace una flexión de antebrazo, tanto éste como la
+ mano con el peso que esta sujeta rotarán sobre la articulación del codo
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El cambio en la posición durante un movimiento de rotación o angular se
+ llama 
+\series bold
+desplazamiento angular
+\series default
+ y se designa con la letra griega teta 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+(θ)
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang spanish-mexico
+.
+ El desplazamiento que recorre el cuerpo durante una rotación se mide en
+ unidades de desplazamiento angular, como las revoluciones, grados o radianes
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Los-movimientos-de"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/movimientos de rotacion articulares.png
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Los-movimientos-de"
+
+\end_inset
+
+Los movimientos de rotación se producen sobre ejes articulares (A).
+ Cuanto mayor es el radio de giro hay mayor trayectoria circular (B) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Debido a la estructura del esqueleto humano y las articulaciones de sus
+ segmentos, la mayoría de los cambios de posición son del tipo angular o
+ rotacional.
+ En realidad, las translaciones que realizan el cuerpo humano se hacen a
+ partir de rotación de sus 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+segmento corporal
+\end_layout
+
+\end_inset
+
+segmentos corporales.
+ En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Traslación-del-centro"
+
+\end_inset
+
+ se muestra como la translación del centro de gravedad de una persona cuando
+ se levanta una silla se origina gracias a la suma de las rotaciones individuale
+s sobre las articulaciones del tobillo, rodilla y cadera 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/traslacion del centro de gravedad.png
+	height 95mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Traslación-del-centro"
+
+\end_inset
+
+Translación del centro de gravedad de una persona levantándose de una silla
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En el deporte también es frecuente observar una combinación de translaciones
+ (lineales o curvilíneas) y movimientos de rotación.
+ Se pueden observar los movimientos de rotación de rodilla y cadera durante
+ el pedaleo en ciclismo, combinado con el movimiento de translación del
+ sistema ciclista + bicicleta (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Movimientos-combinados-de"
+
+\end_inset
+
+), o durante el desplazamiento en la silla de rueda 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ciclista.jpg
+	height 5cm
+
+\end_inset
+
+
+\begin_inset space \qquad{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/moniqueVanDerVorst.jpg
+	height 5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Movimientos-combinados-de"
+
+\end_inset
+
+Movimientos combinados de rotación de las articulaciones de tobillo, rodilla
+ y cadera translación (izq.) o del movimiento combinado de las articulaciones
+ del hombro, codo y muñeca en la silla de rueda (der.) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-98"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+El esqueleto humano y sus movimientos 
+\end_layout
+
+\begin_layout Standard
+El 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+esqueleto humano
+\end_layout
+
+\end_inset
+
+esqueleto humano es considerado un sistema formado por segmentos móviles
+ unidos.
+ El mismo, si se entiende de esta manera, puede dividirse en los huesos
+ que lo conforman.
+ Sin embargo, desde un punto de vista práctica y con el propósito de describir
+ el movimiento, es frecuente dividir el esqueleto en los siguientes segmentos
+ funcionales: cabeza, zona cervical (cuello), tronco (zona vertebral torácica
+ y lumbar, pelvis y sacro), muslo, pierna o pantorrilla, pie, cintura escapular,
+ brazo, antebrazo y mano 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+Posición anatómica y fundamental 
+\end_layout
+
+\begin_layout Standard
+La descripción de la posición o los movimientos de una articulación se expresan
+ a una posición inicial.
+ Esta es considerada 
+\series bold
+el origen o la posición cero
+\series default
+.
+ En esta posición, el cuerpo esta en 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+bipedestación
+\end_layout
+
+\end_inset
+
+bipedestación (posición del cuerpo humano de estar erguido y sostenido sobre
+ sus 2 pies) con la cabeza mirando al frente y con las palma de las manos
+ mirando hacia el frente.
+ Sin embargo, aunque esta posición es conveniente para describir la posición
+ del movimiento, la mayoría de los biomecánicos prefieren utilizar la denominada
+ 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+anatómica, posición
+\end_layout
+
+\end_inset
+
+posición anatómica
+\series default
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posición-Anatómica-y"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/AnatomicalHuman.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Posición-Anatómica-y"
+
+\end_inset
+
+Esquema de la posición anatómica del cuerpo humano.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Descriptores anatómicos
+\end_layout
+
+\begin_layout Standard
+Una correcta ubicación del movimiento o localización anatómica está relacionada
+ con el uso de una terminología universalmente aceptada y comprendida por
+ del Ámbito de las ciencias de la actividad física y el deporte.
+ Las ventajas de usar adecuadamente los términos se traducen en mejorar
+ la efectividad del proceso aprendizaje y/o la corrección de una habilidad
+ técnica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El término medial se refiere a una posición anatómica relativamente cercana
+ a la línea media del cuerpo u objeto.
+ Por el contrario, el término lateral describe una posición mas alejada
+ a la línea media del cuerpo.
+ Por ejemplo los dedos meñiques y el pulgar esta en una posición lateral
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Los siguientes términos corresponden a 
+\series bold
+proximal y distal
+\series default
+ con ellos se describe a partir de un punto de referencia las 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+posiciones relativas
+\end_layout
+
+\end_inset
+
+posiciones relativas.
+ El primero hace alusión a la posición más cercana al punto de referencia
+ y el segundo a la más lejana.
+ Por ejemplo, el codo es proximal y la muñeca es distal a la articulación
+ del hombro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Un segmento o punto anatómico también puede alojarse en la parte superior
+ del cuerpo, cercano a la posición de la cabeza, o en la parte inferior
+ en la posición cercana a los pies.
+ En consecuencia la cabeza esta en una posición superior al tronco y el
+ tronco en un posición superior al muslo.
+ En este segundo ejemplo el trocánter mayor esta localizado en la parte
+ superior del fémur, mientras que el epicóndilo se sitúa en la parte inferior
+ del humero 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La localización de un objeto o movimiento relativo al frente o a la espalda
+ se denomina 
+\series bold
+anterior y posterior
+\series default
+.
+ Así, el Bíceps Crural en la parte 
+\series bold
+anterior
+\series default
+ del brazo y el tríceps lo hace en la parte 
+\series bold
+posterior
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ En resumen los descriptores anatómicos se encuentran ilustrados en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Términos-anatómicos-utilizados"
+
+\end_inset
+
+ [21].
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/terminos anatomicos.png
+	lyxscale 50
+	height 85mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Términos-anatómicos-utilizados"
+
+\end_inset
+
+Términos anatómicos utilizados para describir una dirección.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Planos y ejes del movimiento
+\end_layout
+
+\begin_layout Standard
+Todos los posibles movimientos que puede realizar un cuerpo o sus segmentos
+ se producen sobre tres planos imaginarios que se interseccionan de manera
+ perpendicular en el centro de masas del cuerpo.
+ El movimiento se producirá en uno o en varios planos específicos o en planos
+ paralelos a éstos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Los tres planos que tiene su origen en el centro de gravedad del cuerpo
+ son el 
+\series bold
+plano sagital
+\series default
+, que divide el cuerpo en la parte derecha e izquierda; el 
+\series bold
+plano frontal
+\series default
+, que lo divide en adelante y atrás (anterior y posterior) y el 
+\series bold
+plano transversal
+\series default
+ que lo divide en superior e inferior 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El movimiento siempre tiene lugar en estos plano o en planos paralelos sobre
+ un 
+\series bold
+eje medio lateral
+\series default
+ (plano sagital), 
+\series bold
+eje anteroposterior
+\series default
+ (plano frontal) o 
+\series bold
+eje longitudinal
+\series default
+ (plano transversal).
+ Los planos y ejes de movimiento son reportados en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Intersección-de-los"
+
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/planosyejes1um2.png
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Intersección-de-los"
+
+\end_inset
+
+Intersección de los 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+planos anatómicos
+\end_layout
+
+\end_inset
+
+planos anatómicos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los cambios posición (movimiento de traslación) en el plano sagital sobre
+ un eje articular son los referidos a los movimientos de 
+\series bold
+flexión y extensión
+\series default
+, como doblar el tronco adelante y atrás, el elevar o bajar la piernas;
+ a su vez los movimientos de rotación en este plano sobre un eje que pasa
+ por los centros de masas son, por ejemplo, los correspondientes a los saltos
+ mortales adelante y atrás.
+ Además, los movimientos en el plano sagital se puede producir sobre un
+ eje externo, por ejemplo a los volteos en una barra fija 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ La visión precisa de este tipo de movimientos se realiza en una posición
+ perpendicular al plano de movimiento colocado en la misma dirección que
+ el eje de movimiento 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+En el plano frontal los movimientos que ocurren en este plano se producen
+ sobre un eje anteroposterior.
+ Al igual que en el plano sagital anteriormente mencionado, estos pueden
+ ocurrir sobre un eje que pase por una articulación, por el centro del cuerpo
+ localizado en su centro de masa.
+ Los cambios de posición son los típicos movimientos referidos a la 
+\series bold
+abducción / aducción
+\series default
+, flexión lateral del tronco y la cabeza, movimientos de inversión y eversión
+ del pie 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La visión precisa de los movimientos sobre un plano frontal se realiza de
+ frente o detrás del cuerpo poniendo atención en el eje de rotación anteroposter
+ior del movimiento 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+En el último de los planos, los movimientos que se presentan son principalmente
+ rotaciones que se producen en el eje longitudinal.
+ Estos movimientos corresponden con las articulaciones de la cadera, hombro,
+ columna vertebral y articulaciones del radio y ulnar 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Como no es posible establecer un enfoque de la visión con exactitud debido
+ a que las observaciones óptimas son aéreas, por eso la observación se suele
+ realizar siguiendo el punto lineal de un cuerpo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Por otra parte si el movimiento del cuerpo humano se produjese en un solo
+ plano, se parecería
+\series bold
+ 
+\series default
+al
+\series bold
+ movimiento mecanizado de un 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+robot
+\end_layout
+
+\end_inset
+
+robot (técnica perfecta) 
+\series default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sistema biológico de estudio (sistema esquelético y sus articulaciones)
+\end_layout
+
+\begin_layout Standard
+El 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+sistema biológico
+\end_layout
+
+\end_inset
+
+sistema biológico de estudio (atleta) requiere un sistema complejo de elementos
+ interrelacionados y en sinergia armónica para realizar el movimiento del
+ cuerpo biológico, para poder estudiarlo básicamente se divide en dos sistemas
+ el interno, constituido por sistema esquelético (esqueleto y articulaciones);
+ y el sistema externo con los músculos.
+\end_layout
+
+\begin_layout Standard
+El sistema esquelético confiere al cuerpo el soporte y las condiciones de
+ rigidez necesarias para que se produzca el movimiento.
+ Su componente principal es el hueso que se define como un tejido vivo y
+ dinámico que se remodela constantemente bajo el control de factores hormonales
+ y físicos.
+ Dicho sistema funciona como un conjunto de palancas que transmiten la fuerza
+ generada por los músculos y por tanto generando el movimiento corporal
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+El 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+esqueleto humano
+\end_layout
+
+\end_inset
+
+esqueleto humano se define como el conjunto de 206 huesos que unidos mediante
+ las articulaciones proporciona el soporte para el movimiento, funciona
+ como compartimiento para el resto de tejidos y órganos blandos e incluso
+ sirve como protector de los órganos vitales 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Las 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+articulación
+\end_layout
+
+\end_inset
+
+articulaciones son las estructuras anatómicas que tiene como propósito mantener
+ conectados y unidos los huesos próximos mediante ligamentos y músculos.
+ La dirección y el grado de movimiento dependen de las formas en las superficies
+ de la articulación.
+\end_layout
+
+\begin_layout Standard
+Existen dos formas de clasificar las articulaciones la primera de ella es
+ la cantidad de ejes que posee (funcional) y su estructura (estructural).
+ 
+\end_layout
+
+\begin_layout Standard
+Las clasificación funcional considera los planos en que realizan su movimiento
+ y pueden ser:
+\end_layout
+
+\begin_layout Standard
+1.- 
+\series bold
+Monoaxiales
+\series default
+: Representan aquella donde el movimiento angular se realiza en un solo
+ eje.
+ Un ejemplo es la articulación del codo.
+\end_layout
+
+\begin_layout Standard
+2.- 
+\series bold
+Biaxilaes
+\series default
+: Permite movimiento en dos ejes diferentes.
+ Por ejemplo la articulación a la altura de la muñeca (radiocarpiana).
+\end_layout
+
+\begin_layout Standard
+3.- 
+\series bold
+Triaxial
+\series default
+: En este tipo de articulaciones el movimiento se realiza en tres ejes de
+ movimiento.
+ Los ejemplos clásicos corresponden a la articulación del hombro y de la
+ cadera.
+ 
+\end_layout
+
+\begin_layout Standard
+4.- 
+\series bold
+No axial
+\series default
+: Esta ultima permite pequeños movimientos de deslizamiento (no axial).
+ Ejemplos de esta es, la articulación formada entre los huesos carpianos
+ y tarsianos de la muñeca y el pie.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Técnica deportiva
+\end_layout
+
+\begin_layout Standard
+El 80% de los deportes se caracterizan por patrones de movimiento que se
+ ejecutan en las mismas condiciones, ejemplos de estos: el lanzamiento del
+ disco o la jabalina, el salto al potro en gimnasia o la remada en el remo
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-50"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\noun on
+Matveev
+\noun default
+ (1985) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-26"
+
+\end_inset
+
+ define la técnica deportiva como el medio para liberar la lucha deportiva.
+ 
+\noun on
+Weineck
+\noun default
+ (1985) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-26"
+
+\end_inset
+
+, describe la técnica como el conjunto de procesos desarrollados generalmente
+ por la práctica para resolver racional y económicamente un problema motriz
+ determinado.
+ La técnica de una modalidad deportiva corresponde a un cierto motor ideal
+ y que puede sufrir una modificación que corresponde a peculiaridades, constituy
+endo así el estilo personal.
+\end_layout
+
+\begin_layout Standard
+Para 
+\noun on
+Gutiérrez
+\noun default
+ (2001) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-27"
+
+\end_inset
+
+, la técnica deportiva es el conjunto de 
+\series bold
+modelos biomecánicos
+\series default
+, anatómicos y funcionales que los movimientos tienen implícitos para ser
+ realizado con la máxima eficiencia.
+ 
+\noun on
+Álvarez
+\noun default
+ (2003) afirma que la técnica se puede definir como 
+\series bold
+la ejecución de movimientos estructurales
+\series default
+ que obedecen a una serie de patrones 
+\series bold
+temporales y espaciales
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-28"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+técnica deportiva
+\end_layout
+
+\end_inset
+
+técnica deportiva se puede definir como 
+\series bold
+la ejecución de movimientos estructurales
+\series default
+ que obedecen a una serie de 
+\series bold
+patrones temporales y espaciales
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Se determina a partir de la estructura de un modelo funcional.
+\end_layout
+
+\begin_layout Enumerate
+Solo puede ser aplicada por el atleta.
+\end_layout
+
+\begin_layout Enumerate
+La persona que la realiza se relaciona con factores temporales y espaciales.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Tiene como finalidad la ejecución de estructuras funcionales.
+\end_layout
+
+\begin_layout Enumerate
+La evaluación se hace a partir de la cantidad de errores que se realicen
+ en su ejecución con respecto a la estructura modelo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Existen en principio 2 grupos de técnica deportiva con características bien
+ diferenciados: 
+\series bold
+técnica regular y técnica variable
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grupo 1º.
+ Técnica regular.
+
+\series default
+ Caracteriza a los deportes que el ciclo o el encadenamiento de sus ciclos
+ se realiza de forma constante y fija.
+ Como la brazada en natación, la zancada en la carrera de atletismo, o los
+ giros y piruetas en gimnasia.
+ La acción motriz se caracteriza por no tener un adversario directo.
+ La cadencia de la acción motriz de la técnica se realiza con un cierto
+ ritmo más o menos constante y estereotipada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+ La amplitud y la frecuencia son factores referenciales en este tipo de
+ técnica de movimiento.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Grupo2º.
+ Técnica variable.
+
+\series default
+ Pertenecientes a los deportes con un adversario directo u oponente.
+ Corresponde a los deportes de colaboración/oposición, deportes de equipo)
+ y adversario directo (deportes de combate).
+ Son características de la Técnica en función del Factor Oposición 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+Regulación o ajuste para solucionar el problema motriz mediante la técnica,
+ debido a la presencia del adversario.
+ 
+\end_layout
+
+\begin_layout Enumerate
+La situación y condiciones de la ejecución de la técnica es variable.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Es conveniente que la intencionalidad o el gesto en general de la técnica
+ no sea revelado de antemano (excepto en la finta).
+ 
+\end_layout
+
+\begin_layout Enumerate
+En los deportes de colaboración/oposición es necesario que la técnica sea
+ supeditada al requerimiento táctico y estratégico 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En el plano práctico, para este grupo de deportes hablamos de habilidad
+ técnica cuando se refiere a la posibilidad de aplicar la técnica aprendida
+ (movimiento o sucesión de movimientos) de forma variable, sobre la base
+ de las condiciones de situación de juego 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La técnica deportiva es un concepto nacido de la práctica de la actividad
+ del juego.
+ Los jugadores utilizan su coordinación motriz para llevar a cabo y conseguir
+ el objetivo táctico y/o estratégico 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+técnica de remo
+\end_layout
+
+\end_inset
+
+Técnica de remo
+\end_layout
+
+\begin_layout Standard
+El remo como cualquier deporte que se practique requiere de una serie de
+ pasos sistemáticos denominados 
+\series bold
+técnica
+\series default
+, para esta disciplina están identificadas 4 fases (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Técnica-de-Remo"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Itemize
+El ataque
+\end_layout
+
+\begin_layout Itemize
+El pase
+\end_layout
+
+\begin_layout Itemize
+El final
+\end_layout
+
+\begin_layout Itemize
+La recuperación 
+\end_layout
+
+\begin_layout Standard
+En el remo como en otros deportes el resultado final es la combinación de
+ los principios mecánicos, biomecánicos y fisiológicos, estos principios
+ casi siempre van por caminos separados, pero el logro de un buen desempeño
+ depende de la combinación de estos aspectos que darán como resultado la
+ implementación de una técnica apropiada de remada.
+\end_layout
+
+\begin_layout Standard
+La técnica correcta supone un aprendizaje continuo.
+ Incluso después de años de experiencia los remeros de élite continúan esforzánd
+ose en perfeccionar su técnica con el propósito de bajar segundos en sus
+ tiempos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Técnica-de-Remo"
+
+\end_inset
+
+Técnica de remo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/tecnica de remo.jpg
+	height 23cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Fallos técnicos
+\end_layout
+
+\begin_layout Standard
+Una técnica correcta es esencial para una remada eficiente y para disminuir
+ el riesgo de las lesiones 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+ A continuación se muestra las fallas más comunes en la técnica con sus
+ soluciones (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Fallas-1ª,-2ª"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Fallas-4ª,-5ª"
+
+\end_inset
+
+,
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Fallas-7ª,-8ª"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Falla-10ª-en"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Fallas-1ª,-2ª"
+
+\end_inset
+
+Fallas 1ª y 2ª en la ejecución de la técnica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="13" columns="2">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="8.5cm">
+<column alignment="block" valignment="top" width="8.5cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fallo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solución
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.- Tirar muy alto y tumbando demasiado.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas4a.png
+	width 85mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas4b.png
+	width 85mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) Al Final de la palada, el remero tira de la empuñadura demasiado hacia
+ arriba y tumba demasiado atrás.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Tirar de la empuñadura hasta el cuerpo.
+ Las muñecas deben ir rectas con los codos parejos pasando el cuerpo, antebrazos
+ horizontales.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.- Deslizamiento creciente.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas5a.png
+	width 85mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas5b.png
+	width 85mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) Las piernas empujan demasiado pronto, la espalda no está sujeta y por
+ lo tanto la potencia no se transfiere a la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Las piernas comienzan el pase y el cuerpo va hacia atrás con los brazos
+ rectos transfiriendo la potencia de las piernas a la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Fallas-4ª,-5ª"
+
+\end_inset
+
+Fallas 3ª y 4ª en la ejecución de la técnica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="12" columns="2">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="8.5cm">
+<column alignment="block" valignment="top" width="8.5cm">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fallo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solución
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.- Utilizar la espalda demasiado pronto.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas6a.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas6b.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) El remero comienza el Pase tirando la espalda hacia atrás más que empujando
+ con las piernas.
+ Esto resulta en un movimiento debilitado.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Las piernas empiezan el 
+\series bold
+pase
+\series default
+ y el cuerpo va hacia atrás con los brazos totalmente extendidos y relajados.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.- Remar con los brazos flexionados.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas1a.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas1b.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) El remero comienza el Pase tirando con los brazos más que empujando con
+ las piernas.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) El 
+\series bold
+pase
+\series default
+ debe comenzar empujando con las piernas y sujetando la espalda con los
+ brazos totalmente extendidos y relajados.
+ Los brazos conectan las piernas y la espalda con la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Fallas-7ª,-8ª"
+
+\end_inset
+
+Fallas 5ª, 6ª y 7ª en la ejecución de la técnica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="8.5cm">
+<column alignment="block" valignment="top" width="8.5cm">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fallo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solución
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5.- Codos volantes.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas2a.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas2b.png
+	width 80mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) Los codos del remero asoman hacia los lados del cuerpo en el Final.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Tirar de la empuñadura hasta el cuerpo.
+ Las muñecas rectas con los codos parejos pasando el cuerpo, antebrazos
+ horizontales.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6.- Flexionar las muñecas.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas3a.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas3b.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) Se puede ver al remero en varias etapas del Pase- Ataque, Pase y Final
+ con las muñecas flexionadas.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Remar siempre con las muñecas rectas y vigilar las manos en cada etapa
+ del 
+\series bold
+pase
+\series default
+.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7.- Rodillas demasiado pronto.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas7a.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas7b.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) En la Recuperación el remero se desliza hacia delante antes de que la
+ empuñadura se haya extendido pasando las rodillas.
+ Las manos golpean las rodillas o el remero eleva las manos para no golpear
+ las rodillas.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Recordar la secuencia de la 
+\series bold
+recuperación
+\series default
+ – manos, cuerpo, entonces deslizar.
+ Después de haber extendido totalmente los brazos y el cuerpo se haya balanceado
+ hacia delante, deslizarse hacia delante, manteniendo la posición de brazos
+ y cuerpo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Falla-10ª-en"
+
+\end_inset
+
+Falla 8ª, 9ª y 10ª en la ejecución de la técnica 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="block" valignment="top" width="8.5cm">
+<column alignment="block" valignment="top" width="8.5cm">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fallo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solución
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8.- Sobre-extensión.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas8a.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas8b.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) El cuerpo se estira demasiado hacia delante.
+ Las tibias pueden pasar la vertical.
+ La cabeza y los hombros tienden a agacharse hacia los pies.
+ El cuerpo está en una posición débil para el Pase.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Las tibias verticales.
+ El cuerpo se junta a las piernas.
+ Los brazos están totalmente extendidos y relajados, el cuerpo balancea
+ ligeramente hacia delante.
+ Esta posición te hará sentir cómodo.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9.- El cuerpo demasiado tenso.
+ Agarrar la empuñadura demasiado fuerte.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas9a.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas9b.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) Los dientes apretados, los hombros curvados y se agarra la empuñadura
+ demasiado fuerte.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) Relajar los hombros, sin apretar los dientes y relajar la mandíbula.
+ Mantener un agarre ligero sobre la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10.- Meter el cuerpo hacia la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas10a.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/fallas10b.png
+	width 70mm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a) En el Final, el remero, en lugar de tirar de la empuñadura hacia el cuerpo
+ se inclina hacia delante a la empuñadura.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b) En el 
+\series bold
+fina
+\series default
+l el remero se inclina hacia atrás ligeramente, mantiene las piernas abajo
+ e iguala la empuñadura en el cuerpo utilizando la parte superior del cuerpo
+ como una plataforma firme.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hardware
+\end_layout
+
+\begin_layout Standard
+A continuación se presentan los componentes físicos utilizados y un resumen
+ de cada uno:
+\end_layout
+
+\begin_layout Subsection
+Microcontrolador 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Atmega48
+\end_layout
+
+\end_inset
+
+Atmega48.
+\end_layout
+
+\begin_layout Standard
+Los 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+microcontrolador
+\end_layout
+
+\end_inset
+
+microcontroladores son circuitos integrados que cuentan con una unidad de
+ procesamiento central (CPU), dos memorias una para almacenar el programa
+ y otra para almacenar datos, además de puertos entrada-salida (I/O).
+ El funcionamiento de los microcontroladores está determinado por el programa
+ almacenado en su memoria.
+ Este puede escribirse en distintos lenguajes de programación como ensamblador,
+ C ANSI y Basic.
+ Pueden ser reprogramados.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-36"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Los 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+AVR
+\end_layout
+
+\end_inset
+
+AVR son una familia de microcontroladores 
+\emph on
+RISC 
+\emph default
+(del inglés Reduced Instruction Set Computer, en español conjunto de instruccion
+es reducido) de Atmel.
+ La arquitectura de los AVR fue concebida por 2 estudiantes en el Norwegian
+ Institute of Technology, posteriormente fué refinada y desarrollada en
+ Atmel Norway.
+ El AVR es una CPU de arquitectura 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Harvard, arquitectura
+\end_layout
+
+\end_inset
+
+Harvard
+\emph default
+ (arquitecturas de computadoras que utilizan dispositivos de almacenamiento
+ físicamente separados para las instrucciones y los datos) .
+ Tiene 32 registros de 8 bits.
+ Algunas instrucciones sólo operan en un subconjunto de estos registros.
+ La concatenación de los 32 registros, los registros de entrada/salida y
+ la memoria de datos conforman un espacio de direcciones unificado, al cual
+ se accede a través de operaciones de carga/almacenamiento.
+ A diferencia de los microcontroladores PIC, el 
+\emph on
+stack
+\emph default
+ se ubica en este espacio de memoria unificado, y no está limitado a un
+ tamaño fijo.
+\end_layout
+
+\begin_layout Standard
+El AVR fue diseñado desde un comienzo para la ejecución eficiente de código
+ C compilado.
+ Como este lenguaje utiliza punteros para el manejo de variables en memoria,
+ los 3 últimos pares de registros internos del procesador, son usados como
+ punteros de 16 bits al espacio de memoria externa, bajo los nombres X,
+ Y y Z.
+ Los microcontroladores AVR tienen una tubería 
+\emph on
+(pipeline
+\emph default
+ en inglés) con dos etapas (cargar y ejecutar), que les permite ejecutar
+ la mayoría en un ciclo de reloj, lo que los hace relativamente rápidos
+ entre los microcontroladores de 8-bit 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-71"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ATmega48.jpg
+	height 65mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Fotografía del Atmega 48
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+giróscopo
+\end_layout
+
+\end_inset
+
+Giróscopo ITG-3200
+\end_layout
+
+\begin_layout Standard
+El ITG-3200 se compone de 3 giróscopos independientes en cada eje de tecnología
+ 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+MEMS
+\end_layout
+
+\end_inset
+
+MEMS (acrónimo en ingles Micro Electro Mechanical Systems, en español Sistema
+ Micro Electro Mecánico), los cuales detectan la velocidad de rotación en
+ cada eje coordenado X (roll), Y (pitch) y Z (yaw).
+ Cuando el sensor rota en cualquier sentido de los 3 ejes, el efecto de
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+coriolis
+\end_layout
+
+\end_inset
+
+Coriolis (efecto que se observa en un sistema de referencia en rotación
+ que consiste en la existencia de una aceleración relativa del cuerpo en
+ dicho sistema en rotación) ocasiona una deflección que es detectada por
+ un valor capacitivo.
+ La señal resultante es amplificada, demodulada, y filtrada para producir
+ un voltaje proporcional a la velocidad angular.
+ Este voltaje es digitalizado utilizando un convertidor analógico digital
+ de 16 bits (ADC) que muestrea cada eje.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/gyroPhoto.png
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/gyrophoto2.jpg
+	width 8.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Fotografía interna del sensor (der.) Esquema de las fuerzas de coriólis (izq.)
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-56"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El rango completo de medición del sensor es de 
+\begin_inset Formula $\pm2000$
+\end_inset
+
+ grados cada segundo (º/s).
+ La tasa de salida del ADC se puede programar en el rango de 3.9 hasta 8,000
+ cuentas cada segundo, además de contar con un filtro pasa bajas digital
+ programable a frecuencias de corte determinadas por la hoja de especificaciones.
+\end_layout
+
+\begin_layout Standard
+El ITG-3200 se comunica al microcontrolador utilizando la interface 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+ a una frecuencia de trabajo del puerto de 400 kHz., actuando como un dispositivo
+ esclavo.
+ El microcontrolador accesa a los registros internos del sensor utilizado
+ el protocolo de comunicación (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Protocolo-de-comunicación"
+
+\end_inset
+
+) considerando que se conserva el último dato del giróscopo en sus registros,
+ estos pueden ser leídos en cualquier momento, sin embargo las funciones
+ de interrupción pueden ser utilizadas para determinar cuando hay un nuevo
+ dato disponible.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ITG3200BLOCK.png
+	lyxscale 60
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-a-bloques-1"
+
+\end_inset
+
+Diagrama a bloques funcional del giróscopo ITG-3200 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-56"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-a-bloques-1"
+
+\end_inset
+
+ se observan los principales bloques que componen al ITG-3200 que son: 
+\end_layout
+
+\begin_layout Itemize
+Giróscopos de 3-axis de tecnología MEMS con ADC de 16-bits individuales
+ y acondicionares de señal.
+ 
+\end_layout
+
+\begin_layout Itemize
+Interface de comunicación serial 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Señal de reloj, cuenta con un esquema flexible permitiendo una variedad
+ de señales de reloj internos y externos.
+\end_layout
+
+\begin_layout Itemize
+Registros de datos, estos contienen el último dato del gyro y la temperatura.
+ Son registros de solo lectura.
+ 
+\end_layout
+
+\begin_layout Itemize
+Sistema de interrupciones 
+\end_layout
+
+\begin_layout Itemize
+Sensor de temperatura digital, utilizado para medir la temperatura actual
+ del sensor.
+ 
+\end_layout
+
+\begin_layout Itemize
+Bias y LDO, toman una tensión no regulada del VDD y generan una fuente interna
+ estable así como las referencias requeridas por el sensor.
+\end_layout
+
+\begin_layout Itemize
+Bomba de carga que genera 25V requerido por el oscilador interno del MEMS.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+acelerómetro
+\end_layout
+
+\end_inset
+
+Acelerómetro ADXL-345
+\end_layout
+
+\begin_layout Standard
+El ADXL-345 es un chip con acelerómetros de 3 ejes, capaz de realizar mediciones
+ de la aceleración estática y dinámica en cada eje.
+ Cuenta con una resolución de 13 bits en cada canal y un rango de 
+\begin_inset Formula $\pm16g$
+\end_inset
+
+.
+ La salida digital tiene un formato de 16 bits 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+complemento-2
+\end_layout
+
+\end_inset
+
+complemento-2, utiliza la protocolo de comunicación SPI de 3 o 4 hilos e
+ 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+.
+ Tiene una sensibilidad de 3.9mg/
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+LSB
+\end_layout
+
+\end_inset
+
+LSB, lo que permite hacer mediciones de inclinación menores a 1.0°.
+\end_layout
+
+\begin_layout Standard
+El ADXL345 tiene implementado varias funciones especiales que detectan periodos
+ de actividad e inactividad del sensor, presencia o falta de movimiento
+ por comparación de la aceleración en cualquiera de los ejes con los umbrales
+ definidos por el usuario.
+ Detecta caída libre si el dispositivo está cayendo.
+ Estas funciones se pueden asignar individualmente a cualquiera de los dos
+ pines de salida de interrupción.
+ Además cuenta con un sistema de gestión de memoria de 32 registros 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+FIFO
+\end_layout
+
+\end_inset
+
+FIFO (first in, first out), este pila puede ser usada para almacenar datos
+ y reducir al mínimo la actividad del microcontrolador anfitrión (
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+host
+\end_layout
+
+\end_inset
+
+host
+\emph default
+) y un menor consumo total de energía del sistema.
+ 
+\end_layout
+
+\begin_layout Standard
+Principalmente se compone de una estructura micromaquinada suspendida sobre
+ una oblea de silicio policristalino y capacitores diferenciales 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-91"
+
+\end_inset
+
+.
+ Un plato de cada capacitor es conectado a la estructura suspendida y en
+ el otro plato está de forma independiente clavado.
+ Así la desviación de la estructura cambia la distancia entre los platos
+ del capacitor, modificando la capacitancia.
+ Un circuito en el interior del 
+\emph on
+chip
+\emph default
+ mide la diferencia entre estas capacitancias y el resultado es una amplitud
+ proporcional de la aceleración.
+ Esta amplitud es convertida en una señal digital compatible con el protocolo
+ 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/fotografiaADXL335.jpg
+	lyxscale 50
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Fotografía interna del acelerómetro ADXL345 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-99"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ADXL345Block.png
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama a bloques funcional del acelerómetro ADXL-345 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-55"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las principales características del ADXL-345:
+\end_layout
+
+\begin_layout Itemize
+Consumo de energía: 
+\begin_inset Formula $23\mu A$
+\end_inset
+
+, a 2.5V
+\end_layout
+
+\begin_layout Itemize
+Selección del rango de medición por el usuario 2g,4g,8g,16g.
+\end_layout
+
+\begin_layout Itemize
+Selección de la resolución de salida desde 10 bits hasta 16 bits.
+\end_layout
+
+\begin_layout Itemize
+Sensibilidad del sensor de 3.9mg/LSB
+\end_layout
+
+\begin_layout Itemize
+Pila FIFO de 32 registros
+\end_layout
+
+\begin_layout Itemize
+Voltaje de alimentación de 2.0V a 3.6V
+\end_layout
+
+\begin_layout Itemize
+Intefaces digitales SPI de 3 y 4 hilos e 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Temperatura de trabajo (-40°C a +85°C)
+\end_layout
+
+\begin_layout Itemize
+Dimensiones del encapsulado: 3mm x 5mm x 1mm LGA
+\end_layout
+
+\begin_layout Itemize
+El chip soporta choques de 10,000 g.
+ antes de alcanzar la destrucción.
+ 
+\end_layout
+
+\begin_layout Itemize
+Selección del ancho de banda por comandos seriales.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Módem Bluetooth SMiRF
+\end_layout
+
+\begin_layout Standard
+Este módulo 
+\emph on
+SMiRF
+\emph default
+ (del inglés Serial Miniatura RF Link) desarrollado por la empresa Sparkfun
+ puede conectarse con unidades 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Bluetooth
+\end_layout
+
+\end_inset
+
+Bluetooth.
+ Este módem trabaja con el 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "Un-protocolo-es"
+
+\end_inset
+
+protocolo estandard 
+\emph on
+RS-232-TTL
+\emph default
+.
+ Cuenta con velocidades de transmisión de 9600bps hasta 115200bps.
+ El rango de alimentación DC es de 3.3V hasta 6V.
+ Diseñado para liberar de conexiones eléctricas entre un microcontrolador
+ compatible con comunicación serial y la
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+USART
+\end_layout
+
+\end_inset
+
+ USART (del ingles Universal Synchronous Asynchronous Receiver Transmitter)
+ de la computadora.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/BreakoutBluetooth.jpg
+	height 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tableta del 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+módem
+\end_layout
+
+\end_inset
+
+módem 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Bluetooth
+\end_layout
+
+\end_inset
+
+Bluetooth 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-57"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bluetooth es una especificación industrial para redes inalámbricas diseñado
+ especialmente para dispositivos de bajo consumo, con una cobertura baja
+ y basados en transceptores de bajo costo.
+ Dado que determinados elementos se utilizan tanto para la transmisión como
+ para la recepción, la comunicación que provee un transceptor solo puede
+ ser 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+semidúplex
+\end_layout
+
+\end_inset
+
+semidúplex, lo que significa que pueden enviarse señales entre dos terminales
+ en ambos sentidos, pero no simultáneamente.
+ 
+\end_layout
+
+\begin_layout Standard
+El término 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+transceptor
+\end_layout
+
+\end_inset
+
+transceptor se aplica a un dispositivo que realiza, dentro de una misma
+ caja o chasis, funciones tanto de trasmisión como de recepción, utilizando
+ componentes de circuito comunes para ambas funciones.
+\end_layout
+
+\begin_layout Standard
+Los dispositivos Bluetooth pueden comunicarse entre ellos cuando se encuentran
+ dentro de su alcance.
+ Las comunicaciones se realizan por radiofrecuencia en la 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+ISM, banda
+\end_layout
+
+\end_inset
+
+banda ISM (Industrial, Scientific and Medical) de los 2,4 GHz de forma que
+ los dispositivos no tienen que estar alineados y pueden incluso estar en
+ habitaciones separadas si la potencia de transmisión lo permite.
+ 
+\end_layout
+
+\begin_layout Standard
+El nombre procede del rey danés y noruego 
+\noun on
+Harald Blåtand
+\noun default
+, cuya traducción al inglés sería 
+\noun on
+Harold Bluetooth
+\noun default
+, conocido por buen comunicador y por unificar las tribus noruegas, suecas
+ y danesas.
+ 
+\end_layout
+
+\begin_layout Standard
+En la comunicación Bluetooth, un dispositivo debe implementar alguno de
+ los perfiles del mismo.
+ Estos definen el uso del canal, así como canalizar al dispositivo que se
+ quiere vincular.
+ Un perfil Bluetooth es la especificación de una interfaz de alto nivel
+ para su uso entre dispositivos Bluetooth.
+ Para utilizar una cierta tecnología Bluetooth un dispositivo deberá soportar
+ ciertos perfiles.
+\end_layout
+
+\begin_layout Standard
+Los perfiles son descripciones de comportamientos generales que los dispositivos
+ pueden utilizar para comunicarse, formalizados para favorecer un uso unificado.
+ La forma de utilizar las capacidades de Bluetooth se basa por tanto, en
+ los perfiles que soporta cada dispositivo.
+ Los perfiles permiten la manufactura de dispositivos que se adapten a sus
+ necesidades.
+ 
+\end_layout
+
+\begin_layout Standard
+Los perfiles han sido definidos y adoptados por 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+Bluetooth SIG
+\end_layout
+
+\end_inset
+
+Bluetooth SIG
+\emph default
+ (Special Interest Group, o grupo de interés especial).
+ Es una asociación privada sin ánimo de lucro con sede en Bellevue, Washington.
+ En 1998, Ericsson, IBM, Intel, Toshiba y Nokia formaron un consorcio y
+ adoptaron Bluetooth como nombre para su especificación.
+ Los miembros del SIG dirigen el desarrollo de la tecnología inalámbrica
+ Bluetooth, además de implementar y comercializar la tecnología en sus productos.
+ El Bluetooth SIG por sí mismo no fabrica ni vende dispositivos Bluetooth.
+ Cualquier compañía que incorpora la tecnología inalámbrica Bluetooth en
+ sus productos para ofrecer bienes y servicios debe convertirse en un miembro
+ de Bluetooth SIG 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-102"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+SPP, perfil
+\end_layout
+
+\end_inset
+
+
+\series bold
+Perfil SPP (Serial Port Profile)
+\end_layout
+
+\begin_layout Standard
+Basado en la especificación 07.10 de 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+ETSI
+\end_layout
+
+\end_inset
+
+ETSI
+\emph default
+ (European Telecommunications Standards Institute o Instituto Europeo de
+ Normas de Telecomunicaciones) por medio del protocolo 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+RFCOMM
+\end_layout
+
+\end_inset
+
+RFCOMM (Radio Frequency Communication o comunicación por radio frecuencia).
+ Emula una línea serie y provee una interfaz de reemplazo de comunicaciones
+ basadas en RS-232, con las señales de control típicas.
+ RFCOMM es a menudo denominado emulación de puertos serie.
+ El puerto serie de Bluetooth está basado en este protocolo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-104"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Un 
+\begin_inset CommandInset label
+LatexCommand label
+name "Un-protocolo-es"
+
+\end_inset
+
+protocolo es un conjunto de reglas o estándares que dominan la sintaxis,
+ semántica y sincronización de la comunicación entre dos o mas dispositivos
+ y/o computadoras.
+ Los protocolos pueden ser implementados por hardware, software, o una combinaci
+ón de ambos.
+ A su más bajo nivel, un protocolo define el comportamiento de una conexión
+ de hardware.
+ Los protocolos permiten el flujo de información entre equipos que manejan
+ lenguajes distintos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-103"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Puertos de comunicación 
+\end_layout
+
+\begin_layout Standard
+Existen dos formas básicas de intercambiar información binaria: la paralela
+ y la serial, la comunicación paralela transmite todos los bits de un dato
+ de manera simultánea, por lo tanto la velocidad de transferencia es rápida,
+ sin embargo tiene la desventaja de utilizar una gran cantidad de líneas,
+ por lo tanto se refleja en el costo y tiene la desventaja de atenuarse
+ a grandes distancias por la capacitancia entre los conductores 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-35"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Por lo que a continuación se describen los 2 puertos de comunicación utilizadas
+ en este trabajo como alternativas al puerto paralelo:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+RS-232
+\end_layout
+
+\end_inset
+
+Puerto serie RS-232
+\end_layout
+
+\begin_layout Standard
+Es una interfaz física de comunicación en serie a través de la cual se transfier
+e información mandando o recibiendo un bit.
+ Se utiliza para conectar las computadoras o microcontroladores a dispositivos
+ como terminales, modems o sensores.
+ El término "
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+puerto serie
+\end_layout
+
+\end_inset
+
+puerto serie" normalmente identifica el hardware conforme al estándar 
+\emph on
+RS-232
+\emph default
+, diseñado para interactuar con un módem o con un dispositivo de comunicación
+ similar.Los puertos serie existen actualmente en sistemas de automatización
+ industrial y algunos productos industriales y de consumo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-35"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+El puerto serie 
+\emph on
+RS-232
+\emph default
+ (también conocido como COM) del tipo asincrónico, utiliza cableado simple
+ desde 3 hilos y conecta computadoras o microcontroladores a todo tipo de
+ periféricos que sean compatibles con la norma.
+\end_layout
+
+\begin_layout Standard
+En el equipo de cómputo la interfaz entre el estándar 
+\emph on
+RS-232
+\emph default
+ y el microprocesador generalmente se realiza mediante una 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+USART
+\end_layout
+
+\end_inset
+
+USART (acrónimo en inglés Universal Synchronous Asynchronous Receiver-Transmitte
+r, en español Transmisor-Receptor Síncrono Asíncrono Universal) se diseñó
+ para convertir las señales que maneja la CPU y transmitirlas al exterior.
+ La mayoría de las computadoras construidas después del año 2000 utilizan
+ el chip USART 16550, que soporta velocidades de transmisión de hasta 921.6
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+kbps
+\end_layout
+
+\end_inset
+
+kbps (kilobits cada segundo).
+ Las principales funciones de la USART son manejar las interrupciones de
+ los dispositivos conectados al puerto serie y convertir los datos en formato
+ paralelo, transmitidos al puerto del sistema a datos en formato serie,
+ para que puedan ser transmitidos a través de los puertos y viceversa.
+\end_layout
+
+\begin_layout Standard
+La típica transmisión 
+\emph on
+start-stop
+\emph default
+ es la que se usa en la transmisión de códigos 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+ASCII
+\end_layout
+
+\end_inset
+
+ASCII (acrónimo inglés de 
+\emph on
+American Standard Code for Information Interchange
+\emph default
+ o en español Código Americano Estándar para el Intercambio de Información)
+ a través del puerto 
+\emph on
+RS-232
+\emph default
+.
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Protocolo de comunicación RS-232 Asíncrona:
+\end_layout
+
+\begin_layout Enumerate
+Se envía una señal inicial 
+\series bold
+\emph on
+start bit
+\series default
+\emph default
+ anterior a cada byte, carácter o palabra codificada.
+\end_layout
+
+\begin_layout Enumerate
+Una vez enviado el código correspondiente se envía inmediatamente una señal
+ de 
+\series bold
+\emph on
+stop
+\series default
+\emph default
+ después de cada palabra codificada.
+\end_layout
+
+\begin_layout Enumerate
+La señal de inicio 
+\series bold
+(
+\emph on
+start
+\emph default
+ bit)
+\series default
+ sirve para preparar al mecanismo de recepción, la llegada y registro de
+ un símbolo, y la señal de parada 
+\series bold
+(
+\emph on
+stop bit)
+\series default
+\emph default
+ sirve para predisponer al mecanismo de recepción para que tome un descanso
+ y se prepare para la recepción del nuevo símbolo.
+\end_layout
+
+\begin_layout Standard
+Las transacciones en el puerto
+\emph on
+ RS-232
+\emph default
+ tienen este formato:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+| 
+\emph on
+start
+\emph default
+ bit | 0 1 2 3 4 5 6 7 | 
+\emph on
+parity
+\emph default
+ bit | 
+\emph on
+stop
+\emph default
+ bit |
+\end_layout
+
+\begin_layout Subsection
+Puerto serie 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+Es un puerto de comunicaciones en serie.
+ (acrónimo en inglés 
+\emph on
+Inter-Integrated
+\emph default
+ 
+\emph on
+Circuit
+\emph default
+ o en español Circuitos Inter-Integrados).
+ La versión 1.0 data del año 1992 y la versión 2.1 del año 2000, diseñada
+ por la empresa Philips.
+ La velocidad es de 100Kbits/s y 400Kbits/s en el modo estándar, aunque
+ también permite velocidades de 3.4 Mbit/s.
+ Utilizado para propósitos industriales, principalmente para comunicar microcont
+roladores y sus periféricos en sistemas integrados (
+\emph on
+Embedded Systems
+\emph default
+) que normalmente residen en la misma placa de circuito impreso 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-39"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La principal característica de 
+\begin_inset Formula $I²C$
+\end_inset
+
+ es que utiliza 2 líneas para transmitir la información: una para los datos
+ y por otra la señal de reloj.
+ Es necesaria una línea para la referencia o masa.
+ Como suelen comunicarse circuitos en una misma placa que comparten una
+ misma masa o tierra, esta tercera línea no suele ser necesaria.
+ Las líneas se llaman: 
+\series bold
+SDA
+\series default
+ (acrónimo en inglés de 
+\emph on
+Serial Data
+\emph default
+ o datos seriales), 
+\series bold
+SCL
+\series default
+ (acrónimo en ingles de 
+\emph on
+Serial Clock
+\emph default
+ o en español señal de reloj), 
+\series bold
+GND
+\series default
+ (acrónimo en ingles de 
+\emph on
+Ground
+\emph default
+, en español referencia o tierra) ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Esquema-de-transmisión"
+
+\end_inset
+
+.
+ Las 2 primeras líneas son drenador abierto, por lo que necesitan resistencias
+ de 
+\emph on
+pull-up
+\emph default
+, estas resistencias se conectan a la señal 
+\series bold
+VCC
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+Los dispositivos conectados al puerto 
+\begin_inset Formula $I²C$
+\end_inset
+
+ tienen una dirección única para cada uno.
+ También pueden ser maestros o esclavos.
+ El dispositivo maestro inicia la transferencia de datos y además genera
+ la señal de reloj, pero no es necesario que el maestro sea siempre el mismo
+ dispositivo, esta característica se la pueden ir pasando los dispositivos
+ que tengan esa capacidad por lo que al puerto 
+\begin_inset Formula $I²C$
+\end_inset
+
+ se le denomina puerto multimaestro.
+\end_layout
+
+\begin_layout Standard
+Las transacciones en el puerto 
+\begin_inset Formula $I\text{²}C$
+\end_inset
+
+ tienen este formato:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+| start | A7 A6 A5 A4 A3 A2 A1 | A0(R/W) | ACK | ...
+ DATA ...
+ | ACK | stop | idle |
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/I2CDATA.png
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Esquema-de-transmisión"
+
+\end_inset
+
+Esquema de transmisión 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\series bold
+Protocolo de comunicación 
+\begin_inset Formula $I\text{²}C$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+El maestro comienza la comunicación enviando un patrón llamado 
+\series bold
+\emph on
+start condition
+\series default
+\emph default
+.
+ Esto alerta a los dispositivos esclavos, poniéndolos a la espera de una
+ transacción.
+\end_layout
+
+\begin_layout Enumerate
+El maestro se dirige al dispositivo con el que quiere hablar, enviando un
+ byte que contiene los siete bits (A7-A1) que componen la dirección del
+ dispositivo esclavo con el que se quiere comunicar, y el octavo bit (A0)
+ de menor peso corresponde a la operación 
+\series bold
+(
+\emph on
+Read/Write
+\emph default
+)
+\series default
+, lectura=1 (recibir dato del esclavo) y escritura=0 (enviar dato al esclavo).
+\end_layout
+
+\begin_layout Enumerate
+La dirección enviada es comparada por cada esclavo del puerto con su propia
+ dirección, si ambas coinciden, el esclavo se considera direccionado como
+ esclavo-transmisor o esclavo-receptor dependiendo del bit 
+\series bold
+\emph on
+R/W
+\series default
+\emph default
+.
+\end_layout
+
+\begin_layout Enumerate
+El esclavo responde enviando un bit de 
+\series bold
+\emph on
+ACK
+\series default
+\emph default
+ que le indica al dispositivo maestro que el esclavo reconoce la solicitud
+ y está en condiciones de comunicarse.
+\end_layout
+
+\begin_layout Enumerate
+Seguidamente comienza el intercambio de información entre los dispositivos.
+\end_layout
+
+\begin_layout Enumerate
+El maestro envía la dirección del registro interno del dispositivo que se
+ desea leer o escribir.
+\end_layout
+
+\begin_layout Enumerate
+El esclavo responde con otro bit de 
+\series bold
+\emph on
+ACK
+\end_layout
+
+\begin_layout Enumerate
+Ahora el maestro puede empezar a leer o escribir bytes de datos.
+ Todos los bytes de datos deben constar de 8 bits, el número máximo de bytes
+ que pueden ser enviados en una transmisión no está restringido, siendo
+ el esclavo quien fija esta cantidad de acuerdo a sus características.
+\end_layout
+
+\begin_layout Enumerate
+Cada byte leído/escrito por el maestro debe ser obligatoria mente reconocido
+ por un bit de 
+\series bold
+\emph on
+ACK
+\series default
+\emph default
+ por el dispositivo maestro/esclavo.
+\end_layout
+
+\begin_layout Enumerate
+Se repiten los 2 pasos anteriores hasta finalizar la comunicación entre
+ maestro y esclavo.
+\end_layout
+
+\begin_layout Enumerate
+Aun cuando el maestro siempre controla el estado de la línea del reloj,
+ un esclavo de baja velocidad o que deba detener la transferencia de datos
+ mientras efectúa otra función, puede forzar la línea 
+\series bold
+\emph on
+SCL
+\series default
+\emph default
+ a nivel bajo.
+ Esto hace que el maestro entre en un estado de espera, durante el cual,
+ no transmite información esperando a que el esclavo esté listo para continuar
+ la transferencia en el punto donde había sido detenida.
+\end_layout
+
+\begin_layout Enumerate
+Cuando la comunicación finaliza, el maestro transmite la señal de 
+\series bold
+\emph on
+stop condition
+\series default
+\emph default
+ para dejar libre el puerto.
+\end_layout
+
+\begin_layout Enumerate
+Después de la señal de
+\emph on
+ 
+\series bold
+stop condition
+\series default
+\emph default
+, es obligatorio para el puerto estar desocupado 
+\series bold
+\emph on
+(idle)
+\series default
+\emph default
+ durante unos micro segundos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/i2cDeviceAdressing.png
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Protocolo-de-comunicación"
+
+\end_inset
+
+Diferentes modos de operación del protocolo de comunicación 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Circuito de alimentación
+\end_layout
+
+\begin_layout Standard
+El circuito de alimentación del sistema de medición inercial está formado
+ por una batería recargable y un circuito que recarga dicha batería.
+ La batería fabricada de Polímero de Litio (
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Li-Po
+\end_layout
+
+\end_inset
+
+Li-Po) trabaja con 3.7 Volts a 700mAh, sus dimensiones son 5.8 x 34 x 47 mm,
+ tiene una masa de 22g 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-63"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/bateriaIonlitio.JPG
+	lyxscale 20
+	height 6.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Batería de Polímero de Litio (Li-Po)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para cargar la batería anterior se utiliza el circuito Integrado 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+MAX1555
+\end_layout
+
+\end_inset
+
+MAX1555, que está diseñado para cargar una celda de Ión-Litio o Polímero
+ de Litio (Li-Po) desde una fuente con un rango de 3.7 a 7 Volts DC.
+ Incluye un 
+\emph on
+pin
+\emph default
+ de salida para indicar el estado de carga de la batería.
+ Incluye un modulo de alta impedancia que se activa cuando la batería esta
+ completamente cargada y envía una señal de control para interrumpir el
+ proceso de recarga.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-62"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/MAX1551.png
+	height 7cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Circuito eléctrico de conexión del MAX1555 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-62"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Software
+\end_layout
+
+\begin_layout Standard
+A continuación se presentan los programas de cómputo utilizados y un resumen
+ de las características propias de cada uno:
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Eagle
+\end_layout
+
+\end_inset
+
+Eagle
+\end_layout
+
+\begin_layout Standard
+Eagle es un editor de esquemas electrónicos, con herramientas para el diseño
+ y desarrollo de tarjetas de circuito impreso 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+PCB
+\end_layout
+
+\end_inset
+
+PCB
+\emph default
+ (acrónimo en inglés
+\emph on
+ Printed Circuit Board
+\emph default
+).
+ 
+\series bold
+\emph on
+EAGLE
+\series default
+\emph default
+ es el acrónimo de 
+\emph on
+Easily Applicable Graphical Layout Editor
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-65"
+
+\end_inset
+
+.
+ El programa consta de 3 módulos, un Diagramador, un Editor de esquemas
+ y un Ruteador de pistas en un 
+\emph on
+IDE
+\emph default
+ (del inglés
+\emph on
+ Integrated Deveploment Enviromental
+\emph default
+ o en español Entorno Todo Integrado) por lo que no hay necesidad de convertir
+ entre esquemas y diseños.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Python
+\end_layout
+
+\end_inset
+
+Python
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Python
+\emph default
+ es un lenguaje de programación multiplataforma con amplio soporte para
+ 
+\series bold
+programación orientada a objetos
+\series default
+ creado por 
+\noun on
+Guido van Rossum
+\noun default
+ a principios de 1990 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-87"
+
+\end_inset
+
+.
+ Este lenguaje se caracteriza por ser 
+\series bold
+semi-interpretado,
+\series default
+ se ejecuta utilizando un programa intermedio llamado intérprete en lugar
+ de compilar el código a lenguaje de máquina.
+ Esto permite que el lenguaje sea flexible y portable.
+ El código fuente se traduce a un pseudo código máquina intermedio llamado
+ 
+\emph on
+bytecode
+\emph default
+ (fichero binario producido por el compilador mas abstracto que el código
+ máquina) la primera vez que se ejecuta, generando archivos 
+\emph on
+*.pyc o *.pyo
+\emph default
+.
+ No es necesario especificar el tipo de dato que se va a almacenar en una
+ variable (
+\series bold
+tipado dinámico
+\series default
+), sino que su tipo se determinara en el momento de ejecución de acuerdo
+ al tipo de dato que se le asigne.
+ Además, el tipo de variable puede cambiar si se le asigna otro valor.
+ No se puede tratar a una variable de forma distinta al valor que se ha
+ almacenado en ella 
+\series bold
+(fuertemente tipado)
+\series default
+.
+ En caso que sea necesario, la conversión debe realizarse de manera explícita.
+ 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+LyX
+\end_layout
+
+\end_inset
+
+LyX
+\end_layout
+
+\begin_layout Standard
+LyX es un sistema de preparación de documentos diseñado para crear artículos
+ técnicos y científicos con matemáticas, referencias cruzadas, bibliografías,
+ índices; pensado para redactar documentos extensos en los que se requieren
+ las capacidades de procesamiento usuales: paginación y división automática
+ de secciones, corrección ortográfica.
+ La filosofía de LyX considera especificar 
+\emph on
+lo
+\emph default
+ que se está haciendo, no 
+\emph on
+cómo
+\emph default
+ hacerlo.
+ En lugar de 
+\begin_inset Quotes eld
+\end_inset
+
+lo que ves es lo que obtienes
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\emph on
+WYSIWIG, 
+\emph default
+del inglés
+\emph on
+ What You See Is What You Get
+\emph default
+), el modelo de LyX es 
+\begin_inset Quotes eld
+\end_inset
+
+lo que ves es lo que quieres decir
+\begin_inset Quotes erd
+\end_inset
+
+ (
+\emph on
+WYSIWIM, 
+\emph default
+del inglés
+\emph on
+ What You See Is What You Mean
+\emph default
+).
+ Es una idea que simplifica los mecanismos de la escritura de documentos
+ ya que el autor únicamente se enfoca a realizar la redacción de la información
+ dejando el formato final a LyX según las instrucciones indicadas por el
+ usuario.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-66"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Matlab
+\end_layout
+
+\end_inset
+
+Matlab
+\end_layout
+
+\begin_layout Standard
+Matlab es la abreviatura de 
+\emph on
+MATrix LABoratory
+\emph default
+ "laboratorio de matrices" es un software matemático que ofrece un entorno
+ de desarrollo integrado 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+IDE
+\end_layout
+
+\end_inset
+
+IDE (
+\emph default
+del inglés
+\emph on
+ Integrated Development Environment)
+\emph default
+ con un lenguaje de programación propio (lenguaje M), es un lenguaje multiplataf
+orma.
+ Entre sus funciones básicas están: la manipulación de matrices, la representaci
+ón de datos y funciones, la implementación de algoritmos, la creación de
+ interfaces de usuario 
+\emph on
+GUI
+\emph default
+ (acrónimo en inglés
+\emph on
+ Graphical User Interface
+\emph default
+).
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-69"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+MikroC Pro
+\end_layout
+
+\end_inset
+
+MikroC Pro for AVR
+\end_layout
+
+\begin_layout Standard
+Es un entorno de desarrollo integrado para generar códigos y archivos 
+\emph on
+*.hex
+\emph default
+ y ser programados posteriormente en microcontroladores proporcionando la
+ flexibilidad de usar un minicompilador cuya forma de programación consiste
+ en instrucciones de alto nivel “C++” 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-70"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Panda 3D
+\end_layout
+
+\end_inset
+
+Panda 3D
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Panda3D
+\emph default
+ es un motor gráfico de videojuegos que integra imágenes, audio, E/S, detección
+ de colisiones para la creación de juegos en 3D.
+ Es un proyecto de código abierto y software libre, bajo la licencia 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+BSD
+\end_layout
+
+\end_inset
+
+BSD (
+\emph default
+acrónimo en inglés de
+\emph on
+ Berkeley Software Distribution)
+\emph default
+ revisada.
+ El lenguaje de programación de video juegos para el que fue destinado 
+\emph on
+Panda3D
+\emph default
+ es 
+\series bold
+\emph on
+Python
+\series default
+\emph default
+.
+ Este motor está escrito en 
+\series bold
+\emph on
+C++
+\series default
+\emph default
+ y utiliza un generador-empaquetador automático para exponer la completa
+ funcionalidad del motor en una interfaz de 
+\emph on
+Python
+\emph default
+.
+ Este enfoque da al programador las ventajas del desarrollo rápido en 
+\emph on
+Python
+\emph default
+ y la gestión avanzada de memoria, manteniendo el rendimiento de un lenguaje
+ compilado en el núcleo del motor.
+ Ejemplo de ello es que el motor está integrado con el recolector de basura
+ de 
+\emph on
+Python
+\emph default
+ y las estructuras del motor son manejadas automáticamente 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-66"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Subsection
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+Blender
+\end_layout
+
+\end_inset
+
+Blender
+\end_layout
+
+\begin_layout Standard
+Blender es un 
+\emph on
+software
+\emph default
+ de aplicación 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+multiplataforma
+\end_layout
+
+\end_inset
+
+multiplataforma (compatible con varios sistemas operativos), dedicado al
+ 
+\series bold
+modelado, animación y creación de gráficos tridimensionales
+\series default
+.
+ Puede usarse para crear visualizaciones 3D, tanto imágenes estáticas como
+ vídeos de alta calidad, mientras que la incorporación de un motor 3D en
+ tiempo real permite la creación de contenido interactivo que puede ser
+ reproducido independientemente.
+ Es compatible con todas las versiones de 
+\emph on
+Windows, Mac OS X, Linux, Solaris, FreeBSD e IRIX
+\emph default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-58"
+
+\end_inset
+
+.
+ Se desarrolla como '
+\series bold
+Software Libre
+\series default
+', con el código fuente disponible bajo la licencia 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+GNU
+\end_layout
+
+\end_inset
+
+GNU GPL
+\emph default
+.
+ Por medio de su arquitectura abierta, ofrece interoperabilidad entre plataforma
+s, extensibilidad y un flujo de trabajo altamente integrado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-64"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,1 @@
+para instalar el modulo pyserial buscar el instalador de pyserial y el instalador de  pywin32  correspondiente al python del panda

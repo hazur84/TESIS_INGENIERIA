@@ -1,0 +1,4112 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+%esta linea escribe "figura" o "cuado" seguido del numero ne las referencias cruzadas
+\usepackage[figure,table]{hypcap}
+%situa al inicio de la figura o cuadro el hipervinculo
+\usepackage[labelfont={bf,sf}]{caption}
+%pone figura y cuadro en negritas con fuente sans serif
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Hazur Sahib Socconini Alvarado y Jonatan Perea Garcia"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList figure
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FloatList table
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "AGRADECIMIENTOS.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Introducción
+\end_layout
+
+\begin_layout Standard
+El 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+remo
+\end_layout
+
+\end_inset
+
+remo
+\series default
+ se define como la disciplina deportiva que consiste en la propulsión de
+ una 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+embarcación
+\end_layout
+
+\end_inset
+
+embarcación con o sin 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+timonel
+\end_layout
+
+\end_inset
+
+timonel (persona que gobierna el timón del bote), mediante la fuerza muscular
+ de uno o varios remeros, usando un remo largo o dos remos cortos como palancas
+ simples de segundo grado 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-01"
+
+\end_inset
+
+, sentados de espaldas en la dirección del movimiento sobre la pista de
+ remo, río o lago (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Atleta-practicando-remo,"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/figura01.jpg
+	lyxscale 50
+	width 17cm
+
+\end_inset
+
+
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Atleta-practicando-remo,"
+
+\end_inset
+
+Atleta practicando remo, embarcación 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+monoplaza
+\end_layout
+
+\end_inset
+
+monoplaza de remos cortos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La historia del 
+\series bold
+remo
+\series default
+ como deporte se desarrolló en Europa y, desde el siglo XIX, se tienen indicios
+ de los primeros clubes constituidos fuera de 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Inglaterra
+\end_layout
+
+\end_inset
+
+Inglaterra principalmente en 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+España
+\end_layout
+
+\end_inset
+
+España y 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Portugal
+\end_layout
+
+\end_inset
+
+Portugal extendiéndose al continente Americano en 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Argentina
+\end_layout
+
+\end_inset
+
+Argentina
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-01"
+
+\end_inset
+
+.
+ Las primeras competencias registradas es 
+\emph on
+"The Boat Race"
+\emph default
+ realizada en el río 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Támesis
+\end_layout
+
+\end_inset
+
+Támesis por los equipos de las universidades de 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Cambridge
+\end_layout
+
+\end_inset
+
+Cambridge y 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Oxford
+\end_layout
+
+\end_inset
+
+Oxford en 1829; 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-76"
+
+\end_inset
+
+ y la 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\emph off
+Henley Royal Regatta
+\end_layout
+
+\end_inset
+
+Henley Royal Regatta
+\begin_inset Quotes erd
+\end_inset
+
+
+\emph default
+ realizada en Henley-on-Thames en 1839; ambas competencias se desarrollaron
+ en la ciudad de 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Londres
+\end_layout
+
+\end_inset
+
+Londres Inglaterra 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-80"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La realización de carreras posteriores en Inglaterra y otras parte del mundo
+ como Italia trajo como consecuencia que el el 25 de junio de 1892 en la
+ ciudad de 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Turín
+\end_layout
+
+\end_inset
+
+Turín se constituyera la más antigua federación internacional de deportes
+ en el movimiento olímpico, la 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+FISA
+\end_layout
+
+\end_inset
+
+FISA
+\series default
+\emph on
+ (Fédération Internationale des Sociétés d’Aviron - Federación Internacional
+ de Asociaciones de Remo)
+\emph default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-78"
+
+\end_inset
+
+, por representantes de Francia, Suiza, Bélgica e Italia.
+ 
+\end_layout
+
+\begin_layout Standard
+La 
+\series bold
+FISA
+\series default
+ es el consejo de administración del deporte de esta disciplina.
+ Está facultado por 128 miembros de federaciones nacionales, comités olímpicos
+ nacionales y el Comité Olímpico Internacional (
+\series bold
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\series medium
+COI
+\end_layout
+
+\end_inset
+
+COI
+\series default
+).Actualmente este organismo establece las normas y reglamentos para la práctica
+ del deporte, en todas sus formas (élite, paralímpicos,
+\emph on
+ 
+\series bold
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\series medium
+\emph off
+indoor
+\end_layout
+
+\end_inset
+
+indoor
+\series default
+\emph default
+ o bajo techo y costeros), organizando y avalando eventos mundiales de remo.
+ También ofrece asesoramiento para la organización de 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+regatas
+\end_layout
+
+\end_inset
+
+regatas
+\series default
+ (competencias de remo), educación técnica para entrenadores y otras cuestiones
+ relacionadas con el deporte y su desarrollo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-78"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Actualmente existen 8 clasificaciones para las embarcaciones propuesto por
+ el organismo, de las cuales 5 son para remo largo, donde el remero utiliza
+ el remo con ambas manos, y 3 para remo corto, donde el remero utiliza un
+ remo en cada mano.
+ Algunas clases consideran un timonel que va sentado en la 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+popa
+\end_layout
+
+\end_inset
+
+popa (parte posterior del barco) de la embarcación (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Clasificación-de-embarcaciones"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-78"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Clasificación-de-embarcaciones"
+
+\end_inset
+
+Clasificación de embarcaciones 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-78"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="9" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tipo de remo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Figura
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Etiqueta
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Descripción
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+largo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/sweepBoatPair.png
+	lyxscale 70
+	height 30bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 sin timonel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+largo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/sweepBoatCoxedPair.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2 con timonel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+largo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/sweepBoatFour.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4-
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 sin timonel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+largo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/sweepBoatFourCoxed.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4 con timonel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+largo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/sweepBoatEight.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8 con timonel
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+corto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/scullBoatSingle.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+individual 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+corto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/scullBoatDouble.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+doble
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+corto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/scullBoatQuadruple.png
+	lyxscale 70
+	height 20bp
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4x
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+cuádruple
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para practicar el remo en las embarcaciones se requiere condiciones climatológic
+as específicas, características que se ven afectadas en la temporada invernal,
+  por el cambio de las condiciones ambientales, en consecuencia se altera
+ la realización de las pruebas y el proceso del entrenamiento.
+ Para subsanar estos problemas se encontraron otras forma de seguir con
+ la actividad, prueba de ello es que en el año de 1981 en 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Vermont, USA
+\end_layout
+
+\end_inset
+
+Vermont USA, los remeros 
+\noun on
+Peter and Dick 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\noun off
+Dreissigacker, Peter y Dick
+\end_layout
+
+\end_inset
+
+Dreissigacker
+\noun default
+ (
+\emph on
+fundadores de la empresa 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+\noun on
+Concept2
+\end_layout
+
+\end_inset
+
+
+\noun on
+Concept2
+\emph default
+\noun default
+) deciden crear un dispositivo de entrenamiento para la temporada.
+ 
+\noun on
+Peter
+\noun default
+ aseguró con clavos su vieja bicicleta al piso del granero y empezó a tirar
+ sobre el extremo libre de la cadena, inventando con esto el remo indoor
+ o remo bajo techo.
+ Para finales de este año lanzan al mercado el 
+\emph on
+modelo A Indoor Rower
+\emph default
+ o 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+remoergómetro
+\end_layout
+
+\end_inset
+
+remoergómetro, producto del estudio metodológico de las condiciones físicas
+ requeridas para el remo
+\series default
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Máquina-de-remo"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-02"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/figura02b.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Máquina-de-remo"
+
+\end_inset
+
+Máquina de remo o remo 
+\emph on
+Indoor
+\emph default
+ profesional 
+\noun on
+Concept2 D
+\noun default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-03"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Fue tal su aceptación e interés 
+\series bold
+por parte de los remeros
+\series default
+ que pasó de ser una máquina de simple entrenamiento para convertirse en
+ la pieza fundamental de lo que actualmente se conoce como el deporte remo
+ 
+\series bold
+\emph on
+indoor
+\series default
+\emph default
+ o bajo techo.
+ Prueba de ello es que en 1982 el club de remo 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+CRASH-B
+\end_layout
+
+\end_inset
+
+CRASH-B
+\series default
+ localizado en 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Boston, Massachusetts
+\end_layout
+
+\end_inset
+
+Boston Massachusetts se interesó en organizar una competencia de remo bajo
+ techo.
+ Actualmente este evento es el 
+\emph on
+World Indoor Rowing Championship
+\emph default
+ (campeonato mundial de remo bajo techo)
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-79"
+
+\end_inset
+
+.
+ Hoy en día este deporte se realiza en el evento 
+\emph on
+Remos Indoor Concept2
+\emph default
+.
+ Anualmente se celebran 2 competencias internacionales 
+\emph on
+Concept2
+\emph default
+, el 
+\emph on
+Open Europeo
+\emph default
+ en el mes de diciembre y el campeonato mundial en el mes de febrero en
+ la ciudad de Boston 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-03"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La participación en estos eventos es abierto, se dividen en categorías relaciona
+das con edad, género y peso.
+ El número de deportistas aumenta diariamente por lo que 
+\emph on
+Concept2
+\emph default
+ registra y publica un 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+ranking
+\end_layout
+
+\end_inset
+
+ranking
+\emph default
+ internacional que supera a los 30,000 atletas en su sitio 
+\emph on
+web
+\emph default
+ oficial, en donde se publican las marcas olímpicas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-06"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La organización formal para presentar el desafío es un acuerdo entrenador-deport
+ista, sin embargo el fabricante de la máquina donde se realiza la disciplina,
+ sugiere a los interesados en presentarse a estos eventos cubran 4 etapas
+ básicas de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+entrenamiento
+\end_layout
+
+\end_inset
+
+entrenamiento: 
+\series bold
+Preparación, Pre-Competencia, Competición y Transición
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+En la etapa de 
+\series bold
+Preparación
+\series default
+ se 
+\series bold
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\series medium
+acondiciona
+\end_layout
+
+\end_inset
+
+acondiciona
+\series default
+ físicamente al remero para adquirir fuerza física muscular y se 
+\series bold
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\series medium
+condiciona
+\end_layout
+
+\end_inset
+
+condiciona
+\series default
+ la mentalidad del atleta; en la 
+\series bold
+Pre-Competición
+\series default
+ se especializa el aprendizaje, se afianza la seguridad del atleta; la 
+\series bold
+Competición
+\series default
+ aporta un aumento en la intensidad del 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+entrenamiento
+\end_layout
+
+\end_inset
+
+entrenamiento, identificación de puntos débiles, creaciones de tácticas
+ y estrategias; finalmente la 
+\series bold
+Transición
+\series default
+ donde se hace la evaluación, se fijan objetivos para el próximo año (ver
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Programa-básico-de"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Programa-básico-de"
+
+\end_inset
+
+Programa básico de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+entrenamiento
+\end_layout
+
+\end_inset
+
+entrenamiento para remeros y la importancia de la técnica en su entrenamiento
+ por Concept2
+\noun on
+ 
+\noun default
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-07"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/programabasico.jpg
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las 3 primeras etapas propuestas por 
+\noun on
+Concept2
+\noun default
+ a los remeros comparten en común el desarrollo y afinación de la técnica
+ de la remada, con lo que entrenadores y deportista consideran el corregir
+ las deficiencias en la misma como la oportunidad de obtener resultados
+ favorables.
+\end_layout
+
+\begin_layout Standard
+En 
+\series bold
+México
+\series default
+ esta disciplina se presenta con la expedición de un reglamento interno
+ el día 22 de septiembre de 2007 para regular las competencias nacionales
+ de remo bajo techo 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-04"
+
+\end_inset
+
+.
+ Un año después se organizó el primer torneo nacional de esta disciplina
+ en la Ciudad de México, en el gimnasio 
+\noun on
+II 
+\noun default
+del
+\noun on
+ 
+\noun default
+Centro Deportivo Villa Olímpica, el día 21 de abril de 2008 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-05"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En México el proceso clásico por elección destinado a la corrección de técnica
+ está relacionado con un método cualitativo, el cuál usa la observación
+ como evaluador de la técnica y el factor de corrección estará determinado
+ por la experiencia del entrenador.
+ La desventaja del proceso anterior es que la observación y experiencia
+ varía entre personas y no se puede determinar un patrón para hacer un aprendiza
+je generalizado con el fin de sistematizar y detectar errores en la técnica.
+ 
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+investigación científica
+\end_layout
+
+\end_inset
+
+
+\series bold
+investigación científica
+\series default
+ aplicada al deporte proporciona una metodología teórico experimental con
+ escalas y valores, para cuantificar los parámetros de interés como la velocidad
+, aceleración, frecuencia de remada y las trayectorias descritas por la
+ ejecución de la técnica.
+ 
+\end_layout
+
+\begin_layout Standard
+Los parámetros anteriormente mencionados de los 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+sistemas biológicos
+\end_layout
+
+\end_inset
+
+
+\series bold
+sistemas biológicos,
+\series default
+ son estudiados con la 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+biomecánica
+\end_layout
+
+\end_inset
+
+biomecánica deportiva
+\series default
+ que es una sub-especialidad de la 
+\series bold
+biomecánica
+\series default
+, que se define de manera generalizada como la ciencia que estudia las relacione
+s entre el cuerpo humano y las leyes físicas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-08"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La 
+\series bold
+biomecánica deportiva
+\series default
+ aplicada al estudio de la técnica emplea las divisiones de la mecánica
+ clásica: cinética, dinámica y cinemática.
+ 
+\end_layout
+
+\begin_layout Standard
+La finalidad del presente trabajo terminal consiste en diseñar un sistema
+ de análisis cinemático, construir un sistema de medición para que entrenadores
+ y atletas de remo bajo techo cuenten con tecnología que auxilie en la evaluació
+n de una sesión de entrenamiento y en línea (durante el proceso).
+ 
+\end_layout
+
+\begin_layout Standard
+La construcción de este prototipo se enfocará a trabajar exclusivamente
+ la técnica por segmento considerando sólo las extremidades superiores con
+ la detección de errores y proporcionar elementos cuantitativos para el
+ apoyo en la toma de decisiones al entrenador.
+ 
+\end_layout
+
+\begin_layout Standard
+El enfoque de la biomecánica requerido para este proyecto esta directamente
+ relacionado con la
+\series bold
+ definición de técnica actual de 
+\noun on
+Álvarez
+\noun default
+ que establece el estudio de una estructura rígida relativa a factores de
+ espacio y tiempo sin importar sus causas
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-28"
+
+\end_inset
+
+, 
+\series default
+por lo que el enfoque de estudio correspondiente es la cinemática.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El reporte final de trabajo terminal se encuentra divido en 10 capítulos
+ cuyo contenido es descrito de forma general a continuación.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo I Introducción
+\series default
+: En este capítulo se expone brevemente la evolución histórica del remo
+ como deporte; los factores que permitieron a partir de una máquina de simple
+ entrenamiento fundar una nueva disciplina “el remo 
+\emph on
+indoor
+\emph default
+”, las competencias internacionales que se realizan en la actividad 
+\emph on
+indoor
+\emph default
+, el programa de entrenamiento aconsejado por el pionero en el deporte 
+\noun on
+Concept2
+\noun default
+ para los desafíos, el papel de la técnica en el entrenamiento propuesto,
+ el sistema de corrección de técnica en México, los antecedentes sobre investiga
+ciones científicas para el remo y remo indoor, una tabla de 10 empresas
+ de diferentes países con sus respectivos productos dedicadas al estudio
+ o captura de movimiento del cuerpo humano y finalmente para que se construye
+ el dispositivo.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo II Objetivos
+\series default
+: Se describe el resultado que se desea obtener, como se va resolver el
+ problema planteado y las acciones que se van a realizar para alcanzar la
+ meta trazada.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo III Planteamiento del problema:
+\series default
+ Se presenta el problema a resolver, haciendo una comparación con los productos
+ del estado del arte señalando los puntos que marcan la diferencia entre
+ estos y el prototipo a desarrollar .
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo IV Justificación:
+\series default
+ Se muestra la tendencia del mercado en relación a las herramientas utilizadas
+ en este proyecto con el fin de proporcionar métodos de investigación que
+ a su vez sean información en la ayuda de toma de decisiones para entrenadores
+ identificando la deficiencia de los mismos describiendo la problemática
+ principal en su uso.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo V Marco Teórico:
+\series default
+ En el marco teórico se menciona la definición de técnica que sustenta el
+ presente trabajo, la clasificación de la misma, la técnica especifica de
+ la remada, los 10 errores en la técnica de la remada.
+ Los sensores inerciales que se usan, el microcontrolador y los programas
+ computacionales requeridos para la construcción del sistema de medición
+ inercial.
+ Se proporcionan los elementos físicos, matemáticos y propios de la ingeniería
+ que se utilizarán en el desarrollo del prototipo.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo VI Desarrollo:
+\series default
+ Se describe la metodología seguida en el proceso tanto en la parte de construcc
+ión del prototipo como en la parte de programación del software integrando
+ todos los elementos para su presentación y funcionamiento global.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo VII Análisis e Interpretación de resultados:
+\series default
+ Se muestran los datos obtenidos del sistema construido describiendo los
+ mismos para una fácil comprensión y señalando el significado que estos
+ representan.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capitulo VIII Conclusiones:
+\series default
+ Se comparan los objetivos planteados con los resultados obtenidos, describiendo
+ los logros obtenidos de forma sistemática.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capítulo IX Trabajos Futuros:
+\series default
+ Se detalla la siguiente etapa del proyecto para su posterior continuidad,
+ extendiendo los alcances del mismo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Capítulo X Referencias y Apéndices:
+\series default
+ Se presenta la bibliografía consultada así como los códigos de programación
+ tanto del microcontrolador como de la computadora.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Antecedentes
+\end_layout
+
+\begin_layout Standard
+En la década de los 40’s del siglo pasado Alemania del Este se convierte
+ en referente de la investigación con el 
+\series bold
+estudio fisiológico del remero
+\series default
+, sin embargo 5 años después por conflictos diplomáticos relacionados con
+ la 
+\series bold
+Guerra Fría
+\series default
+ existe una barrera con América generando un crecimiento lento en las investigac
+iones de esta disciplina.
+ 
+\end_layout
+
+\begin_layout Standard
+En ese año 
+\noun on
+Szal
+\noun default
+ y 
+\noun on
+Cols
+\noun default
+.
+ compararon 2 test llevados a cabo por remeros, el primero realizado en
+ un remoergómetro y el segundo en un 
+\series bold
+\emph on
+
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+
+\series medium
+\emph off
+cloergómetro
+\end_layout
+
+\end_inset
+
+
+\emph default
+cloergómetro
+\series default
+; es un instrumento específico calibrado para la medición de la capacidad
+ de trabajo similar a una bicicleta sobre la que se pedalea.
+ En el primer test se obtuvieron valores altos en la frecuencia respiratoria
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-11"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Finalmente un año después de la caída del muro de Berlín, en 1990 la ciudad
+ de Ulm, 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Alemania
+\end_layout
+
+\end_inset
+
+Alemania se convierte en cede para el primer intercambio de datos científicos
+ de la disciplina.
+ Tres años después en 1993 
+\noun on
+Bell
+\noun default
+ y 
+\noun on
+Cols
+\noun default
+ realizaron un estudio donde encontraron ganancias de fuerzas para un entrenamie
+nto de 10 semanas de duración con 3 sesiones en cada una de ellas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-12"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+En 1996 
+\noun on
+González
+\noun default
+ con su investigación analiza tres protocolos de lactatos distintos en el
+ 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+remoergómetro
+\end_layout
+
+\end_inset
+
+remoergómetro, encontrando diferencias en las cinéticas del lactato entre
+ los distintos protocolos aplicados y en cada remero 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-14"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+En 2002 
+\noun on
+R.
+ Davoodi
+\noun default
+ con su investigación, consiguió optimizar el tratamiento de rehabilitación
+ en parapléjicos (es una enfermedad por la cual la parte inferior del cuerpo
+ queda paralizada y carece de funcionalidad) automatizando la aplicación
+ de la 
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+electroestimulación
+\end_layout
+
+\end_inset
+
+electroestimulación en cada fase de la remada sobre el remoergómetro 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-15"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Seis años después en 2008 en el remo tradicional 
+\noun on
+Jeffrey Cornett , Pamela Bush , Nancy Cummings
+\noun default
+ describen un modelo de 8 factores para evaluar el rendimiento de una tripulació
+n durante la carrera, divido en 4 categorías principales
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-16"
+
+\end_inset
+
+: 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Capacidad humana:
+\series default
+ 
+\emph on
+Talento Humano
+\emph default
+ (H), 
+\emph on
+Biomecánica
+\emph default
+ (B), 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Escenario de la carrera:
+\series default
+ 
+\emph on
+Fisiología
+\emph default
+ (P)
+\emph on
+ y Agua con Medio Ambiente
+\emph default
+ (W)
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Rendimiento en la ejecución:
+\series default
+ 
+\emph on
+Calidad en la Ejecución
+\emph default
+ (Q) y 
+\emph on
+Carrera Psicológica
+\emph default
+ (R) 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Decisiones:
+\series default
+ 
+\emph on
+Estrategia 
+\emph default
+(S) y 
+\emph on
+Táctica
+\emph default
+ (T) 
+\end_layout
+
+\begin_layout Standard
+Descritas por la siguiente ecuación: 
+\begin_inset Formula 
+\begin{equation}
+Time=f_{1-n}(H+B+P+W+Q+R+S+T)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En este mismo año 
+\noun on
+Mayorga Vega
+\noun default
+ y 
+\noun on
+Merino Marban
+\noun default
+ realizan un estudio cualitativo de los errores frecuentes en remo obteniendo
+ como resultados errores encontrados durante la ejecución del ejercicio
+ de remo que indica la mala higiene postural y 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+ergonomía
+\end_layout
+
+\end_inset
+
+ergonomía de los sujetos usuarios de las máquinas de musculación 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-17"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+La ergonomía es la disciplina científica relacionada con la comprensión
+ de las interacciones entre humanos y otros elementos de un sistema, se
+ preocupa de las características anatómicas, 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+antropometría
+\end_layout
+
+\end_inset
+
+antropométricas, fisiológicas y biomecánicas humanas en tanto que se relacionan
+ con la actividad física a fin de optimizar el bienestar humano y el rendimiento
+ global del sistema.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-101"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Y finalmente en el 2009 en el mes de Agosto 
+\emph on
+\noun on
+Ante Panjkota 
+\emph default
+\noun default
+y 
+\noun on
+Tamara Supuk
+\noun default
+ propusieron un método para mejorar la evaluación de la técnica de remo
+ bajo techo con la captura de la información por medio de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+fotogrametría
+\end_layout
+
+\end_inset
+
+fotogrametría (técnica cuyo objetivo es el conocimiento de las dimensiones
+ y posición de objetos en el espacio, a través de la medida o medidas realizadas
+ sobre 2 o más fotografías) con el fin de hacer una valoración fuera de
+ línea después de cuantificar los datos obtenidos y con el esquema de un
+ cuadro de lógica difusa conformado de los atletas 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-18"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Dos meses después en Septiembre se construye un sensor específico de fuerza
+ usando la deformación que se presenta en el 
+\emph on
+grip
+\emph default
+ o empuñadura para obtener la variación en cada movimiento de la pala en
+ cada ciclo de la remada 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-19"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Section
+Estado del arte
+\end_layout
+
+\begin_layout Standard
+Las investigaciones anteriores han traído en consecuencia un desarrollo
+ tecnológico, materializado en productos industriales como sistemas de captura
+ de movimiento, sistema de navegación, sistema de capturas de vídeo y procesamie
+nto en software.
+\end_layout
+
+\begin_layout Standard
+En este trabajo los productos se clasificarán considerando el tipo de tarea
+ que realizan (captura de movimiento, representación de un trabajo o remada)
+ y en la manera de medir los datos directa (sobre el atleta) o indirectamente
+ (medidas en la maquina y/o instrumento de la actividad).
+ 
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Estado-del-Arte,"
+
+\end_inset
+
+ se presentan 10 empresas líderes en su ramo con sus respectivos productos
+ y una breve descripción resumida en los siguientes campos: nombre del producto,
+ nombre de la empresa, país de origen, años de lanzamiento, sitio web oficial,
+ sistema operativo, tipo de tecnología (obtención de datos) y los elementos
+ con que viene incluido (
+\emph on
+hardware
+\emph default
+ y/o 
+\emph on
+software
+\emph default
+), tipo de sensor para la adquisición de la señal, masa en kilogramos del
+ producto, tipo de comunicación inalámbrica, interfaz 
+\emph on
+PC
+\emph default
+, alcance del producto en metros, autonomía (duración de la fuente de energía)
+ y precio del producto en el mercado.
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+1.
+ MVN Biomech
+\end_layout
+
+\begin_layout Standard
+Sistema inercial de captura de movimientos humanos.
+ MVN captura de movimiento humano, sin las limitaciones impuestas por el
+ uso de cámaras o emisores.
+ Este sistema portátil está basado en el sensor inercial (IMU), provee de
+ señales de orientación en 3D sin deriva, así como datos cinemáticas: aceleració
+n 3D, giros en 3D y posicionado respecto al campo magnético terrestre en
+ 3D.
+ Es excelente para la medición de la orientación de segmentos del cuerpo
+ humano.
+ Utilizado en animación ( cine, jugos virtuales ), entrenamiento, simulación,
+ investigación y desarrollo biomecánico.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+2.
+ Gypsy-6
+\end_layout
+
+\begin_layout Standard
+Es un traje electromecánico de captura de movimiento.
+ Cuenta con una estructura metálica o 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+exoesqueleto
+\end_layout
+
+\end_inset
+
+exoesqueleto, mide los ángulos de los segmentos, por medio de 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+potenciómentro
+\end_layout
+
+\end_inset
+
+potenciómentros, además cuenta con giroscopios para medir velocidad angular.
+ La información la transmite vía inalámbrica.
+ A pesar de su diseño externo permite completa libertad de movimiento al
+ usuario.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+3.
+ Visualeyez VZ4000v
+\end_layout
+
+\begin_layout Standard
+Es un sistema de captura de movimiento 3D basado en vision artificial, cubre
+ un radio de 7 metros, 3 cámaras reconocen hasta 512 marcas activas en tiempo
+ real puestas en un solo sujeto o múltiples sujetos.
+ Las cámaras cuentan con un circuito de auto calibración.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+4.
+ CyberGlove II
+\end_layout
+
+\begin_layout Standard
+Es un sistema que captura el movimiento de la mano, compuesto por 22 sensores
+ distribuidos en todo el guante, la información la transmite en tiempo real
+ vía inalámbrica dando al operador completa libertad de movimiento.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+5.
+ BioRow
+\end_layout
+
+\begin_layout Standard
+Este sistema utiliza un sistema de vídeo de circuito cerrado para la monitorizac
+ión del ciclo de la remada, mostrando la información en un visor que porta
+ el remero así como la transmisión de señales de los sensores ubicados en
+ el punto de apoyo de la pala.
+ Tiene la posibilidad de transmitir desde una estación donde el entrenador
+ puede comunicarse con el atleta con una vía de audio para darle indicaciones
+ que mejoran su técnica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Estado-del-Arte,"
+
+\end_inset
+
+Estado del arte, empresas líderes y sus productos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5.3cm">
+<column alignment="left" valignment="top" width="5.3cm">
+<column alignment="left" valignment="top" width="5.3cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/mvnXsens.png
+	lyxscale 35
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Nombre
+\series default
+: MVN Biomech
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Empresa:
+\series default
+ Xsens 
+\lang english
+Technologies
+\lang spanish-mexico
+ B.V.
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+País origen
+\series default
+: 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Enschede, Suecia
+\end_layout
+
+\end_inset
+
+Enschede
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Año:
+\series default
+ 2005-2009
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-24"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+S.O.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Tecnología:
+\series default
+ Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 17x IMU 6 DOF
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [Kg.]
+\series default
+: NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Bluetooth
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ USB
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+:<150 [m]
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ 3 Hrs.
+ 8xAA NiMH
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ $10,000 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/GYPSY6.jpg
+	lyxscale 60
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre
+\series default
+: Gypsy-6
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Animazoo UK Ltd 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ Reino Unido
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2010
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-25"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología:
+\series default
+ Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 37x pots.
+ 2x gyros.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [Kg.]:
+\series default
+ 6
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ SI
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ SERIAL
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]:
+\series default
+ <200
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía
+\series default
+: >4 Hrs.
+ NiMH
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio
+\series default
+: $25,000 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/phoenis.png
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre: Visualeyez VZ4000v
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Phoenix Technologies
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ Canadá
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2006
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-30"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ Led markers
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]:
+\series default
+ 2.2
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Si, S.
+ Óptico
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ Serial RS-232
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]:
+\series default
+ <7
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ <7
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ NA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/CYBERGLOVE2.PNG
+	lyxscale 70
+	width 4.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre:
+\series default
+ CyberGlove II 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Cyberlove Systems
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ Enschede
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2005-2009
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-82"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 17x IMU 6 DOF
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Bluetooth
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ USB
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+:<150 [m]
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ 3 Horas 8xAA NiMH
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ $10,000 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" bottomline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/biorowValery.png
+	lyxscale 45
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre:
+\series default
+ BioRow (video)
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ BioRow Ltd.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ Australia
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2005
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-33"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]
+\series default
+: 0.5
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Si, RF-Fm.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+: >100
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ <4 Hrs.
+ Li-Ion
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ £ 1.595
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Estado-del-Arte,-1"
+
+\end_inset
+
+Estado del arte, empresas líderes y sus productos.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5.2cm">
+<column alignment="left" valignment="top" width="5.2cm">
+<column alignment="left" valignment="top" width="5.2cm">
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/ammsensor.jpg
+	lyxscale 95
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Nombre
+\series default
+: AmmSensor
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Empresa:
+\series default
+ AMM 
+\lang english
+Technologies
+\lang spanish-mexico
+ LLC
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+País origen
+\series default
+: USA
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Año:
+\series default
+ 2009 - 2010
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-81"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+S.O.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+
+\series bold
+Tecnología:
+\series default
+ Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 1x IMU 9 DOF
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [Kg.]
+\series default
+: 42gms
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Bluetooth
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ USB
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+:<150 [m]
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ <6 Hrs.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ $1,200 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/InertiaCubeBT.jpg
+	lyxscale 60
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre
+\series default
+: InertiaCube BT
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ InterSense Inc.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ USA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2010
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-83"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows, Linux, Mac Os X
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología:
+\series default
+ Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 1x IMU 3 DOF
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [Kg.]:
+\series default
+ 0.067
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Bluetooth
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ RS-232 Serial
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]:
+\series default
+ 33
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía
+\series default
+: <10 Hrs.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio
+\series default
+: $3,000 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/playstation-move.jpg
+	lyxscale 45
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre: 
+\series default
+PlayStation Move
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Sony Computer Entertainment
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ JAPON-USA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2010
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-89"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ 1x IMU 6 DOF
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]:
+\series default
+ 2.2
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ Bluetooth
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ -
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]:
+\series default
+ <7
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ NA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+9
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/GAMAUMANA.png
+	lyxscale 40
+	height 4cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre:
+\series default
+ Gama Umana C.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Umana Innova S.L.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen:
+\series default
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Portugal
+\end_layout
+
+\end_inset
+
+Portugal
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año:
+\series default
+ 2006
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-31"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ IMU
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]:
+\series default
+ <3
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ GPS
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ USB
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+:NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ >2 Hrs.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ NA
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="bottom" topline="true" bottomline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/ROWPRO.jpg
+	lyxscale 30
+	width 5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Nombre:
+\series default
+ Row Pro
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Empresa:
+\series default
+ Digital Rowing Inc.
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+País origen: 
+\series default
+USA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Año: 2009
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Web:
+\series default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-90"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+OS.:
+\series default
+ Windows XP, Vista
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Tecnología: 
+\series default
+Hardware y Software
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Sensor:
+\series default
+ Encoder Concept2
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Peso [kg]
+\series default
+: NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Inalámbrico:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Interface PC:
+\series default
+ USB
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Alcance [m]
+\series default
+: NA 
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Autonomía:
+\series default
+ NA
+\end_layout
+
+\begin_layout Plain Layout
+
+\series bold
+Precio:
+\series default
+ $30 dlls
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+
+\series bold
+6.
+ AmmSensor
+\end_layout
+
+\begin_layout Standard
+Es un sistema inalámbrico vía Bluetooth compuesto por una unidad de medida
+ inercial de 9 grados de libertad, tiene incluido un acelerómetro, un giróscopo
+ y un magnetómetro.
+ Su tamaño es reducido, cabe en la palma de la mano, la medida la realiza
+ en tiempo real.
+ Cuenta con un 
+\emph on
+kit
+\emph default
+ de desarrollo de 
+\emph on
+software
+\emph default
+ para el procesamiento de las variables medidas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+7.
+ InertiaCube BT
+\end_layout
+
+\begin_layout Standard
+Entrega datos de orientación en 3D en tiempo real utilizando un sistema
+ de comunicación Bluetooth como interfaz a la computadora.
+ Cuenta con una batería recargable.
+ Diseñado para análisis de movimiento en humanos.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+8.
+ PlayStation Move
+\end_layout
+
+\begin_layout Standard
+Es un dispositivo de usuario para la consola PlayStation
+\begin_inset script superscript
+
+\begin_layout Plain Layout
+®
+\end_layout
+
+\end_inset
+
+ 3, basado en reconocimiento visual por medio de una cámara y un control
+ que tienen sensores inerciales.
+ La cámara identifica la posición tridimensional del dispositivo y los sensores
+ inerciales registran velocidad y aceleración angulares.
+ Cuenta con comunicación inalámbrica permitiendo al usuario una completa
+ libertad de movimiento.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+9.
+ Gama Umana C
+\end_layout
+
+\begin_layout Standard
+Sistema de adquisición de datos para el análisis dinámico y biomecánico
+ de remo, concebida para la optimización de los resultados deportivos.
+ Mide los parámetros biomecánicos (velocidad, aceleración, torques), procesa
+ y monitoriza utilizando un software de análisis, para visualizar el rendimiento
+ de los deportistas.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10.
+ Row Pro
+\end_layout
+
+\begin_layout Standard
+Es un software de aplicación diseño como auxiliar en el entrenamiento, motivació
+n de la técnica y seguimiento del atleta.
+ El programa permite llevar una estadística de los entrenamientos permitiendo
+ mejorar la toma de decisiones por parte del entrenador.
+ Este software requiere conectar la maquina de remo 
+\emph on
+Concept2
+\emph default
+ a la computadora para que pueda administrar la información proporcionada
+ por el sensor de esta.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "OBJETIVOS.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "PLANTEAMIENTO DEL PROBLEMA.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "JUSTIFICACION.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "MARCO TEORICO.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "DESARROLLO EXPERIMENTAL.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "ANAL INTERPRE RESULTADOS.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "CONCLUSION.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "TRABAJOS FUTUROS.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "BIBLIOGRAFIA.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

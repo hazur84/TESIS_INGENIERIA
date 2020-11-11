@@ -1,0 +1,8909 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+%esta linea escribe "figura" o "cuado" seguido del numero ne las referencias cruzadas
+\usepackage[figure,table]{hypcap}
+%situa al inicio de la figura o cuadro el hipervinculo
+\usepackage[labelfont={bf,sf}]{caption}
+%pone figura y cuadro en negritas con fuente sans serif
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Desarrollo experimental
+\end_layout
+
+\begin_layout Section
+Modelo biónico 
+\end_layout
+
+\begin_layout Standard
+El modelo biónico estudia el comportamiento cinemático puntual del atleta
+ de remo bajo techo.
+ La deducción del modelo corresponde a la interpretación de la anatomía
+ (estructura interna del cuerpo biológico utilizando cinemática puntual).
+ La metodología propuesta está sustentada en 3 campos generales de la ciencia:
+ la 
+\series bold
+física
+\series default
+ con la definición de propiedades y la interpretación de resultados; la
+ 
+\series bold
+matemática
+\series default
+ que proporciona herramientas geométricas abstractas, métodos y algoritmos
+ de solución; finalmente la 
+\series bold
+biología
+\series default
+ que añade parámetros específicos de los modelos de sistemas biológicos.
+ 
+\end_layout
+
+\begin_layout Standard
+La aplicación de la metodología empleada consiste de los siguientes pasos:
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+La asignación de una posición inicial de estudio del cuerpo biológico
+\series default
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Se propone la posición anatómica como se observa en la (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Posición-Anatómica-y"
+
+\end_inset
+
+).
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Definir la sección de estudio y los 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+segmento corporal
+\end_layout
+
+\end_inset
+
+segmentos corporales
+\series default
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+La sección de estudio se limita a la parte superior del cuerpo del atleta:
+ los 
+\series bold
+brazos
+\series default
+ y la 
+\series bold
+columna
+\series default
+ considerando la 
+\series bold
+cabeza.
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Identificar las articulaciones de cada segmento corporal, los ejes axiales
+ y los grados de libertad totales para el estudio cinemático
+\series default
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Para comprender a detalle el comportamiento cinemático de la sección de
+ estudio, se requiere conocer las estructuras fundamentales 
+\series bold
+
+\begin_inset Quotes eld
+\end_inset
+
+articulaciones
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\series default
+asignarles eje axiales y definir los grados de libertad totales del sistema
+ relacionados con las mismas
+\series bold
+.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+La 
+\series bold
+identificación de las articulaciones representativas
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+De los tres segmentos corporales brazos (izquierdo y derecho), columna y
+ cabeza; se puede simplificar la descripción de los brazos, considerando
+ que cada uno de estos segmentos es simétrico al plano sagital y se propone
+ unificar la columna con la cabeza para establecer una cadena cinemática.
+ Por lo que se tiene:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+El 
+\series bold
+brazo
+\series default
+ se compone por
+\series bold
+ 3 uniones
+\series default
+ 
+\series bold
+o articulaciones
+\series default
+: 
+\series bold
+hombro, codo y muñeca
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+La columna
+\series default
+ se compone de 
+\series bold
+33 articulaciones más la cabeza
+\series default
+: las articulaciones de las vértebras son semejantes lo que permite estudiar
+ una sola como unidad funcional, además se considera a la cabeza como una
+ vertebra más.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Descripción de los ejes axiales por articulación
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+La descripción cinemática de las articulaciones en cada segmento corporal
+ requiere la asignación de un marco coordenado, cuando es en un plano este
+ se clasifica como monoaxial, en 2 planos biaxial y para 3 planos triaxial
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+En el brazo los ejes de las articulaciones están asignadas de la siguiente
+ forma:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hombro: Es una articulación triaxial considerada como una articulación esférica
+ y diartrósica.
+\end_layout
+
+\begin_layout Enumerate
+Codo: Es considerado como una articulación monoaxial.
+\end_layout
+
+\begin_layout Enumerate
+Muñeca: es una articulación biaxial o triaxial.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+En la columna los ejes de las articulaciones son fijados considerando una
+ vertebra:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+La columna está formada por las articulaciones del tipo 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+anfiatrósicas
+\end_layout
+
+\end_inset
+
+anfiatrósicas (articulación con movimientos muy limitados constituida por
+ superficies unidas por discos de fibrocartílago) triaxiales.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Descripción de los grados de libertad por articulación
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Aunque se conoce el numero de planos necesarios para referir el movimiento
+ en cada 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+articulación
+\end_layout
+
+\end_inset
+
+articulación, no es suficiente, para describir directamente el cambio de
+ la posición en la estructura, explicar este fenómeno es posible con el
+ uso del concepto Grado de libertad 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+GDL
+\end_layout
+
+\end_inset
+
+GDL o 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+DOF
+\end_layout
+
+\end_inset
+
+DOF (acrónimo en inglés Degree Of Liberty) con el que se determina un número
+ asociado con los planos de referencias axiales y los nombres de los desplazamie
+ntos que se realizan en cada uno de ellos 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-21"
+
+\end_inset
+
+.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+El brazo posee 7 GDL repartidos de la siguiente manera:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Hombro: Contiene 3 GDL , los cambios que realiza en cada plano son: 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+flexión
+\end_layout
+
+\end_inset
+
+flexión, 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+extensión
+\end_layout
+
+\end_inset
+
+extensión, 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+abducción
+\end_layout
+
+\end_inset
+
+abducción, 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+aducción
+\end_layout
+
+\end_inset
+
+aducción y circundicción.
+\end_layout
+
+\begin_layout Enumerate
+Codo: Contiene 1 GDL directo, los cambios que realiza en cada plano son:
+ Flexión-Extensión y Pronación- Supinación (este desplazamiento se considera
+ propio del segmento por eso mismo no se considera como un GDL).
+\end_layout
+
+\begin_layout Enumerate
+Muñeca: Se consideran 3 GDL, los cambios que realiza en cada plano y por
+ parejas son: Flexión-Extensión, Abducción- Aducción y Circundicción.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+La columna tiene 102 GDL repartidos de la siguiente manera:
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Vertebra: Contiene 3 GDL por cada una de las 34 sumando la cabeza, formando
+ la columna 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+Considerando la información básica detallada en la descripción de grados
+ de libertad, se determina que 
+\series bold
+la sección de estudio se compone de un total de 116 GDL
+\series default
+ distribuidos de la siguiente forma: 
+\series bold
+102 GDL en la columna verbebral
+\series default
+ y 
+\series bold
+7 GDL en cada brazo
+\series default
+ respectivamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename figuras/Physics based humanoid simulation Adonis (developed by Jessica Hodgins).jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Sección-de-estudio"
+
+\end_inset
+
+Esquema del atleta detallando la sección de estudio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Bases del análisis cinemático de la sección de estudio
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Tiene como función establecer los grados de libertad a usar en este desarrollo
+ con respecto a los reportados en el último párrafo de la identificación,
+ la selección del algoritmo matematico considerando la esencia del cuerpo
+ de análisis y determinando las condiciones mecánicas del mismo.
+ 
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\series bold
+Definición de los grados de libertad para el presente trabajo
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+De los 116 GDL totales del sistema reportados en la identificación de las
+ articulaciones, para este estudio se consideran 
+\series bold
+exclusivamente 15 GDL totales
+\series default
+ repartidos de la siguiente forma: 5 GDL para la columna vertebral contando
+ la cabeza y 5 GDL de cada brazo respectivamente.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Selección del algoritmo matemático para representar la cinemática del modelo
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+El sistema biológico puede representarse como un conjunto de cadenas cinemáticas
+ abiertas
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-94"
+
+\end_inset
+
+ y deformaciones oseas mínimas, el algoritmo que se adapta a la naturaleza
+ de dichas cadenas es el propuesto por 
+\noun on
+Denavit-Hartenberg
+\noun default
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-46"
+
+\end_inset
+
+.
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Condiciones mecánicas y de movimiento del cuerpo
+\series default
+ 
+\series bold
+proporcionadas por el sistema consideran:
+\series default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\emph on
+Los movimientos en las articulaciones son rotacionales.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Las rotaciones en las articulaciones producen movimientos de traslación
+ en las subsecuentes articulaciones, debido a la configuración geométrico
+ de los huesos.
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Considera el cambio que sufre la estructura al realizarse el movimiento
+ considerandolo cero (deformación de los huesos).
+\end_layout
+
+\begin_layout Enumerate
+
+\emph on
+Corresponde a crecimiento de la estructura se considera un escalamiento
+ de uno (aumento de la longitud del hueso).
+\emph default
+
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\series bold
+Desarrollo matematico con el algoritmo de 
+\noun on
+Denavit-Hartenberg
+\noun default
+ y obtención del modelo matematico
+\end_layout
+
+\begin_layout Standard
+La descripción cinemática del atleta usando el algoritmo de 
+\noun on
+Denavit-Hartenberg
+\noun default
+ requiere la construcción de un esquema que establezca una analogía atleta
+ - robot representado los movimientos rotacionales con cilindros y los movimient
+os traslacionales con primas rectangulares.
+\end_layout
+
+\begin_layout Standard
+Los movimientos descritos por los robots se componen de rotaciones y traslacione
+s sin embargo el cuerpo humano solo realiza movimientos rotacionales es
+ por ello que el diagrama resultante corresponde a cilindros (ver figura
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Robot-del-Atleta"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/robotCITO.emf
+	height 220mm
+	scaleBeforeRotation
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Robot-del-Atleta"
+
+\end_inset
+
+Robot general del atleta de remo bajo techo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De la información obtenida en la identificación y la representación en diagramas
+ robóticos anterior (ver figura 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Robot-del-Atleta"
+
+\end_inset
+
+) se observa que el cuerpo biológico contiene un robot general compuesto
+ de 2 robots parciales que se anclan en la cadera terminando en la mano
+ derecha y la mano izquierda respectivamente.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+El punto de análisis en esta propuesta se localiza en la muñeca por lo que
+ describir la cinemática del robot completo es innecesario, por ello se
+ procede a separa el robot general en 3 nuevos robots independientes a los
+ que posteriormente se les aplica el algoritmo de 
+\noun on
+Denavit-Hartenberg
+\noun default
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-47"
+
+\end_inset
+
+, las condiciones con las que se realiza ese desacople de robots se tomaron
+ en cuentan de las enunciadas por 
+\noun on
+Rocon 
+\noun default
+en su trabajo 
+\begin_inset Quotes eld
+\end_inset
+
+el comportamiento mecánico del brazo es independiente del resto de cuerpo
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-47"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Desacople-del-Robot"
+
+\end_inset
+
+Desacople del robot general en A, B Y C
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="5.5cm">
+<column alignment="center" valignment="bottom" width="5.4cm">
+<column alignment="center" valignment="top" width="5.4cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brazo Derecho
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Columna
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none" width="5.4cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Brazo Izquierdo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/brazoDER.emf
+	height 10cm
+	scaleBeforeRotation
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/columna.emf
+	height 10cm
+	scaleBeforeRotation
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename figuras/brazoIZQ.emf
+	height 10cm
+	scaleBeforeRotation
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Resultado del desacople de robots anterior se reporta en la tabla anterior,
+ con el robot B correspondiente a la columna vertebral que es la sección
+ del esqueleto que se encarga de sostener la estructura y fijar los movimientos,
+ el robot C en el brazo izquierdo por el sentido natural de la ubicación
+ del eje de análisis de la columna y luego entonces el robot A consiste
+ en el brazo derecho.
+\end_layout
+
+\begin_layout Standard
+A continuación se desarrolla el algoritmo de Denavit-Hartenberg primeramente
+ para el Robot B, en segundo lugar para el Robot C y finalmente el Robot
+ A 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Robot (B) Columna
+\end_layout
+
+\begin_layout Standard
+Del diagrama robótico B en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+ se obtienen los siguientes parametros de Denavit-Hartenberg
+\noun on
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Tabla de Parámetros Denavit-Hartenberg para la columna (B)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Eslabones$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $z_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $x_{i}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+n
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+θi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+di
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ai
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+αi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+usando las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:transformacio-homogenea"
+
+\end_inset
+
+ y
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: procedimiento"
+
+\end_inset
+
+ para cada elemento del robot (columna) se tiene que:
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la cadera a la 1ª vértebra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1}^{0}=\left[\begin{array}{ccc|c}
+\cos\theta_{1} & -\sin\theta_{1} & 0 & 0\\
+\sin\theta_{1} & \cos\theta_{1} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{1}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{1} & -\sin\alpha_{1} & 0\\
+0 & \sin\alpha_{1} & \cos\alpha_{1} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{1}^{0}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & r_{1}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la primera vertebra a la 2ª vertebra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{2}^{1}=\left[\begin{array}{ccc|c}
+\cos\theta_{2} & -\sin\theta_{2} & 0 & 0\\
+\sin\theta_{2} & \cos\theta_{2} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{2}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{2}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{2} & -\sin\alpha_{2} & 0\\
+0 & \sin\alpha_{2} & \cos\alpha_{2} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{2}^{1}=\left[\begin{array}{ccc|c}
+\cos q_{1} & -\sin q_{1} & 0 & r_{2}\cos q_{1}\\
+\sin q_{1} & \cos q_{1} & 0 & r_{2}\sin q_{1}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la segunda vertebra a la 3ª vértebra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{3}^{2}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{3}^{2}=\left[\begin{array}{ccc|c}
+\cos q_{2} & -\sin q_{2} & 0 & r_{3}\cos q_{2}\\
+\sin q_{2} & \cos q_{2} & 0 & r_{3}\sin q_{2}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la 3ª vertebra a la 4ª vertebra:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{4}^{3}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{4}^{3}=\left[\begin{array}{ccc|c}
+\cos q_{3} & -\sin q_{3} & 0 & r_{4}\cos q_{3}\\
+\sin q_{3} & \cos q_{3} & 0 & r_{4}\sin q_{3}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Calculando la matriz de transformación homogénea de la 4ª vertebra a la
+ cabeza:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{5}^{4}=\left[\begin{array}{ccc|c}
+\cos\theta_{4} & -\sin\theta_{4} & 0 & 0\\
+\sin\theta_{4} & \cos\theta_{4} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{4}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{4}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{4} & -\sin\alpha_{4} & 0\\
+0 & \sin\alpha_{4} & \cos\alpha_{4} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{5}^{4}=\left[\begin{array}{ccc|c}
+\cos q_{4} & -\sin q_{4} & 0 & r_{5}\cos q_{4}\\
+\sin q_{4} & \cos q_{4} & 0 & r_{5}\sin q_{4}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Transformacion General"
+
+\end_inset
+
+, la matriz de transformación Homogénea general de la columna es:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T_{COLUMNA}=\left[A_{\text{5}}^{0}\right]=\left[A_{\text{1}}^{\text{0}}\right]\left[A_{2}^{\text{1}}\right]\left[A_{\text{3}}^{\text{2}}\right]\left[A_{\text{4}}^{\text{3}}\right]\left[A_{\text{5}}^{4}\right]=\left[\begin{array}{ccc|c}
+a & e & i & m\\
+b & f & j & n\\
+c & g & k & o\\
+\hline d & h & l & p
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde las letras 
+\begin_inset Formula $a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p$
+\end_inset
+
+ son los elementos de la matriz de transformación homogénea general correspondie
+ntes a la columna.
+ Aplicando recursivamente las ecuaciones, (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sub:Identidades-trigonométricas"
+
+\end_inset
+
+)se reducen las siguientes expresiones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=\cos q_{4}(\cos q_{3}\left(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2}\right)-\sin q_{3}(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}))\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\sin q_{4}\left(\cos q_{3}\left(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}\right)+\sin q_{3}(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2}\right))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=\cos q_{4}\left(\cos q_{3}\ast\cos(q_{1}+q_{2})-\sin q_{3}\ast\sin(q1+q_{2}\right))-$
+\end_inset
+
+ 
+\begin_inset Formula $\sin q_{4}(\cos q_{3}\ast\sin(q_{1}+q_{2})+\sin q_{3}\ast\cos(q_{1}+q_{2}))$
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a=\cos q_{4}\ast\cos(q_{1}+q_{2}+q_{3})-$
+\end_inset
+
+ 
+\begin_inset Formula $\sin q_{4}\ast\sin(q_{1}+q_{2}+q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+a=\cos(q_{1}+q_{2}+q_{3}+q_{4})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b=\cos q_{4}\left(\cos q_{3}\left(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}\right)+\sin q_{3}\left(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+\sin q_{4}\left(\cos q_{3}(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2})-\sin q_{3}\left(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b=\cos q_{4}(\cos q_{3}\ast\sin(q_{1}+q_{2})+\sin q_{3}\ast\cos(q_{1}+q_{2}))+\sin q_{4}\left(\cos q_{3}\ast\cos(q_{1}+q_{2})-\sin q_{3}\ast\sin(q_{1}+q_{2}\right))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $b=\cos q_{4}\ast\sin(q_{1}+q_{2}+q_{3})+\sin q_{4}\ast\cos(q_{1}+q_{2}+q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+b=\sin(q_{1}+q_{2}+q_{3}+q_{4})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e=-\cos q_{4}\left(\left(\cos q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)+\left(\sin q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\left(\sin q_{4}\right)\left(\left(\cos q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)-\left(\sin q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e=-\cos q_{4}(\cos q_{3}\ast\sin(q_{1}+q_{2})+\sin q_{3}\ast\cos(q_{1}+q_{2}))-\sin q_{4}(\cos q_{3}\ast\cos(q_{1}+q_{2})-\sin q_{3}\ast\sin(q_{1}+q_{2}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $e=-\cos q_{4}\ast\sin(q_{1}+q_{2}+q_{3})-\sin q_{4}\ast\cos(q_{1}+q_{2}-q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+e=-b=-\sin(q_{1}+q_{2}+q_{3}+q_{4})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f=\cos q_{4}(\cos q_{3}\left(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2}\right)-\sin q_{3}(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}))\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\sin q_{4}\left(\cos q_{3}\left(\cos q_{1}\ast\sin q_{2}+\cos q_{2}\ast\sin q_{1}\right)+\sin q_{3}(\cos q_{1}\ast\cos q_{2}-\sin q_{1}\ast\sin q_{2}\right))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f=\cos q_{4}\left(\cos q_{3}\ast\cos(q_{1}+q_{2})-\sin q_{3}\ast\sin(q1+q_{2}\right))-$
+\end_inset
+
+ 
+\begin_inset Formula $\sin q_{4}(\cos q_{3}\ast\sin(q_{1}+q_{2})+\sin q_{3}\ast\cos(q_{1}+q_{2}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $f=\cos q_{4}\ast\cos(q_{1}+q_{2}+q_{3})-\sin q_{4}\ast\sin(q_{1}+q_{2}+q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+f=a=\cos(q_{1}+q_{2}+q_{3}+q_{4})=a
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=r_{1}+r_{2}\cos q_{1}+r_{4}\left(\cos q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)-r_{4}\left(\sin q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{5}\left(\cos q_{4}\right)\left(\left(\cos q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)-\left(\sin q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-r_{5}\left(\sin q_{4}\right)\left(\left(\cos q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)+\left(\sin q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{3}\cos q_{1}\cos q_{2}-r_{3}\sin q_{1}\sin q_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=r1+r2\cos q_{1}+r3\cos(q_{1}+q_{2})+r4\cos q_{3}\ast\cos(q1+q_{2})-r4\sin q_{3}\ast\sin(q_{1}+q_{2})\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $+r5\cos q_{4}(\cos q_{3}\ast\cos(q_{1}+q_{2})-\sin q3\ast\sin(q1+q2))-r5\sin q_{4}(\cos q_{3}\ast\sin(q_{1}+q_{2})+\sin q_{3}\ast\cos(q_{1}+q_{2}))$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=r1+r2\cos q_{1}+r3\cos(q_{1}+q_{2})+r4\cos(q_{1}+q_{2}+q_{3})+r5\cos q_{4}\ast\cos(q_{1}+q_{2}+q_{3})\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-r5\sin q_{4}\ast\sin(q_{1}+q_{2}+q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m=r1+r2\cos q_{1}+r3\cos(q_{1}+q_{2})+r4\cos(q_{1}+q_{2}+q_{3})+r5\cos(q_{1}+q_{2}+q_{3}+q_{4})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+m=r1+r2\cos q_{1}+r3\cos(q_{1}+q_{2})+r4\cos(q_{1}+q_{2}+q_{3})+r5a
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=r_{2}\sin q_{1}+r_{4}\left(\cos q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)+r_{4}\left(\sin q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{5}\left(\cos q_{4}\right)\left(\left(\cos q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)+\left(\sin q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{5}\left(\sin q_{4}\right)\left(\left(\cos q_{3}\right)\left(\cos q_{1}\cos q_{2}-\sin q_{1}\sin q_{2}\right)-\left(\sin q_{3}\right)\left(\cos q_{1}\sin q_{2}+\cos q_{2}\sin q_{1}\right)\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{3}\cos q_{1}\sin q_{2}+r_{3}\cos q_{2}\sin q_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=r_{2}\sin q_{1}+r_{4}\cos q_{3}\sin(q_{1}+q_{2})+r_{4}\sin q_{3}\cos(q_{1}+q_{2})+r_{5}\cos q_{4}\cos q_{3}\sin(q_{1}+q_{2})\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang english
+\begin_inset Formula $\ldots+\sin q_{3}\cos(q_{1}+q_{2})+r_{5}\sin q_{4}\cos q_{3}\cos(q_{1}+q_{2})-\sin q_{3}\sin(q_{1}+q_{2})+r_{3}\sin(q_{1}+q_{2})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=r_{2}\sin q_{1}+r_{3}\sin(q_{1}+q_{2})+r_{4}\sin(q_{1}+q_{2}+q_{3})+r_{5}\cos q_{4}\sin(q_{1}+q_{2}+q_{3})\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{5}\sin q_{4}\cos q_{3}\cos(q_{1}+q_{2}+q_{3})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $n=r_{2}\sin q_{1}+r_{3}\sin(q_{1}+q_{2})+r_{4}\sin(q_{1}+q_{2}+q_{3})+r_{5}\sin(q_{1}+q_{2}+q_{3}+q_{4})$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+n=r_{2}\sin q_{1}+r_{3}\sin(q_{1}+q_{2})+r_{4}\sin(q_{1}+q_{2}+q_{3})+r_{5}b
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+c=d=g=h=i=j=l=o=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k=p=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Robot (C) Brazo Izquierdo 
+\end_layout
+
+\begin_layout Standard
+Del diagrama robótica C en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+ se obtienen los siguientes parametros de 
+\noun on
+denavit hartenberg 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Tabla-de-Parámetros-Biz"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabla-de-Parámetros-Biz"
+
+\end_inset
+
+Tabla de Parámetros Denavit-Hartenberg para brazo izquierdo 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+ (C)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eslabones
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+zi
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+xi
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+n
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+θi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+di
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ai
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+αi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+l1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2+q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2+q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2+q3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2+q4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+usando las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:transformacio-homogenea"
+
+\end_inset
+
+ y
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: procedimiento"
+
+\end_inset
+
+ para cada elemento del robot (columna) se tiene que:
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la cadera al 1º Grado de libertad
+ en el hombro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1}^{0}=\left[\begin{array}{ccc|c}
+\cos\theta_{1} & -\sin\theta_{1} & 0 & 0\\
+\sin\theta_{1} & \cos\theta_{1} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{1}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{1} & -\sin\alpha_{1} & 0\\
+0 & \sin\alpha_{1} & \cos\alpha_{1} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{1}^{0}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & l_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del 1º Grado de libertad al 2º en el
+ hombro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{2}^{1}=\left[\begin{array}{ccc|c}
+\cos\theta_{2} & -\sin\theta_{2} & 0 & 0\\
+\sin\theta_{2} & \cos\theta_{2} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{2}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{2}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{2} & -\sin\alpha_{2} & 0\\
+0 & \sin\alpha_{2} & \cos\alpha_{2} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{2}^{1}=\left[\begin{array}{ccc|c}
+-\cos q_{1} & 0 & -\sin q_{1} & 0\\
+-\sin q_{1} & 0 & \cos q_{1} & 0\\
+0 & 1 & 0 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del 2ª Grado de libertad al 3ª en el
+ hombro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{3}^{2}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{3}^{2}=\left[\begin{array}{ccc|c}
+-\sin q_{2} & 0 & \cos q_{2} & 0\\
+\cos q_{2} & 0 & \sin q_{2} & 0\\
+0 & 1 & 0 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del 3º grado de libertad al codo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{4}^{3}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+A_{4}^{3}=\left[\begin{array}{ccc|c}
+-\sin q_{3} & 0 & -\cos q_{3} & 0\\
+\cos q_{3} & 0 & -\sin q_{3} & 0\\
+0 & -1 & 0 & r_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del codo a la muñeca: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{5}^{4}=\left[\begin{array}{ccc|c}
+\cos\theta_{4} & -\sin\theta_{4} & 0 & 0\\
+\sin\theta_{4} & \cos\theta_{4} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{4}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{4}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{4} & -\sin\alpha_{4} & 0\\
+0 & \sin\alpha_{4} & \cos\alpha_{4} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{5}^{4}=\left[\begin{array}{ccc|c}
+\sin q_{4} & \cos q_{4} & 0 & r_{2}\sin q_{4}\\
+-\cos q_{4} & \sin q_{4} & 0 & -r_{2}\cos q_{4}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del muñeca al efector final: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{6}^{5}=\left[\begin{array}{ccc|c}
+\cos\theta_{5} & -\sin\theta_{5} & 0 & 0\\
+\sin\theta_{5} & \cos\theta_{5} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{5}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{5}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{5} & -\sin\alpha_{5} & 0\\
+0 & \sin\alpha_{5} & \cos\alpha_{5} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{6}^{5}=\left[\begin{array}{ccc|c}
+\cos q_{5} & -\sin q_{5} & 0 & r_{3}\cos q_{5}\\
+\sin q_{5} & \cos q_{5} & 0 & r_{3}\sin q_{5}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Transformacion General"
+
+\end_inset
+
+, la matriz de transformación homogénea general del brazo izquierdo es:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T_{BIZQUIERDO}=\left[A_{6}^{0}\right]=\left[A_{1}^{0}\right]\left[A_{2}^{1}\right]\left[A_{3}^{2}\right]\left[A_{4}^{3}\right]\left[A_{5}^{4}\right]\left[A_{6}^{5}\right]=\left[\begin{array}{ccc|c}
+a & e & i & m\\
+b & f & j & n\\
+c & g & k & o\\
+\hline d & h & l & p
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+a=-\left(\cos q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{1}\cos q_{2}\cos q_{4}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\left(\sin q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{1}\cos q_{2}\sin q_{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+b=\left(\cos q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{2}\cos q_{4}\sin q_{1}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+\left(\sin q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{2}\sin q_{1}\sin q_{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+c=\left(\cos q_{5}\right)\left(\cos q_{4}\sin q_{2}-\cos q_{2}\sin q_{3}\sin q_{4}\right)-\left(\sin q_{5}\right)\left(\sin q_{2}\sin q_{4}+\cos q_{2}\cos q_{4}\sin q_{3}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+e=\left(\sin q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{1}\cos q_{2}\cos q_{4}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\left(\cos q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{1}\cos q_{2}\sin q_{4}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+f=\left(\cos q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{2}\sin q_{1}\sin q_{4}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-\left(\sin q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{2}\cos q_{4}\sin q_{1}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+g=-\left(\cos q_{5}\right)\left(\sin q_{2}\sin q_{4}+\cos q_{2}\cos q_{4}\sin q_{3}\right)-\left(\sin q_{5}\right)\left(\cos q_{4}\sin q_{2}-\cos q_{2}\sin q_{3}\sin q_{4}\right)
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+i=\sin q_{1}\sin q_{3}-\cos q_{1}\cos q_{3}\sin q_{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+j=-\cos q_{1}\sin q_{3}-\cos q_{3}\sin q_{1}\sin q_{2}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+k=-\cos q_{2}\cos q_{3}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+m=-r_{3}\left(\cos q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{1}\cos q_{2}\cos q_{4}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-r_{3}\left(\sin q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{1}\cos q_{2}\sin q_{4}\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-r_{2}\left(\sin q_{4}\right)\left(\cos q_{3}\sin q_{1}+\cos q_{1}\sin q_{2}\sin q_{3}\right)-r_{1}\cos q_{1}\cos q_{2}-r_{2}\cos q_{1}\cos q_{2}\cos q_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+n=r_{3}\left(\cos q_{5}\right)\left(\left(\sin q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)-\cos q_{2}\cos q_{4}\sin q_{1}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{3}\left(\sin q_{5}\right)\left(\left(\cos q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)+\cos q_{2}\sin q_{1}\sin q_{4}\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots+r_{2}\left(\sin q_{4}\right)\left(\cos q_{1}\cos q_{3}-\sin q_{1}\sin q_{2}\sin q_{3}\right)-r_{1}\cos q_{2}\sin q_{1}-r_{2}\cos q_{2}\cos q_{4}\sin q_{1}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $o=l_{1}+r_{1}\sin q_{2}+r_{3}\left(\cos q_{5}\right)\left(\cos q_{4}\sin q_{2}-\cos q_{2}\sin q_{3}\sin q_{4}\right)\ldots$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots-r_{3}\left(\sin q_{5}\right)\left(\sin q_{2}\sin q_{4}+\cos q_{2}\cos q_{4}\sin q_{3}\right)+r_{2}\cos q_{4}\sin q_{2}-r_{2}\cos q_{2}\sin q_{3}\sin q_{4}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+o=l_{1}+r_{1}\sin q_{2}++r_{2}\left(\cos q_{4}\sin q_{2}-\cos q_{2}\sin q_{3}\sin q_{4}\right)\ldots
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\ldots r_{3}\left(\left(\cos q_{5}\right)\left(\cos q_{4}\sin q_{2}-\cos q_{2}\sin q_{3}\sin q_{4}\right)-\left(\sin q_{5}\right)\left(\sin q_{2}\sin q_{4}+\cos q_{2}\cos q_{4}\sin q_{3}\right)\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+d=h=l=0
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+p=1
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Robot (A) Brazo Derecho 
+\end_layout
+
+\begin_layout Standard
+Del diagrama robótica A en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+ se obtienen los siguientes parametros de 
+\noun on
+denavit hartenberg
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Tabla-de-Parámetros-BDER"
+
+\end_inset
+
+Tabla de Parámetros Denavit-Hartenberg para la brazo derecho 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Desacople-del-Robot"
+
+\end_inset
+
+ (A)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Eslabones
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+zi
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+xi
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+n
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+θi
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+di
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ai
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+αi
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+l1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2+q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2+q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+π/2+q3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-π/2+q4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+r3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+usando las ecuaciones 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:transformacio-homogenea"
+
+\end_inset
+
+ y
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: procedimiento"
+
+\end_inset
+
+ para cada elemento del robot (columna) se tiene que:
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea de la cadera al 1º GDL en el hombro
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{1}^{0}=\left[\begin{array}{ccc|c}
+\cos\theta_{1} & -\sin\theta_{1} & 0 & 0\\
+\sin\theta_{1} & \cos\theta_{1} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{1}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{1} & -\sin\alpha_{1} & 0\\
+0 & \sin\alpha_{1} & \cos\alpha_{1} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{1}^{0}=\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & -1 & 0 & 0\\
+0 & 0 & -1 & l_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del 1º GDL al 2º en el hombro
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{2}^{1}=\left[\begin{array}{ccc|c}
+\cos\theta_{2} & -\sin\theta_{2} & 0 & 0\\
+\sin\theta_{2} & \cos\theta_{2} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{2}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{2}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{2} & -\sin\alpha_{2} & 0\\
+0 & \sin\alpha_{2} & \cos\alpha_{2} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{2}^{1}=\left[\begin{array}{ccc|c}
+-\sin q_{2} & 0 & \cos q_{2} & 0\\
+\cos q_{2} & 0 & \sin q_{2} & 0\\
+0 & 1 & 0 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del 2ª GDL al 3ª en el hombro:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{3}^{2}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{3}^{2}=\left[\begin{array}{ccc|c}
+-\sin q_{2} & 0 & \cos q_{2} & 0\\
+\cos q_{2} & 0 & \sin q_{2} & 0\\
+0 & 1 & 0 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del tercer GDL al codo
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{4}^{3}=\left[\begin{array}{ccc|c}
+\cos\theta_{3} & -\sin\theta_{3} & 0 & 0\\
+\sin\theta_{3} & \cos\theta_{3} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{3}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{3}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{3} & -\sin\alpha_{3} & 0\\
+0 & \sin\alpha_{3} & \cos\alpha_{3} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{4}^{3}=\left[\begin{array}{ccc|c}
+-\sin q_{3} & 0 & -\cos q_{3} & 0\\
+\cos q_{3} & 0 & -\sin q_{3} & 0\\
+0 & -1 & 0 & r_{1}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz de transformación homogénea del codo a la muñeca
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{5}^{4}=\left[\begin{array}{ccc|c}
+\cos\theta_{4} & -\sin\theta_{4} & 0 & 0\\
+\sin\theta_{4} & \cos\theta_{4} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{4}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{4}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{4} & -\sin\alpha_{4} & 0\\
+0 & \sin\alpha_{4} & \cos\alpha_{4} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{5}^{4}=\left[\begin{array}{ccc|c}
+\sin q_{4} & \cos q_{4} & 0 & r_{2}\sin q_{4}\\
+-\cos q_{4} & \sin q_{4} & 0 & -r_{2}\cos q_{4}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Matriz e transformación homogénea del muñeca al efector final:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $A_{6}^{5}=\left[\begin{array}{ccc|c}
+\cos\theta_{5} & -\sin\theta_{5} & 0 & 0\\
+\sin\theta_{5} & \cos\theta_{5} & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & d{}_{5}\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & a{}_{5}\\
+0 & 1 & 0 & 0\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]\left[\begin{array}{ccc|c}
+1 & 0 & 0 & 0\\
+0 & \cos\alpha_{5} & -\sin\alpha_{5} & 0\\
+0 & \sin\alpha_{5} & \cos\alpha_{5} & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+A_{6}^{5}=\left[\begin{array}{ccc|c}
+\cos q_{5} & -\sin q_{5} & 0 & r_{3}\cos q_{5}\\
+\sin q_{5} & \cos q_{5} & 0 & r_{3}\sin q_{5}\\
+0 & 0 & 1 & 0\\
+\hline 0 & 0 & 0 & 1
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+De 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq: Transformacion General"
+
+\end_inset
+
+, la matriz de transformación homogénea general del brazo derecho es:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+T_{BDERECHO}=\left[A_{6}^{0}\right]=\left[A_{1}^{0}\right]\left[A_{2}^{1}\right]\left[A_{3}^{2}\right]\left[A_{4}^{3}\right]\left[A_{5}^{4}\right]\left[A_{6}^{5}\right]=\left[\begin{array}{ccc|c}
+a & e & i & m\\
+b & f & j & n\\
+c & g & k & o\\
+\hline d & h & l & p
+\end{array}\right]
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Determinación de parametros biológicos (ángulos de las articulaciones involucrad
+as, distancias entre los segmentos corporales) 
+\end_layout
+
+\begin_layout Standard
+La 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+antropometría
+\end_layout
+
+\end_inset
+
+antropometría es la subdiciplina de biología encargada de dimensionar las
+ partes anatómicas.
+ Esta disciplina se ocupa de las dimensiones físicas y proporciones del
+ cuerpo humano 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-94"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Las dimensiones físicas requeridas por el algoritmo de 
+\noun on
+denavit-hartenberg,
+\noun default
+ específicamente la matriz de transformación total T de cada uno de los
+ segmentos corporales son: 
+\series bold
+ángulos de cada movimiento en la articulación representado por la letra
+ 
+\begin_inset Formula $\theta$
+\end_inset
+
+ y las distancias entre articulaciones escritas en términos de la altura
+ H 
+\series default
+(ver
+\series bold
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmentación-del-cuerpo"
+
+\end_inset
+
+
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/distancias h.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Segmentación-del-cuerpo"
+
+\end_inset
+
+Segmentación del cuerpo humano en términos de la altura (H) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-94"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Los ángulos de los movimientos por articulación se reportan en tablas consideran
+do el 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+segmento corporal
+\end_layout
+
+\end_inset
+
+segmento corporal y los movimientos que se describen, la primera de ellas
+ es la columna (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Análisis-radiográfico-del-col"
+
+\end_inset
+
+) correspondiente al primer robot.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Análisis-radiográfico-del-col"
+
+\end_inset
+
+Análisis radiográfico del movimiento de la columna lumbar en adultos asintomátic
+os con escala en grados.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-95"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2.5cm">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="2.5cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Segmento Vertebral
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flexión/Extensión
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none" width="5cm">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flexión Lateral (izq.
+ y der.)
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotación
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+a
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+b
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L1-L2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $11.9\pm3.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $13\pm5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10.4\pm2.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L2-L3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $14.5\pm2.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $14\pm2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12.4\pm3.4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $11$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L3-L4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $15.3\pm2.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $13\pm2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12.4\pm4.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L4-L5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $18.2\pm3.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $16\pm4.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $9.5\pm4.9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+L5-S1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $17\pm4.3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $14\pm5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+GDL
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para el 2º robot y 3º robot relacionados con los brazos se reporta una tabla
+ para la articulación del hombro (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-del-movimiento-hom"
+
+\end_inset
+
+) y la cabeza presente en la siguiente tabla: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Rango-de-movimiento-1"
+
+\end_inset
+
+Rango de movimiento de la cabeza
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Grados
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flexión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inclinación lateral
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotación izquierda
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotación derecha
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+80
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Rango-del-movimiento-hom"
+
+\end_inset
+
+Rango del movimiento del hombro en adultos sanos, 3 GDL 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-95"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0pt">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Movimientos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ángulo 
+\begin_inset Formula $\theta$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GDL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Elevación
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $167\pm4.7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $62\pm9.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotación externa en abducción
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $104\pm8.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rotación interna en abducción
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $69\pm9.5$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Abducción
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $184\pm7$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La articulación del codo proporciona la siguiente información (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-normal-del-codo"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Rango-normal-del-codo"
+
+\end_inset
+
+Rango normal del movimiento del codo.
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-95"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+BOONE Y AZEN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GDL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flexión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $141^{o}\pm4.9$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.3^{o}\pm2.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finalmente los ángulos en la muñeca están reportado en la tabla siguiente
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Rango-de-movimiento-1"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Rango-de-movimiento"
+
+\end_inset
+
+Rango de movimiento de la muñeca 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-95"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\noun on
+BOONE Y AZEN
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+GDL
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Flexión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $75^{o}\pm6.6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Extensión
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $74^{o}\pm6.6$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Desviación radial
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $21^{o}\pm4.0$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Desviación cubital 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $35^{o}\pm3.8$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Parametros Biológicos de entrada para cada matriz de transformación (Brazos
+ y columna)
+\end_layout
+
+\begin_layout Standard
+Los parámetros biológicos de la columna relacionados con la distancia entre
+ vertebras se deduce a partir de la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Segmentación-del-cuerpo"
+
+\end_inset
+
+ , primeramente se obtiene la distancia de toda la zona lumbar de la siguiente
+ manera: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+0.720H-0.530H=0.190H
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+la distancia obtenida de la zona lumbar se considera equidistante por lo
+ que se divide entre las 5 vertebras que conforman la zona, para obtener
+ la distancia entre los elementos
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{0.190H}{5}=0.038H
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y la distancia de la vertebra L1 a la cabeza se obtiene de la siguiente
+ manera 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+1H-0.720H=0.280H+0.190H=0.470H
+\end{equation}
+
+\end_inset
+
+por lo que
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+r_{1col}=0.038H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{2col}=0.076H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{3col}=0.114H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{4col}=0.190H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{5col}=0.470H
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+finalmente los ángulos en radianes de la columna son:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{1col}\leq\frac{18.2*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{2col}\leq\frac{15.3*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{3col}\leq\frac{14.3*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{4col}\leq\frac{11.9*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+-\frac{20*\pi}{180}\leq q_{5col}\leq\frac{30*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para los 
+\series bold
+brazos
+\series default
+ se tiene que la distancia de los segmentos son :
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+l_{1BR}=0.129H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{1BR}=0
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{2BR}=0
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{3BR}=0
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{4BR}=0.186H
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+r_{5BR}=0.146H
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y los ángulos en términos de q son los siguientes
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+-\frac{62*\pi}{180}\leq q_{BR}\leq\frac{167*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+--\frac{104*\pi}{180}\leq q_{2BR}\leq\frac{60*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{3BR}\leq\frac{184*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+0\leq q_{4BR}\leq\frac{141*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+-\frac{74*\pi}{180}\leq q_{5BR}\leq\frac{75*\pi}{180}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sistema de medición
+\end_layout
+
+\begin_layout Standard
+El sistema de medición se utiliza para medir y registrar señales obtenidas
+ básicamente del 
+\series bold
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\series medium
+transductor
+\end_layout
+
+\end_inset
+
+transductor
+\series default
+ (dispositivo que transforma parámetros físicos en señales eléctricas aceptables
+ para el sistema de medición), manejando la información digital.
+ La cantidad digital consiste en un número cuya relación de tiempo contiene
+ información referente a la magnitud o naturaleza de la misma.
+\end_layout
+
+\begin_layout Standard
+El sistema de medición electrónica tiene como finalidad obtener información
+ relacionada con las variables cinemáticas del esqueleto humano.
+ La construcción del anterior con lleva a dividir en 3 bloques o grupos
+ de control de información (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoftAplicacion"
+
+\end_inset
+
+).
+ El primero de izquierda a derecha es la unidad inercial, esta se coloca
+ en el cuerpo del atleta de acuerdo con la sección de estudio.
+ La segunda corresponde a la transmisión de la información por un canal
+ de comunicación inalámbrica.
+ El tercer grupo es la comunicación interna en la estación de trabajo para
+ el procesamiento de la información e interpretación de los datos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/diagrama a bloques general.emf
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-a-bloques"
+
+\end_inset
+
+Diagrama a bloques del sistema electrónico de medición.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El flujo de la información dentro del sistema de medición se representa
+ en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flujo-de-la"
+
+\end_inset
+
+.
+ Básicamente comienza con la petición de la computadora usando un carácter
+ definido en el programa enviado en el puerto lógico(virtual) RS-232 inalámbrico
+, que al llegar al puerto físico RS-232 del AVR  se hace una segunda petición
+ al sensor IMU a través del puerto I2C donde viaja la información extraida
+ del atleta, para ser almacenada en el microcontrolador y enviada de regreso
+ a la computadora para ser procesado y desplegado como movimiento del modelo
+ 3D así como datos cinemático.
+ Dicho sistema requiere la construcción de una unidad inercial representado
+ en el cuadro central de la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Flujo-de-la"
+
+\end_inset
+
+, para su elaboración se desarrolló en 4 etapas principales(ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Etapas-de-construcción"
+
+\end_inset
+
+) que posteriormente serán descritas.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/etapasConstruccion.emf
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Etapas-de-construcción"
+
+\end_inset
+
+Etapas de construcción del sistema electrónico de medición
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/TOPOLOGIA SENSOR.emf
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Flujo-de-la"
+
+\end_inset
+
+Flujo de la información en el sistema electrónico.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ETAPA A.- Diseño del circuito impreso
+\end_layout
+
+\begin_layout Standard
+En esta primera etapa se realiza el diseño del circuito en protoboard y
+ las pruebas correspondientes (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Prototipo-armado-en"
+
+\end_inset
+
+).
+ En la misma se muestran cada uno de ellos conectados al microcontrolador
+ Atmega48 después de haber realizado las pruebas de comunicación, para posterior
+mente utilizando el software Eagle y haciendo uso del diagrama eléctrico
+ (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-eléctrico-de"
+
+\end_inset
+
+), determinar la orientación por elemento en el diagrama de la placa final
+ y con esto optimizar el espacio utilizado para así evitar interferencias
+ durante la actividad del atleta alternado la medición.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/Photo on 2010-10-18 at 21.04.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Prototipo-armado-en"
+
+\end_inset
+
+Prototipo armado en protoboard para pruebas experimentales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/diagramaElectrico.png
+	lyxscale 50
+	height 9.5cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-eléctrico-de"
+
+\end_inset
+
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+diagrama eléctrico
+\end_layout
+
+\end_inset
+
+Diagrama eléctrico del sistema de medición.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/RN41Schematic.png
+	lyxscale 70
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama eléctrico de la placa RN-41 Bluetooth 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-2"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otra parte los IMUS (acelerómetros y giróscopos) al ser componente de
+ montaje superficial, en la unidad de medición inercial se considerarán
+ como placas independientes (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Diagrama-esquemático-del-IMU"
+
+\end_inset
+
+) que se interfazan por medio de un 
+\emph on
+bus
+\emph default
+ al microcontrolador en sus respectivos pines.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ITG3200Schematic.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Diagrama esquemático de la placa para el giróscopo ITG-3200 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/EsquemaAdxl345.png
+	lyxscale 50
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Diagrama-esquemático-del-IMU"
+
+\end_inset
+
+Diagrama esquemático de la placa para el acelerómetro ADXL345
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ETAPA B.-Fabricación de la placa electrónica
+\end_layout
+
+\begin_layout Standard
+Una ves concluida la etapa A donde se consiguen como productos los PCB correspon
+dientes a placa de microcontrolador AVR y la de los MEMS (acelerómetro y
+ giróscopo) utilizados por el sistema electrónico de medición ( ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Placa-de-circuito"
+
+\end_inset
+
+ y 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Placa-del-IMU"
+
+\end_inset
+
+) .
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/PlacaTTTop.png
+	lyxscale 50
+	height 8cm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/PlacaTTBoton.png
+	lyxscale 50
+	height 8cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Placa-de-circuito"
+
+\end_inset
+
+Placa de circuito impreso del Atmega48 vista anterior (der.) vista posterior
+ (izq.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ADXL345Boton.png
+	width 85mm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/ADXL345Top.png
+	width 85mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Placa-del-IMU"
+
+\end_inset
+
+Placa del ADXL345 vista anterior (der.) y vista posterior (izq.)
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una vez terminado el diseño de la placa del circuito en Eagle, se procede
+ a la impresión en láser del diseño en una hoja de papel 
+\emph on
+cuché
+\emph default
+, después por transferencia de calor se traspasa el diseño a la placa fenólica,
+ en seguida se ataca la placa con cloruro férrico, el resultado del proceso
+ químico anterior es el circuito final de la placa base.
+ Una vez concluido esto, se perforan con taladro los lugares destinados
+ para los receptores de los sensores inerciales, el 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+módem
+\end_layout
+
+\end_inset
+
+módem Bluetooth, así como los componentes electrónicos: resistencia, led's,
+ conectores de corrientes y botón switch.
+ Por último se soldan los componentes electrónicos.
+ Con esto el sistema de medición electrónico está listo para realizar las
+ primeras pruebas de transmisión inalámbrica.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/BreakoutITG3200.jpg
+	lyxscale 50
+	height 45mm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/BreakoutADXL345.PNG
+	height 45mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Fotografía del ITG-3200 (izq.) y ADXL-345 (der.) 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-55"
+
+\end_inset
+
+
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-56"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El resultado de la unidad inercial completa se muestra en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Fotografía-del-sistema"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/SisemaMedicion.JPG
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Fotografía-del-sistema"
+
+\end_inset
+
+Fotografía del sistema de medición terminado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ETAPA C.- Programación del microcontrolador
+\end_layout
+
+\begin_layout Standard
+Antes de desarrollar el algoritmo en el AVR se requiere entender la comunicación
+ de los sensores, debido a que estos utilizan el protocolo de comunicación
+ 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+.
+ Cuando se trabaja con lecturas de datos en dispositivos 
+\begin_inset Formula $I^{2}C$
+\end_inset
+
+ la petición de los datos, se realiza por consulta (
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+polling
+\end_layout
+
+\end_inset
+
+polling
+\emph default
+) o por interrupciones.
+ El Polling es una consulta constante hacia un dispositivo de hardware para
+ crear una actividad sincrónica, sin el uso de interrupciones, en cambio
+ la 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+interrupción
+\end_layout
+
+\end_inset
+
+interrupción es una señal recibida por el microcontrolador, indicando que
+ debe "interrumpir" el curso de ejecución actual y pasar a ejecutar código
+ específico para tratar esta situación.
+ El sistema desarrollado utiliza la lectura de los sensores por consulta
+ o 
+\emph on
+polling.
+ 
+\emph default
+La aplicación de la computadora manda una señal al microcontrolador pidiendo
+ un paquete de datos, para este caso dicha señal es el caracter '
+\series bold
+@
+\series default
+', el microcontrolador responde a la petición entregando a la aplicación.
+\end_layout
+
+\begin_layout Standard
+En la programación del código del AVR se considera información que provee
+ el fabricante en las hojas de especificaciones de los sensores.
+ la primera es la sensibilidad y la segunda es el offset de la señal.
+ La sensibilidad es la razón entre el incremento de la señal de salida o
+ de lectura y el incremento de la variable que lo ocasiona, después de haberse
+ alcanzado el estado de reposo.
+ La información de los sensores presenta un 
+\emph on
+offset
+\emph default
+, el cual se filtra programando una rutina que obtiene el promedio de 100
+ muestras en estado estacionario y se restar este valor a las medidas del
+ sensor.
+ El ruido que presenta la señal es atenuado aplicando un filtro digital,
+ considerando las hojas de datos del fabricante se aprecia que a 100Hz se
+ conserva un bajo nivel de ruido.
+ por lo que se sintoniza el filtro pasa bajas interno del sensor en esta
+ frecuencia 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-91"
+
+\end_inset
+
+.
+ En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:AVR 48mmm"
+
+\end_inset
+
+ se presenta el diagrama de flujo del código programado interno del microcontrol
+ador Atmega 48.
+\end_layout
+
+\begin_layout Standard
+Para realizar la programación del microcontrolador se identifican las terminales
+ 
+\emph on
+RST (Reset), MOSI, MISO, SCK, GND y VDD
+\emph default
+.
+ Después se empalma cada pin del programador con el del microcontrolador
+ y entre la línea de RESET y Vcc se debe colocar una resistencia de 10 KOhms,
+ observe la conexión que se muestra en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Conexión-del-programador"
+
+\end_inset
+
+.
+ Es necesario conectar un cristal externo de 20MHz durante la programación
+ del microcontrolador.
+ El programador utilizado tiene el identificador USBASP, el cual realiza
+ la programación mediante el programa AVRDUDE desde el símbolo del sistema,
+ se posiciona a la ruta donde se encuentra el archivo 
+\emph on
+.hex
+\emph default
+ generado por el programa MikroC, finalmente se prosigue a escribir la siguiente
+ línea para grabar el código de programación: 
+\emph on
+
+\begin_inset Formula $avrdude\quad pm48\quad-c\quad usbasp\quad-e\quad-u\quad-U\quad flash:w:ttFeb.hex$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/conexiónProgramador.png
+	lyxscale 60
+	width 105mm
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename figuras/programador.jpg
+	width 65mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Conexión-del-programador"
+
+\end_inset
+
+Conexión del programador con AVR (izq.) y Fotografía del programador (der.)
+ 
+\begin_inset CommandInset citation
+LatexCommand cite
+key "key-100"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/DiagramaFlujo.emf
+	height 23cm
+	scaleBeforeRotation
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:AVR 48mmm"
+
+\end_inset
+
+Diagrama de flujo del programa interno del microcontrolador Atmeg48
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+ETAPA D.-Realización de pruebas y validación
+\end_layout
+
+\begin_layout Standard
+Para garantizar la confiabilidad de la información se requiere de un proceso
+ de validación.
+ Los elementos que son sometidos a este proceso son los sensores inerciales
+ acelerómetro, giróscopo y la comunicación inalámbrica.
+ En el caso de la adquisición de los datos se emplea el canal de comunicación
+ inalámbrico propio de la unidad inercial con el puerto serial lo que permite
+ usar la computadora como terminal de trabajo.
+ 
+\end_layout
+
+\begin_layout Standard
+En forma predeterminada, el 
+\emph on
+módem Bluetooth
+\emph default
+ se muestra en el directorio de dispositivos 
+\emph on
+Bluetooth
+\emph default
+ de 
+\emph on
+Windows
+\emph default
+ como servicio 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+SPP Bluetooth
+\end_layout
+
+\end_inset
+
+SPP (acrónimo del ingles 
+\emph on
+Serial Port Profile
+\emph default
+ o en español perfil de puertos serie) "
+\emph on
+FireFly-ABCD
+\emph default
+", donde "
+\emph on
+FireFly
+\emph default
+" es el tipo de dispositivo y "
+\emph on
+ABCD
+\emph default
+" son los últimos 4 
+\emph on
+nibles
+\emph default
+ de la dirección 
+\emph on
+MAC
+\emph default
+.
+ Para emparejar el dispositivo es necesario hacer doble 
+\emph on
+clic
+\emph default
+ en el nombre del dispositivo.
+\end_layout
+
+\begin_layout Standard
+Si el dispositivo Bluetooth no requiere autentificación, la conexión puede
+ ocurrir sin el proceso de enlace.
+ Sin embargo la especificación Bluetooth requiere que si cualquiera de los
+ 2 dispositivos involucrados en el proceso de enlace se autentifique, el
+ otro dispositivo debe participar con el fin de garantizar un vínculo seguro.
+ El modo predeterminado del 
+\emph on
+módem Bluetooth
+\emph default
+ es modo abierto, de tal manera que el módulo no requiere de este procedimiento.
+ Sin embargo la mayoría de los PC si la solicita.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/bluetoothWindows.PNG
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pantallas-de-dispositivos"
+
+\end_inset
+
+Pantallas de dispositivos Bluetooth de Windows
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La clave de paso o 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+pass key
+\end_layout
+
+\end_inset
+
+pass key
+\emph default
+ es una cadena de caracteres alfanuméricos, de 1 a 16 caracteres de longitud.
+ Durante el primer proceso de enlace, este código se debe ingresar en ambos
+ lados de la conexión 
+\emph on
+Bluetooth
+\emph default
+, y deben coincidir para completar el apareamiento.
+ Esta clave se utiliza para crear un vínculo seguro-clave, que luego se
+ almacena en ambos dispositivos.
+ En posteriores intentos de conexión, los dispositivos se comparan y debe
+ coincidir con la conexión antes de continuar.
+ La clave maestra o predeterminada es 
+\series bold
+"1234"
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Para conectarse a 
+\emph on
+FireFly
+\emph default
+, navegue por los servicios, se debe ver: 
+\emph on
+SSP
+\emph default
+ perfil con un puerto 
+\emph on
+COM
+\emph default
+ virtual.
+ Para abrir este puerto 
+\emph on
+COM
+\emph default
+ virtual se crea una conexión Bluetooth (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pantallas-de-dispositivos"
+
+\end_inset
+
+).
+ Una vez conectado, el dispositivo estará en el 
+\series bold
+modo dato
+\series default
+ permitiendo que los datos fluyan en ambas direcciones virtualizando un
+ puerto serie local en el equipo.
+ El dispositivo debe estar en 
+\series bold
+modo comando
+\series default
+ para la configuración y programación.
+ Para poder configurar el módem Bluetooth abra una terminal serial configurando
+ el COM donde esta conectado 
+\emph on
+FireFly
+\emph default
+, para entrar en modo comando escriba en la terminal "
+\emph on
+$$$
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+, si tuvo éxito aparecerá un 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+CMD
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ en la terminal y el 
+\emph on
+led
+\emph default
+ rojo del módem empezará a destellar rápidamente.
+ Para regresar al 
+\series bold
+modo dato
+\series default
+ escriba en la terminal 
+\begin_inset Quotes eld
+\end_inset
+
+---
+\begin_inset Quotes erd
+\end_inset
+
+, aparecerá 
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+END
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ en la terminal y el 
+\emph on
+led
+\emph default
+ rojo dejará de destellar (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ventana-de-la"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/bluetoothComando.jpg
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ventana-de-la"
+
+\end_inset
+
+Terminal USART mostrando la configuración del módulo Bluetooth
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una vez programado el 
+\emph on
+AVR
+\emph default
+ y configurado el 
+\emph on
+módem
+\emph default
+ 
+\emph on
+Bluetooth
+\emph default
+, se prosiguió a realizar el enlace inalámbrico, para realizar la verificación
+ se utilizó una terminal serial y así visualizar los datos enviados por
+ el microcontrolador (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Terminal-UART-visualizando"
+
+\end_inset
+
+); se observa claramente los 6 ejes con su signo, cada que se envía un '@'
+ usando la terminal, el microcontrolador regresa la señal de los sensores
+ inerciales.
+ La 
+\emph on
+
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+
+\emph off
+USART
+\end_layout
+
+\end_inset
+
+USART
+\emph default
+ trabaja a 115200bps, 8 bits sin paridad, con un bit de parada.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/terminal.PNG
+	height 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Terminal-UART-visualizando"
+
+\end_inset
+
+Terminal USART recibiendo los datos de los sensores inerciales
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El tiempo que tarda un paquete de datos (los 6 ejes) en llegar del IMU a
+ la PC pasando por el microcontrolador, se utilizó el osciloscopio como
+ herramienta de medición.
+ Como se puede observar en la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Pantalla-de-osciloscopio"
+
+\end_inset
+
+ el tiempo de muestreo corresponde a 4.3 ms.
+ entre la transmisión de paquetes con información.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/deltaT.jpg
+	height 9cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Pantalla-de-osciloscopio"
+
+\end_inset
+
+Pantalla de osciloscopio mostrando la duración de la 
+\begin_inset Formula $\Delta t=4.3ms$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Finalmente se hace el proceso de validación para el sensor inercial en el
+ laboratorio de física de la 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+UPIITA
+\end_layout
+
+\end_inset
+
+UPIITA, consistió en diseñar un experimento que tuviera como condición inicial
+ 
+\series bold
+la aceleración constante
+\series default
+.
+ Para conseguir la condición propuesta, se hace uso de elementos del aparato
+ STM-P1.4 Linear Motion, como son el riel neumático , boquilla para bomba
+ de aire, la bomba de aire y el carro de desplazamiento donde se coloca
+ la unidad inercial (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medición-de-longitud"
+
+\end_inset
+
+).
+ 
+\end_layout
+
+\begin_layout Standard
+Antes de realizar el desarrollo del experimento es necesario establecer
+ condiciones controladas en el mismo con el fin de poder repetirlo, conocer
+ el comportamiento del fenómeno y poder estimar un resultado.
+ Para el experimento se considera la geometría de un triángulo rectángulo
+ con el que es posible determinar longitudes de los catetos e hipotenusa
+ así como ángulos entre catetos lo que proporcionara un control en el fenómeno
+ a estudiar.
+ La construcción de las condiciones de aceleración inicial y control determinada
+ a partir del plano inclinado se realiza de la siguiente forma:
+\end_layout
+
+\begin_layout Standard
+Se coloca un elevador mecánico a su máxima abertura con la finalidad de
+ mantener la longitud que representa la altura del triángulo o cateto opuesto
+ constante.
+ Se monta la unidad inercial en el riel neumático y se fija la distancia
+ al posicionar la parte final del mismo(ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medición-de-longitud"
+
+\end_inset
+
+).
+ Se mide la distancia después de haber fijado la parte final del riel respecto
+ al elevador mecánico (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medición-de-longitud"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/Exp3.JPG
+	lyxscale 20
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medición-de-longitud"
+
+\end_inset
+
+Medición de la longitud 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con las medidas de ambos catetos proporcionadas con el elevador y el punto
+ final del riel se calcula el ángulo de elevación del plano, para corroborar
+ ese ángulo y agregar confiabilidad en el experimento se hace la medida
+ con un transportado (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Medición-del-ángulo"
+
+\end_inset
+
+) .
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/Exp4.JPG
+	lyxscale 20
+	height 75mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Medición-del-ángulo"
+
+\end_inset
+
+Medición del ángulo de elevación para el plano 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una vez establecidas las condiciones de control del experimento se busca
+ satisfacer la condición de aceleración constante para ello se requiere
+ conectar la boquilla de la bomba de aire al principio del riel neumático
+ para reducir la fricción (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Experimento-armado-y"
+
+\end_inset
+
+).
+ El otro extremo de la boquilla se conecta a la bomba , finalmente el sistema
+ armado es (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Experimento-armado-y"
+
+\end_inset
+
+ ).
+\end_layout
+
+\begin_layout Standard
+Satisfechas las dos condiciones se procede a realizar la experimentación,
+ esta consiste en colocar sobre el punto superior del riel el carro con
+ la unidad inercial, prender la bomba de aire y soltar el móvil para adquirir
+ la información en su movimiento por el riel considerando el eje del acelerómetr
+o a estudiar (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Experimento-armado-y"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/Exp7.JPG
+	height 80mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Experimento-armado-y"
+
+\end_inset
+
+Experimento armado y listo para usar 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Software de aplicación
+\end_layout
+
+\begin_layout Standard
+En esta sección se detalla la metodología empleada en el desarrollo del
+ 
+\emph on
+software
+\emph default
+ de aplicación, se explican sus componentes necesarios para su integración,
+ como son el código fuente, el controlador de dispositivo, el modelo 3D
+ y la interfaz gráfica de usuario o GUI.
+ Antes de empezar se explica que es un sistema informático aclarando su
+ relación con el software de aplicación.
+ En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:SoftAplicacion"
+
+\end_inset
+
+ se muestra un diagrama a bloques del software de aplicación a desarrollar.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/softwareDeAplicacion.emf
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:SoftAplicacion"
+
+\end_inset
+
+Diagrama a bloques de elementos que conforman el software de aplicación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sistema Informático:
+\end_layout
+
+\begin_layout Standard
+Un sistema informático se define como el conjunto de partes interrelacionadas,
+ 
+\emph on
+hardware, software
+\emph default
+ y recurso humano o usuario (
+\emph on
+liveware
+\emph default
+).
+ En concreto la computadora personal o PC, junto con la persona que lo maneja
+ y los periféricos que los envuelven forman un sistema informático.
+ El 
+\emph on
+hardware
+\emph default
+ incluye una o varias CPU, memoria, sistemas de almacenamiento externo,
+ etc.
+ El 
+\emph on
+software
+\emph default
+ incluye al sistema operativo, firmware y aplicaciones, siendo especialmente
+ importante los sistemas de gestión de bases de datos.
+ Por último el soporte humano incluye al personal técnico (analistas, programado
+res, operarios) que crean y/o mantienen el sistema y a los usuarios que
+ lo utilizan.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/vistaOrganizacional.emf
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Vista organizacional del sistema informático
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El
+\emph on
+ Software
+\emph default
+ es un conjunto de instrucciones de programa detalladas que controlan y
+ coordinan los componentes 
+\emph on
+hardware
+\emph default
+ de una computadora y controlan las operaciones de un sistema informático.
+ La programación es el proceso de escritura de un programa.
+ Existen varios tipos de 
+\emph on
+software
+\emph default
+:
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software de sistema:
+\series default
+ Gestiona los recursos de la computadora, tal como el procesador central,
+ enlaces de comunicación y dispositivos periféricos.
+ En esta sección se encuentra el 
+\series bold
+sistema operativo 
+\series default
+y el 
+\series bold
+controlador de dispositivo
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+Sistema operativo (OS): Permite una administración eficaz de los recursos
+ de 
+\emph on
+hardware y software.
+\end_layout
+
+\begin_layout Itemize
+Controlador de dispositivo: Permite al sistema operativo interactuar con
+ un periférico haciendo una abstracción del hardware y proporcionando una
+ interfaz estandarizada para usarlo.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software de programación:
+\series default
+ Es el conjunto de herramientas que permiten al programador desarrollar
+ programas informáticos, usando diferentes alternativas y lenguajes de programac
+ión, de una manera práctica.
+ En esta sección se encuentra el 
+\series bold
+editor de texto
+\series default
+ y el 
+\series bold
+intérprete
+\end_layout
+
+\begin_layout Itemize
+Editores de texto: Permite crear y modificar archivos digitales compuestos
+ únicamente por texto plano (sin formato), se usan cuando se deben crear
+ o modificar el código fuente de algún programa.
+\end_layout
+
+\begin_layout Itemize
+Intérprete: Permite analizar y ejecutar otros programas, escritos en un
+ lenguaje de alto nivel.
+ Los intérpretes sólo realizan la traducción a medida que sea necesaria,
+ típicamente, instrucción por instrucción, y normalmente no guardan el resultado
+ de dicha traducción.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Software de aplicación:
+\series default
+ Es aquel que permite a los usuarios llevar a cabo una o varias tareas específic
+as, en cualquier campo de actividad susceptible de ser automatizado o asistido,
+ procurando la asistencia y facilidad en dicha operación.
+ 
+\end_layout
+
+\begin_layout Standard
+La interacción del usuario con la computadora es controlada por el 
+\emph on
+OS
+\emph default
+ a través de una 
+\series bold
+\emph on
+GUI
+\series default
+\emph default
+ (acrónimo del ingles 
+\emph on
+Graphical User Interface
+\emph default
+ o en español Interfaz Gráfica de Usuario).
+ El 
+\emph on
+OS
+\emph default
+ hace posible que el programador pueda introducir y grabar nuevos programas
+ así como instruir a la computadora para que los ejecute.
+ El código fuente es el algoritmo escrito en un lenguaje de programación
+ particular.
+\end_layout
+
+\begin_layout Standard
+El 
+\emph on
+hardware
+\emph default
+ es el conjunto de los componentes que integran la parte material de una
+ computadora, corresponde a todas las partes tangibles como son los componentes
+ eléctricos, electrónicos, electromecánicos y mecánicos, los cables, gabinetes
+ o cajas, periféricos de todo tipo y cualquier otro elemento físico involucrado.
+\end_layout
+
+\begin_layout Subsection
+
+\series bold
+Configuración del sistema:
+\end_layout
+
+\begin_layout Standard
+Se hace referencia a todo lo necesario para el desarrollo del 
+\emph on
+software de aplicación
+\emph default
+, desde la instalación de los programas necesarios, el sistema operativo,
+ y las características de la computadora a utilizar.
+ A continuación se detalla cada una de estas partes:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Configuración del sistema informático
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="2">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="0">
+<column alignment="left" valignment="top" width="0">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Hardware:
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Software:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Macbook Pro 17 v3.1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Windows 7 Enterprise de 32bits (OS)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Intel Core2Duo @ 2.4Ghz
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PyPE 2.8 (Editor)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4GB RAM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Python 2.5 (intérprete)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+160 Gb Disco Duro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Panda 3D 1.62 (motor gráfico)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Bluetooth
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Blender 2.49 (modelado 3D)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modelo 3D
+\end_layout
+
+\begin_layout Standard
+Para el desarrollo la parte visual correspondiente al usuario se requiere
+ construir un modelo 3D que represente al atleta y remoergómetro los cuales
+ serán exportados y cargados como 
+\series bold
+actores
+\series default
+ por el motor gráfico.
+ 
+\end_layout
+
+\begin_layout Standard
+En la elaboración del avatar del atleta de remo bajo techo, primero se procede
+ a la creación de un cuerpo humano que es el cascarón o malla del avatar,
+ después se requiere la construcción de un esqueleto o estructura conformada
+ por eslabones o huesos para que se puedan representar las articulaciones
+ a estudiar.
+\end_layout
+
+\begin_layout Standard
+Las armaduras
+\emph on
+ (armatures)
+\emph default
+ son el elemento básico para deformar y animar un personaje hecho de polígonos.
+ Son la estructura o esqueleto del personaje y están compuestos de elementos
+ menores llamados huesos (bones) que pueden ser configurados de distintas
+ maneras.
+ Los huesos en Blender nos ayudan a poner en distintas posiciones a nuestros
+ modelos en animaciones 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/armadura.png
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Esquema de una armadura humana hecha en Blender
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El proceso de creación y configuración de una armadura es conocido como
+ 
+\series bold
+rigging
+\series default
+ del personaje.
+ Una vez creada servirá para deformar la malla del personaje.
+ Para que esto ocurra se debe relacionar de alguna manera el esqueleto con
+ la malla, a esto se conoce como 
+\series bold
+skinning
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para crear una 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+armadura
+\end_layout
+
+\end_inset
+
+armadura en Blender hay que construir un objeto primero.
+ En el modo de objetos:
+\end_layout
+
+\begin_layout Itemize
+Presionar la barra espaciadora sobre la ventana de vista 3D.
+\end_layout
+
+\begin_layout Itemize
+Seleccionar Add->Armature
+\end_layout
+
+\begin_layout Standard
+Esto nos creará la armadura con un hueso con el cual podemos empezar nuestro
+ trabajo.
+ En el modo de objetos, con el botón de editar activado (F9), nos presentará
+ además un panel "Armature" en la ventana de botones.
+ En este panel podemos establecer varias configuraciones útiles como mostrar
+ los nombres de los huesos o que estos se vean siempre (usando el botón
+ X-Ray).
+ 
+\end_layout
+
+\begin_layout Standard
+De esta manera se crea un hueso inicial y el programa entre en 
+\series bold
+Modo Edición
+\series default
+ automáticamente.
+ A partir de allí, se pueden seguir añadiendo huesos sosteniendo la tecla
+ 
+\series bold
+CTRL
+\series default
+ y haciendo click en la pantalla.
+ De esta manera el hueso se generará "unido" al anterior formando una cadena.
+ Como todo objeto en Blender, el objeto armadura tiene también sus ejes.
+ Se debe asegurar que siempre estén alineados a los ejes globales.
+ Las cadenas de huesos se finalizan con la tecla ESC.
+ Un hueso tiene una "raíz" y una "cola", que son los puntos extremos del
+ hueso.
+ Todos los huesos comienzan en la "raíz", y luego entonces, la posición
+ de un hueso será referida siempre como la posición de la raíz del mismo.
+ 
+\end_layout
+
+\begin_layout Standard
+.
+ 
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/huesoBlender.png
+	height 10cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Figura de un hueso en Blender y sus partes que lo conforman.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cada hueso que se crea tiene un nombre único.
+ En los botones de edición se observan otras propiedades de cada hueso.
+ Entre ellas se observa además del nombre, cual es el hueso padre si lo
+ tuviera, si funciona encadenado con otro hueso o bien si está oculto en
+ la vista 3D.
+\end_layout
+
+\begin_layout Standard
+Cada hueso posee su propio sistema de coordenadas (llamadas coordenadas
+ locales), además del sistema de coordenadas globales.
+ Es posible definir rotaciones en estos ejes y a menudo eso será exactamente
+ lo que se hace al animar.
+ Las rotaciones locales de cada eje pueden verse también en el panel Transform
+ Properties.
+\end_layout
+
+\begin_layout Standard
+Para emparentar los huesos a la armadura es necesario indicarle a Blender
+ que vértices son afectados por la acción de cada hueso.
+ Para ello se necesita crear grupos de vértices para cada hueso.
+ Para facilitar el manejo de los grupos de vértices es conveniente ponerles
+ primero nombres a los huesos.
+ Para que Blender cree automáticamente todos los grupos de vértices se hace
+ el siguiente procedimiento en el modo de objetos:
+\end_layout
+
+\begin_layout Itemize
+Seleccionamos la maya y después los huesos.
+\end_layout
+
+\begin_layout Itemize
+Presionamos Ctrl+P.
+\end_layout
+
+\begin_layout Itemize
+Se selecciona Armature.
+\end_layout
+
+\begin_layout Itemize
+Luego Name Groups.
+\end_layout
+
+\begin_layout Standard
+En el modo de edición, seleccionamos los nodos que sean influenciados por
+ cada hueso y se los asignamos al grupo de vértices correspondientes en
+ el panel "Link & Materials".
+ Una vez terminados todos los grupos de vértices, es posible manejar los
+ huesos en el modo de pose que se puede acceder cuando se selecciona la
+ armadura en el modo de objetos.
+\end_layout
+
+\begin_layout Standard
+Con la armadura se consideran 3 maneras de trabajar: Modo Objeto, Modo Edición
+ y Modo Pose.
+ En el modo edición se puede modificar la estructura de la armadura, quitando
+ y agregando huesos, cambiando sus tamaños así como modificar las jerarquías
+ de los mismos.
+ En el modo Objeto, la armadura es considerado como un objeto completo,
+ servirá para operar con el a nivel global.
+ El modo Pose se usa en animación para establecer las "poses" de la armadura
+ a lo largo de la animación.
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Lista-de-huesos"
+
+\end_inset
+
+ se enlista los huesos con sus nombres referenciados que forman la armadura
+ del modelo 3D:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Lista-de-huesos"
+
+\end_inset
+
+Lista de huesos que forman la armadura del modelo 3D
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="7" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Palm_L (muñeca izquierda)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Palm_R (muñeca derecha)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LowerArm_L (codo izquierdo)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+LowerArm_R (codo derecho)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+UpperArm_L (hombro izquierdo)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+UpperArm_R (hombro derecho) 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shoulder_L (clavícula izquierda)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Shoulder_R (clavícula derecho)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fingers_L(dedos izquierdos)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fingers_R (dedos derechos)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Head (Cabeza)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Neck (espalda)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pelvis (pelvis)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/ModosArmaduraBlender.png
+	lyxscale 70
+	width 17cm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Modos de Visualización de la armadura en Blender.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El Modo Objeto, es el modo por defecto, cuando no se este en Modo Edición
+ y no se haya activado el Modo Pose.
+ En todos estos modos, la armadura al igual que cualquier otro objeto puede
+ verse como "Solid" o "Wire", y pueden visualizarse extras como el nombre
+ de objeto o los ejes desde el panel DrawExtra.
+\end_layout
+
+\begin_layout Standard
+Los huesos de las armaduras pueden cumplir distintas funciones y visualizarse
+ de distinta manera.
+ Usar una forma u otra depende de la operación que se requiera con el armature,
+ ya que cada modo ofrece distintas características.
+ Las formas empleadas para el modelo a desarrollar son 
+\series bold
+octahedro
+\series default
+ (la forma de hueso clásica tiene la ventaja de mostrar claramente las rotacione
+s longitudinales) y 
+\series bold
+stick
+\series default
+ (usado para animar porque visualmente no interfiere, permitiendo ver la
+ malla deformada).
+\end_layout
+
+\begin_layout Standard
+En la 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ventana-de-Blender"
+
+\end_inset
+
+ se muestra el avatar terminado listo para exportarse al motor gráfico Panda
+ 3D.
+ A este punto cabe aclarar que el modelo 3D es solo una maqueta la cual
+ es inanimada, el motor gráfico Panda 3D es el que se encarga de dar la
+ animación cumpliendo una serie de directrices programadas en Python.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/hombre3d.png
+	height 85mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ventana-de-Blender"
+
+\end_inset
+
+Ventana de Blender mostrando el cuerpo del avatar y su armadura terminada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Una vez construidos los elementos gráficos, y combinando la información
+ de la técnica de remo (ver 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Técnica-de-Remo"
+
+\end_inset
+
+), se sitúa el modelo 3D avatar en la posición correspondiente al inicio
+ de la remada, sobre la máquina donde la ejecuta, de este modo se procede
+ al desarrollo de la animación de un ciclo completo de remada de la técnica
+ correcta.
+ Finalmente se exporta la animación como un archivo de video avi para propósitos
+ demostrativos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename figuras/blender.jpg
+	lyxscale 50
+	width 160mm
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Pantalla de Blender realizando el modelo 3D.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Interfaz gráfica de usuario (GUI)
+\end_layout
+
+\begin_layout Standard
+Para el diseño de la interfaz gráfica se procede a diseñar un algoritmo
+ que procesa e interpreta la señal recibida por los sensores para ser implementa
+do sobre un modelo 3D ( 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+avatar
+\end_layout
+
+\end_inset
+
+avatar), específicamente en la articulación estudiada utilizando el
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+motor gráfico
+\end_layout
+
+\end_inset
+
+motor gráfico PANDA 3D.
+ Además se construye una animación con los datos proporcionados por la compañía
+ 
+\noun on
+Concept II 
+\noun default
+con el propósito de mostrar la técnica de remo correcta.
+\end_layout
+
+\begin_layout Subsection
+Base de datos
+\end_layout
+
+\begin_layout Standard
+Una base o banco de datos es un conjunto de elementos pertenecientes a un
+ mismo contexto y almacenados sistemáticamente para su posterior uso.
+ Los datos son representaciónes simbólicas (numérica, alfabética) de atributos
+ o características de una entidad.
+ Se considera que las bases de datos utilizadas para el software de aplicación
+ a desarrollar es de tipo estático por ser de sólo lectura.
+ La finalidad de almacenar datos de los sensores inerciales es tener un
+ registro histórico para estudiar su comportamiento a través del tiempo.
+ El código escrito en Python hace un llamado al programa Gnuplot que utiliza
+ la base de datos para su posterior graficación.
+\end_layout
+
+\begin_layout Subsection
+Código del programa
+\end_layout
+
+\begin_layout Standard
+Durante esta etapa se realiza programación, codificación (implementación);
+ que consiste en llevar a código fuente, en el lenguaje de programación
+ elegido (Python), el desarrollo del modelo 3D y la GUI.
+ Esta tarea se realiza, siguiendo los lineamientos impuestos en la Especificació
+n de Requisitos de Software (ERS).
+ Mientras se programa la aplicación, se realizan las tareas de depuración,
+ que consiste en liberar al código de errores de semántica, sintáctica y
+ lógica.
+ Para depurar la lógica se requiere realizar pruebas unitarias, con datos
+ de prueba.
+ Los errores funcionales (mala respuesta a los requerimientos) exige retornar
+ a la fase de diseño antes de continuar la codificación.
+ Durante la fase de programación, el código de programación adopta 2 estados:
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Código fuente:
+\series default
+ es el escrito directamente por los programadores en editores de texto,
+ lo cual genera el programa.
+ Contiene el conjunto de instrucciones codificadas en lenguaje de programación
+ de alto nivel 
+\series bold
+Python
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Código objeto
+\series default
+: es el código binario o intermedio resultante de procesar con un compilador
+ el código fuente.
+ Consiste en una traducción completa y de una sola vez de éste último.
+ El intérprete se encarga de traducir y ejecutar cada línea del código fuente
+ de acuerdo al flujo del programa, en tiempo de ejecución.
+ Esta forma de trabajo facilita la tarea de depuración del código fuente
+ frente a la alternativa de hacerlo con un compilador puro.
+\end_layout
+
+\begin_layout Standard
+Para una consulta detallada revisar el Apéndice C, D y E donde se encuentra
+ el código del programa en Python empleado para el desarrollo del software
+ de aplicación.
+\end_layout
+
+\end_body
+\end_document

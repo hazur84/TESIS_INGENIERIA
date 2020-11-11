@@ -1,0 +1,1939 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\begin_preamble
+\AtBeginDocument{\renewcommand{\ref}[1]{\mbox{\autoref{#1}}}}
+%esta linea escribe "figura" o "cuado" seguido del numero ne las referencias cruzadas
+\usepackage[figure,table]{hypcap}
+%situa al inicio de la figura o cuadro el hipervinculo
+\usepackage[labelfont={bf,sf}]{caption}
+%pone figura y cuadro en negritas con fuente sans serif
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish-mexico
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize 12
+\spacing single
+\use_hyperref true
+\pdf_author "Hazur Sahib Socconini Alvarado y Jonatan Perea Garcia"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "linkcolor=blue, citecolor=blue, urlcolor=blue, filecolor=blue"
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Índice
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 3cm
+\headheight 2cm
+\headsep 2cm
+\footskip 1.5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip bigskip
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-01"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Remo_(deporte)
+\end_layout
+
+\end_inset
+
+ Consultado: 25 / Diciembre / 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-78"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.worldrowing.com
+\end_layout
+
+\end_inset
+
+ Página de la FISA.
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-76"
+
+\end_inset
+
+ Dr.
+ Valery Kleshnev, Rowing Biomechanics: Technology and Technique © 2004 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-80"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://hrr.co.uk/
+\end_layout
+
+\end_inset
+
+ henley royal regatta
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-02"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vermontc2.com/competicionesintro.php
+\end_layout
+
+\end_inset
+
+ Consultado: 25/ Diciembre / 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-79"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.concept2.com/us/company/story/timeline.asp
+\end_layout
+
+\end_inset
+
+ linea del tiempo de concept2
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-03"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.vermontc2.com/competicionesintro.php
+\end_layout
+
+\end_inset
+
+ Consultado: 23/ Diciembre / 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-04"
+
+\end_inset
+
+ Federación.
+ Mexicana de Remo, 
+\series bold
+Reglamento de competencias de remo en maquina
+\series default
+, 1era Edición; 22 de septiembre de 2007, México
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-05"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.inedec.gob.mx/noticias.php?id=1230
+\end_layout
+
+\end_inset
+
+ Consultado: 2 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-06"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.concept2.com/sranking03/rankings.asp
+\end_layout
+
+\end_inset
+
+ Consultado: 25/ Diciembre / 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-07"
+
+\end_inset
+
+ C.
+ K.
+ Atksion y T.
+ O’Neili; 
+\series bold
+Remo Indoor Guía De Entrenamiento
+\series default
+: Sección 2 Pautas Para Entrenamiento; Editorial Concept2; 2008, San Sebastian,
+ Cap.
+ 3: 15,16, Cap.
+ 4: 17-20 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-08"
+
+\end_inset
+
+ Rámon Zambudio Periago,
+\series bold
+ Protesis, Ortesis Y Ayudas Técnicas
+\series default
+, Ed.
+ Elsevier Masson, Pag.
+ 1, ISBN: 978-84-458-1969-2.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-11"
+
+\end_inset
+
+ Lormes W, Buckwitz R, Rebbein H, Steinacker M.J, 
+\series bold
+Performace and blood lactate on gjesing and Concept2 rowing ergometers
+\series default
+, Int.
+ J.
+ Sports Med.
+ 1993, 14: 29-32.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-12"
+
+\end_inset
+
+ Bell G, Syrotuik DG, Attwood K, Quinney HA, 
+\series bold
+Maintenance of strength gains while performing endurance trainning in oarsmen
+\series default
+, J.
+ Appl.
+ Physiol.
+ 1993, 18:104-115.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-13"
+
+\end_inset
+
+ Yamamoto M, Kaneisa YH, 
+\series bold
+Dinamics of anaerobic and aerobic suplies during sustained high intensity
+ exercise on cycle ergometer
+\series default
+.” Eur.
+ J.
+ Appl.
+ Physiol.
+ 1995 71: 320-325.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-14"
+
+\end_inset
+
+ González J.M, Santisteban J.M, Ainz F.
+ “
+\series bold
+Valoración Funcional En Laboratorio Del Remero
+\series default
+”.
+ Archivos de Medicina del Deporte.
+ 1996, XIII: 99-105.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-15"
+
+\end_inset
+
+ R.Davoodi, B.J.Andrew,G.D.Wheler, “
+\series bold
+Manual And Automatic Control Of Fes-Assited Indoor Rowing Exercice
+\series default
+” ,Paper Universidad de Alberta, Universidad de California y Hospital Stoke
+ Mandeville, 2002.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-16"
+
+\end_inset
+
+ Jeffrey Cornett , Pamela Bush , Nancy Cummings , “
+\series bold
+An 8-Factor Model For Evaluating Crew Race Performance
+\series default
+”, International Journal of Sports Science and Engineering Vol.
+ 02 (2008) No.
+ 03, pp.
+ 169-184, ISSN 1750-9823 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-17"
+
+\end_inset
+
+ Mayorga Vega, D.
+ y Merino Marban, R.
+ 
+\series bold
+Estudio cualitativo de los errores más frecuentes en los ejercicios de remo
+\series default
+.
+ Revista Internacional de Medicina y Ciencias de la Actividad Física y el
+ Deporte vol.
+ 8 (30) pp.184-198
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-18"
+
+\end_inset
+
+ Ante Panjkota, Ivo Stančić, Tamara Šupuk, 
+\series bold
+A fuzzy qualitative framework for indoor rowing kinematics analysis
+\series default
+, Paper Universidad de split Ruđera Boškovića bb CROATIA, Issue 8, Volume
+ 5, August 2009 , ISSN: 1790-5052 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-19"
+
+\end_inset
+
+ D.Cirmirakis 1, J.K.
+ Pollard 2, 
+\series bold
+Rowing Optimisation
+\series default
+, IEEE International Workshop on Intelligent Data Acquisition and Advanced
+ Computing Systems, Paper School of Electrical Engineering and Computer
+ Science, Queen Mary University of London, Department of Electronic & Electrical
+ Engineering, University College London, WC1E 7JE, UK, 21-23 September 2009,
+ Rende (Cosenza), Italy 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-24"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.xsens.com
+\end_layout
+
+\end_inset
+
+ Página del Fabricante Xsens, Consultada: 5 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-25"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.animazoo.com/
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-30"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ptiphoenix.com
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-33"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.biorow.com
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-81"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.ammsensor.com
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-82"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.cyberglovesystems.com/
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-83"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.intersense.com
+\end_layout
+
+\end_inset
+
+ InertiaCube BTConsultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-89"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://us.playstation.com/ps3/playstation-move/
+\end_layout
+
+\end_inset
+
+ Play Statition Move Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-31"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.umanaingenieria.com/
+\end_layout
+
+\end_inset
+
+ Ingenieria Biomecánica Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-90"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.digitalrowing.com/
+\end_layout
+
+\end_inset
+
+ Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-61"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/GNU_General_Public_License
+\end_layout
+
+\end_inset
+
+ Consultado: 6 Enero 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-20"
+
+\end_inset
+
+ Patricia de la Peña Sobarzo, 
+\series bold
+Biomecánica Deportiva
+\series default
+, Articulo Revista El faro UNAM, Julio - Agosto de 2008, no.
+ 88 – 89, Pág.
+ 8 .
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-21"
+
+\end_inset
+
+ Izquierdo Redin, Mikael, 
+\series bold
+Biomecánica y bases neuromusculares de la actividad física y el deporte
+\series default
+, Ed.
+ Médica Panamericana, Págs.
+ 2-4,18-23,33,34, 48-50, ISBN 978-84-9835-023-4, 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-101"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.iea.cc/
+\end_layout
+
+\end_inset
+
+ Asociación Internacional de Ergonomía Consultado: 17 / Febrero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-98"
+
+\end_inset
+
+ http://www.mail.com/sports/other/94120-paralympians-recovery-legs-regained-dreams
+-lost.html Consultada: 8 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-22"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.unalmed.edu.co/fisica/...1/.../capitulo_1_preliminares.pdf
+\end_layout
+
+\end_inset
+
+ fecha de consulta: 31 de diciembre de 2010 hora: 12:03 pm escrito pdf publicado
+ por la universidad de Colombia.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-88"
+
+\end_inset
+
+ Margareta Nordin, Victor H.
+ Frankel, 
+\series bold
+Biomécanica básica del sistema musculoesquelético
+\series default
+, McGraw Hill, 3a Ed., Pág 4, 2004
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-43"
+
+\end_inset
+
+ W.
+ R.
+ Hamilton, 
+\series bold
+Elements of quaternions
+\series default
+.
+ London, U.K.: Longman, 1866.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-44"
+
+\end_inset
+
+ G.
+ Martínez-Sierra et al, 
+\series bold
+Una epistemología histórica del producto vectorial: del cuaternión al análisis
+ vectorial
+\series default
+, publicación científica: Centro de Investigación en Ciencia Aplicada y
+ Tecnología Avanzada - Unidad Legaria CICATA , ISSN 1870-9095, 3 de Mayo
+ de 2008
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-46"
+
+\end_inset
+
+ Mark W.
+ Spong ,
+\series bold
+ Robot dinamics and control
+\series default
+, editorial John While and Sons, Inc.,pagina 33-50, 1989 EU, ISBN: 0-471-61243-X
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-60"
+
+\end_inset
+
+ Richard L.
+ Burden, J.
+ Douglas Faires, 
+\series bold
+Análisis Numérico, 
+\series default
+Ed.
+ Iberoamericana,1985, Pág.
+ 228,579
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-72"
+
+\end_inset
+
+ Dr.
+ Valery Kleshnev ,
+\series bold
+Desarrollo de la biomecánica del remo
+\series default
+,Volumen 1 No 4,Abril 2001
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-73"
+
+\end_inset
+
+ Kleshnev V.
+ 2001.
+ 
+\series bold
+Racing Strategy in Rowing during Sydney Olympics
+\series default
+.
+ Australian Rowing.
+ 24(1), 20-23.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-74"
+
+\end_inset
+
+ Strome S.
+ et al.
+ 1977.
+ 
+\series bold
+Assessment of maximal aerobic power in specifically trained athletes
+\series default
+.
+ Journal of applied physiology.
+ 42(6), 833-837.
+ 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-75"
+
+\end_inset
+
+ Kleshnev V., 1998, 
+\series bold
+Estimation of Biomechanical Parameters and Propulsive Efficiency in Rowing
+\series default
+.
+ Unpublished.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-50"
+
+\end_inset
+
+ Izquierdo Redin, Mikael, 
+\series bold
+Biomecánica y bases neuromusculares de la actividad física y el deporte
+\series default
+, Editorial Medica Panamericana, pagina 1, ISBN 978-84-9835-023-4, 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-23"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.digitalrowing.com/Products/Home/index.htm
+\end_layout
+
+\end_inset
+
+ fecha de consulta: 25/12/09 15:34
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-26"
+
+\end_inset
+
+ Matveev, Lev
+\series bold
+, Fundamentos del Entrenamiento
+\series default
+, Raduga, Universidad de Antioquía; 2005
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-27"
+
+\end_inset
+
+ G.
+ R.
+ Suárez
+\series bold
+, Técnica, Biomecánica Y Aprendizaje Motriz
+\series default
+, Universidad De Antioquia; 2006
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-28"
+
+\end_inset
+
+ Álvarez, A.
+ (2003).
+ 
+\series bold
+Estrategia, táctica y técnica: definiciones, características y ejemplos
+ de los controvertidos términos
+\series default
+.
+ Lecturas, Educación Física y Deportes.
+ 9 (60).
+ 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-29"
+
+\end_inset
+
+ J.S.Molinuevo, 
+\series bold
+Fundamentos de la técnica deportiva
+\series default
+, publicación impreso digital universidad politécnica pdf Capitulo 3:pagina3,
+ 4
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-32"
+
+\end_inset
+
+ J.
+ A.
+ Fernández, J.
+ C.
+ Mateos
+\series bold
+, Estudio biomecánico del ejercicio de remo: análisis biomecánico de la
+ posición de ataque
+\series default
+, revista ciencia y deporte.net issn 1698-8388; pagina 7
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-34"
+
+\end_inset
+
+ National Instrument, 
+\series bold
+Acondicionamiento de señales
+\series default
+, PDF National Instrument: 4
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-35"
+
+\end_inset
+
+ Erick López Pérez, 
+\series bold
+Tutorial del Protocolo RS-232
+\series default
+ “; Publicacion Impreso Ingenieria En Microcontroladores, Capitulo 1; 4-5
+ 
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-39"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.nxp.com/documents/user_manual/UM10204.pdf
+\end_layout
+
+\end_inset
+
+ 
+\series bold
+I2C-bus specification and user manual
+\series default
+, Philips Semiconductor, 2007
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-36"
+
+\end_inset
+
+ Miguel Torres Torriti
+\series bold
+, Tutorial Microcontroladores Pic
+\series default
+"; publicación de la universidad de Chile; 26 de abril del 2007; pagina
+ 3,25
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-37"
+
+\end_inset
+
+ Hernández García Liliana Fernanda: “
+\series bold
+Sistema de análisis durante la fase de entrenamiento de marcha olímpica
+\series default
+”: Tesis Upiita Bionica: 5: 35-36, 38-39 cambiar.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-38"
+
+\end_inset
+
+ Claudio H.
+ Taboadela
+\series bold
+, Goniometría una herramienta para la evaluación de las incapacidades laborales
+\series default
+.
+ 1ª Ed.
+ Buenos Aires: Asociart ART, 2007.
+ Pág.
+ 19
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-45"
+
+\end_inset
+
+ Ken Shoemake,
+\series bold
+ Quaternions
+\series default
+, Department of Computer and Information Science University of Pennsylvania
+ Philadelphia, PA 19104
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-47"
+
+\end_inset
+
+ Elkin Vesli et al , 
+\series bold
+Analisis cinemático de un exoesqueleto de partes superior con 7 grados de
+ libertad
+\series default
+ , Publicacion: Paper en PDF, Universidade Federal do Rio de Janeiro,Brasil,
+ pagina 2,3,4 .
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-48"
+
+\end_inset
+
+ J.
+ L.
+ Pons, 
+\series bold
+Whearable Robots: Biomechatronic Exoesqueleton
+\series default
+, Jhon Whiley & Sons, Ltd, 2008.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-49"
+
+\end_inset
+
+ E.
+ Rocon, J.
+ L.
+ Pons, 
+\series bold
+Case study: study of tremor characteristics based on a biomechanical model
+ of the upper limb
+\series default
+.
+ In: J.
+ L.
+ Pons., Wearable Robots: Biomechatronic Exoesqueleton, Jhons Willey & Sons,
+ Ltd, 2005, pp: 80-85.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-51"
+
+\end_inset
+
+ B.
+ Gowitzke, M.
+ Milner, 
+\series bold
+Scientific Bases of Human Movements
+\series default
+, Ed.
+ Paidotribo, 2000.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-52"
+
+\end_inset
+
+ X.
+ Wang, J.
+ P.
+ Verriest, 
+\series bold
+A geometric algorithm to predict the arm reach posture for computer-aided
+ ergonomic evaluation
+\series default
+, The Journal of Visuailization and Posture Animation,1998, pp.
+ 33-47.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-53"
+
+\end_inset
+
+ E.
+ R.
+ Bachmann, 
+\series bold
+Orientation tracking for humans and robots using inertial sensors,
+\series default
+ Naval Postgraduate School, Monterey, CA 93943E-mail: bachmann@cs.nps.navy.mil
+ ,Accepted by the 1999 International Symposium on Computational Intelligence
+ in Robotics & Automation (CIRA99), paginas 1-8.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-40"
+
+\end_inset
+
+ Raphaël Townshend, 
+\series bold
+FutureHand: the use of an inertial measurement unit as a USB device
+\series default
+, Pág.
+ 73, 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-54"
+
+\end_inset
+
+ Tomoaki Tusuki, 
+\series bold
+ADXL345 Quick Start Guide
+\series default
+, Application Note, Analog Devices, 2010.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-91"
+
+\end_inset
+
+ ADXL345 Hoja de especifiaciones, http://www.sparkfun.com/datasheets/ Sensors/Acce
+lerometer/ADXL345.pdf
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-58"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Blender
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-71"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.atmel.com/products/avr/
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-77"
+
+\end_inset
+
+
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+www.vc.ehu.es/ingme/vec.pdf 
+\end_layout
+
+\end_inset
+
+ Escuela Universitaria de Ingeniería Vitoria-Gasteiz.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-64"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://wiki.blender.org/index.php/Doc:ES/Manual/Introduction
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-65"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.cadsoftusa.com/info.htm
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-87"
+
+\end_inset
+
+ Prof.
+ Dr.
+ Eduardo Escobar ,
+\series bold
+ Introducción a Olpc, Sugar y Python
+\series default
+, Trabajo Práctico de Seminario III , Universidad Nacional de La Rioja,
+ 2010
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-66"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.lyx.org/WebEs.Home
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-69"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.mathworks.com/products/matlab/
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-70"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.mikroe.com/eng/products/view/228/mikroc-pro-for-avr/
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-68"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.panda3d.org/manual/index.php/Introduction_to_Panda3D
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-63"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://es.wikipedia.org/wiki/Bater%C3%ADa_(electricidad)
+\end_layout
+
+\end_inset
+
+Consultado: 7 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-62"
+
+\end_inset
+
+ Datasheet, MAX1555, Maxim Integrated Products, Pág.
+ 6, Jul, 2003
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-55"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.sparkfun.com/products/9156
+\end_layout
+
+\end_inset
+
+ Triple Axis Accelerometer Breakout - ADXL345 Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-56"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.sparkfun.com/products/9801
+\end_layout
+
+\end_inset
+
+ Triple-Axis Digital-Output Gyro ITG-3200 Breakout Consultado: 9 / Enero
+ / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-57"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.sparkfun.com/products/582
+\end_layout
+
+\end_inset
+
+ Bluetooth Modem - BlueSMiRF Gold Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-102"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+http://www.bluetooth.com/Pages/About-Us.aspx
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Febrero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-103"
+
+\end_inset
+
+ Douglas Comer, 
+\series bold
+Internetworking With TCP/IP Volume 1: Principles Protocols, and Architecture
+\series default
+, 5th Ed, 2006, Pág.
+ 155, Prentice Hall, ISBN 0-13-187671-6.
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-104"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.etsi.org
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Febrero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-93"
+
+\end_inset
+
+ Andre Vleeming, Vert Mooney, Rob Stoeckart, 
+\series bold
+Movimiento, estabiliad y dolor lumbopelvico (integración de la investigación
+ con el tratamiento)
+\series default
+, Ed: Elseiver Masson, Elsevier España, 2008, Pág.
+ 162, ISBN 978-0-443-10178-6
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-94"
+
+\end_inset
+
+ J.
+ Alberto Cruz G., G.
+ Andrés Garnica G, 
+\series bold
+Ergonomía aplicada, 
+\series default
+3ª Ed.
+\series bold
+, 
+\series default
+Ed.
+ Ecoe Ediciones, Cataluña España, Pág.
+ 32
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-95"
+
+\end_inset
+
+American Academy of orhtopeadic Surgeons, 
+\series bold
+Medición clínica del movimiento articular,
+\series default
+ Ed.
+ Grupo Mind México, Págs.
+ 17,28,70
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.sparkfun.com/datasheets/Sensors/Gyro/ITG-3200-v10.pdf
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-2"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.sparkfun.com/datasheets/RF/BlueSMiRF-Gold-ChipAnt-v1.pdf
+\end_layout
+
+\end_inset
+
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-97"
+
+\end_inset
+
+Albert D.
+ Helfrick, William D.
+ Cooper, 
+\series bold
+Instrumentación electrónica moderna y técnicas de medición
+\series default
+, Ed.
+ Prenctice Hall, 1991, Pág.
+ 10
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-99"
+
+\end_inset
+
+ http://www.analog.com/en/mems/low-g-accelerometers/adxl345/products/product.html
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Bibliography
+\labelwidthstring Bibliografía
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-100"
+
+\end_inset
+
+ 
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+www.comunidadatmel.com
+\end_layout
+
+\end_inset
+
+ David Infante, Instituto Tecnológico de Morelia.
+ Consultado: 9 / Enero / 2011
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
